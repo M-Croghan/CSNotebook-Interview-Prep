@@ -8,14 +8,15 @@
 ### <span style="color: aqua">What is a class?</span>
 A class acts as a blueprint in which objects can be created. A simple example is a pattern to create a dress. The pattern is the class and the dress that is made from it is the object. Classes contain the relevant data and behavior(s) an object has.
 
+### <span style="color: aqua">What is an object?</span>
+An instance of a class - contains the basic properties and behavior. Objects are instantiated using the 'new' keyword
+
 ### <span style="color: aqua">Discuss some of Java's naming conventions:</span>
 - Class names are always the same as the file name, with each class being its own unique & seperate file.
 - Class names are capitalized.
 - Variables should be logical & concise. 
 - CamelCasing  
 
-### <span style="color: aqua">Does Java Support Multiple Inheritance?</span>
-No
 
 ### <span style="color: aqua">Explain the difference between an object & a class:</span>
 .  
@@ -26,23 +27,99 @@ A file may contain no more than 1 public class. Default classes don't specify an
 (Discuss method signature as well: the # of paramters specific to the constructor / method)
   
 ### <span style="color: aqua">What is a ***constructor***?</span>
-Constructors are called first when an object of a class is instantiated. It is essentially responsible for setting up that object  
-including assigning specific data members with values passed to it. If a class lacks a constructor, Java assigns one at run time.  
-This empty constructor which maintains no parameters is known as the default constrcutor. Constructors cannot be private, they  
-are _always public_.
+A constructor is a special method that is used to create an object out of a class definition. Constructors are called first when an object of a class is instantiated. It is essentially responsible for setting up that object including assigning specific data members with values passed to it. If a class lacks a constructor, Java assigns one at run time. This empty constructor which maintains no parameters is known as the default constrcutor. Constructors cannot be private, they are _always public_. You can have more than 1 constructor which accepts different parameters (overloading).
 
 ### <span style="color: aqua">Where are objects / varibles stored?</span>
 Normals variables are stored in the ***stack***.  
 Objects are stored in the ***heap***.  
 
 
-### <span style="color: aqua">Disucss the difference between _compiled_ & _interpreted_ languages:</span>
-.
-
 ### <span style="color: aqua">What are some of the benefits / features of Java?</span>
-* Platform Independent ("Write once, run anywhere" / Bytecode)
-* Memory Management (JVM handles garbage collection)
-* Backward Compatible (Older versions supported despite new changes)
-* Maturity & Support (Libaries & extensive documentation)
+*	Object oriented - every is an object / easily extended.
+*	Platform independent - Compiled and run on the JVM ("Write once, run anywhere" / Bytecode)
+*	Simple - relatively simple to learn if understand OOP
+*	Secure - enables virus / tamper-free systems.
+*	Architecture-Neutral - file format which compiled code can run on many processors.
+*	Portable - due to its arch. neutrality / no implementation independent aspects.
+*	Supports Multithreading
+*	Robust - emphasizes compile time & runtime error checks
+*	Interpreted - byte code translated on the fly to native machine languages.
+*   Memory Management (JVM handles garbage collection)
+*   Backward Compatible (Older versions supported despite new changes)
+*   Maturity & Support (Libaries & extensive documentation)
 
-### <span style="color: aqua">Discuss Exception Handling:</span>
+### <span style="color: aqua">Discuss Exception Handling (Errors vs. Exceptions)</span>
+* ***Errors*** occur only at runtime (unknown to the compiler) whereas ***Exceptions*** occur at compile time or runtime.
+* Errors involve program termination; exceptions can be recovered from provided they're handled appropriately through try/catch or throws keyword.
+
+
+### <span style="color: aqua">Discuss Abstract Classes:</span>
+Abstract classes provide just a method signature which allows you to implement a framework / template method design pattern. They can contain both abstract and concrete methods but the abstract methods must be implemented elsewhere. Concrete methods are distinguished by having a full name & method body.
+
+### <span style="color: aqua">Discuss Interfaces:</span>
+You cannot instantiate abstract classes or interfaces. By default, all methods are abstract. Methods themselves are the only things composing an interface, it merely acts as a contract with the compiler which states that these specific methods must be implemented by whatever class implements the interface. They cannot be static or involve any implementation.
+
+### <span style="color: aqua">Can you achieve multiple inheritance in Java:</span>
+No, BUT - you can achieve multiple inheritance through the use of interfaces. (I.e. extending an abstract class, and implementing multiple interfaces).
+
+### <span style="color: aqua">Using an abstract class vs. an interface</span>
+Use abstract classes when:  
+    - You need both static / non-static methods  
+    - You need both abstract & non-abstract methods  
+    - You don't want all of your fields to be final
+
+Use interfaces when:  
+    - All methods are abstract  
+    - You need future devs to follow a pattern in development  
+    - You need to use more than one interface (A class can implement multiple interfaces <- an advantage over an abstract class)
+
+***Abstract Class***: a class which is declared with the “abstract” keyword. Cannot be instantiated this you cannot create an object with it. It’s a collection of subclass methods and can have multiple concrete methods but includes at least 1 abstract method. When you require a base class or when several implementations of the same type share a common behavior.  
+
+***Interface***: Is like a blueprint to implement a class. Maintains a collection of abstract methods but contains no concrete methods. But it offers full abstraction (something an abstract class can’t do). A declaration of the methods of a class but not the implementation. The operations an object can perform is defined and are used by the classes which implement that interface. Best used when various implementations share only method signature. When your classes need additional behavior or dependency injection.
+
+
+
+### <span style="color: aqua">Prove: Everything in Java is an object.</span>
+Everything in java inherits from the object class.
+
+### <span style="color: aqua">Difference between constructor vs. method?</span>
+A method is an ordinary member of a class used to describe a behavior of some object / class. A constructor is a special member of the class with the same name as the class with no return type.
+
+### <span style="color: aqua">Give an example of ***checked*** vs. ***unchecked*** exceptions</span>
+- ***Checked Exceptions*** - fall under Exceptions; must be thrown or surrounded in a try/catch block otherwise the JVM won't compile the code. Outside resource failing.
+    - Exception, IOException, FileNotFoundException, SQLException    
+- ***Unchecked Exceptions*** - fall under RuntimeExceptions, which is a subclass of Exception. Unchecked Exceptions can be compiled and will throw an exception at runtime. Unchecked exceptions can be caught or handled with logic.
+    - RuntimeException, ArrayIndexOutOfBoundsException, ArithmeticException
+
+
+### <span style="color: aqua">Final vs. Finally vs. Finalize</span>
+* With ***FINAL*** We are not able to inherit a final class and cannot override a final method. Used to denote a variable whose value is constant - can also be used in method declaration to assert that the method cannot be overridden by subclasses. The keyword final is used to make a class, variable, or methods final. Final classes cannot be inherited, variables value cannot be changed, and methods cannot be overridden. 
+* The keyword ***FINALLY*** used in the exception handler to clear some post-task after the execution of try or catch block. 
+* The ***FINALIZE*** keyword used to clean up some tasks before the object is removed from memory. The finalize method mainly used in garbage collection.
+
+
+### <span style="color: aqua">Discuss these access modifiers: Public / Private / Protected / Default</span>
+These are access modifiers which control the accessibility / scope of a field, method, constructor, or class.
+* ***Public*** – can be accessed anywhere, within the package, outside it, in or outside of the class.
+* ***Private*** – Access is restricted to only within the class. (i.e. need methods to interact with a private field)
+    * Cannot be overridden
+* ***Protected*** – access level is protected within the package and outside it through a child class. If you don’t create a child class, you cannot access it from outside the package.
+* ***Default*** – set by default, access level only within the package
+
+### <span style="color: aqua">How are Java & Javascript different?</span>
+* JAVA:
+    * OOP – Programming Language
+    * Compiled & runs on JVM
+    * Creates full scale applications
+    * Supports multi-threading (thread-based concurrency)
+
+* JAVASCRIPT:
+    * OOP – Scripting Language
+    * Runs on the browser / client side
+    * Provides a level of interactivity unable to be produced through normal web development (HTML)
+    * No multi-threading (event-based concurrency)
+
+
+
+
+### <span style="color: aqua"></span>
