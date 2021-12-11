@@ -38,6 +38,39 @@ Removing unwanted objects to free up memory if they are no longer referenced. Ga
 * Maintenance 
 
 
+### <span style="color: aqua">What is a singleton design pattern</span>
+- A design pattern which ensures a class only has 1 instance & provides a global point of access to it.
+    1. Allows for lazy loading (initialize object creation only when you need it / are going to be using it).
+    2. Only when you need 1 instance (i.e. a database connection)
+        - Say if you create an object that is going to interacting with hardware & two could cause conflict.
+- 3 main components
+    - Single class
+        - Private constructor
+        - Private static instance
+        - Factory static method responsible for instance creation
+        - Can be problematic in multithreading (solution via synchronization block)
+
+### <span style="color: aqua">What are some of the different software development methodologies?</span>
+    - Waterfall, Agile, Rapid Application Development (RAD), Extreme Programming (XP)
+    - Waterfall – this approach needs to be well disciplined as there isn’t planned opportunity to back track. It starts with clear and complete requirements and moves through the development process sequentially/linearly in distinct phases. Some of the drawbacks include its relatively rigid and inflexible, there isn’t an avenue for feedback early in the process and can be financially devastating if requirements are missing or planning is mismanaged. Its best when projects are relatively simple, little change is expected and a project manager is closely involved.
+    - Agile – Focused on customer / stakeholder feedback & collaboration. There is an emphasis on rapid development to support fast delivery and is incredibly adaptable and open to change. The downsides however are that the lack of emphasis makes it difficult to truly develop a great design, its easy to get off track if the goals are unclear or the collaborative relationship steers the project in a different direction which may result in an unpredictable finished product.
+
+
+### <span style="color: aqua">Explain MVC</span>
+Software design pattern focused on Model, View, Controller components. Model aspect comprises the data of the application, the view is the component that operates as a display to the user and the control influences the activity between the model and the view.
+
+### <span style="color: aqua">What is a UML diagram?</span>
+UML is a general-purpose modeling language and is used to represent the components related to important OOP concepts. in essence it’s a general way of defining the whole software architecture or structure.
+
+### <span style="color: aqua">What are design patterns?</span>
+Represent best practices / solutions to general problems  frequently faced by software developers.
+
+### <span style="color: aqua"></span>
+
+### <span style="color: aqua"></span>
+
+### <span style="color: aqua"></span>
+
 ### <span style="color: aqua"></span>
 
 ### <span style="color: aqua"></span>

@@ -73,7 +73,7 @@ Use interfaces when:
     - You need future devs to follow a pattern in development  
     - You need to use more than one interface (A class can implement multiple interfaces <- an advantage over an abstract class)
 
-***Abstract Class***: a class which is declared with the “abstract” keyword. Cannot be instantiated this you cannot create an object with it. It’s a collection of subclass methods and can have multiple concrete methods but includes at least 1 abstract method. When you require a base class or when several implementations of the same type share a common behavior.  
+***Abstract Class***: a class which is declared with the “abstract” keyword. Cannot be instantiated thus you cannot create an object with it. It’s a collection of subclass methods and can have multiple concrete methods but includes at least 1 abstract method. When you require a base class or when several implementations of the same type share a common behavior.  
 
 ***Interface***: Is like a blueprint to implement a class. Maintains a collection of abstract methods but contains no concrete methods. But it offers full abstraction (something an abstract class can’t do). A declaration of the methods of a class but not the implementation. The operations an object can perform is defined and are used by the classes which implement that interface. Best used when various implementations share only method signature. When your classes need additional behavior or dependency injection.
 
@@ -120,6 +120,36 @@ These are access modifiers which control the accessibility / scope of a field, m
     * No multi-threading (event-based concurrency)
 
 
+### <span style="color: aqua">Discuss the difference between _class_ & _instance_ variables</span>
+- Class variables (denoted with the _static_ keyword) are bound to the class itself. This means that regardless of how many instances of that class are created, that single class variable is shared among them.  
+- Instance variables (or member variables) are delcared within a class and are essential to holding values to each specific instance created.
+- The static class variables that are shared among a class can be be accessed without creating an instance of the class.
+- Local variables which are delcared in methods, constructors, or blocks exist only within the local scope and are discarded after the method exists or are unavailable outside of their scope.
 
+### <span style="color: aqua">Discuss Multithreading</span>
+Multithreading is a technique in which a process is divided into threads that can run concurrently. There are two ways to create threads in java: Implement Runnable interface or By extending Thread class
+
+### <span style="color: aqua">What is Synchronization?</span>
+Acts as a safety for a thread. A technique to control access of a method with multiple threads at the same time. If we declare a method synchronized, then only one thread can use this method at a time.
+
+### <span style="color: aqua">Discuss Mutable Objects</span>
+Mutable objects support both setter & getter methods. They allow for the states and fields of an object to be changed after the object has been created. Conversely, immutable objects cannot be changed after creation.
+
+### <span style="color: aqua">StringBuffer vs. StringBuilder</span>
+* StringBuffer is mutable and the object created through it is stored in the heap. It is also thread-safe. It is synchronized and does not let two threads to simultaneously access the same method.
+* StringBuilder allows for dynamic modification of a string. It has it's own methods. The difference between StringBuilder and StringBuffer is that StringBuilder is unsynchronized where StringBuffer is synchronized.
+
+### <span style="color: aqua">Explain Overriding</span>
+    - Method overriding is used to provide the specific implementation of the method that is already provided by its super class.
+        - It replaces the superclass method with a different version.
+    - In case of method overriding, parameter must be same.
+    - Method overriding is the example of run time polymorphism.
+    - Return type must be same or covariant in method overriding.
+    - Cannot override private, static, or final methods. (Only non-static)… (Hiding for static methods)
+
+
+### <span style="color: aqua"></span>
+
+### <span style="color: aqua"></span>
 
 ### <span style="color: aqua"></span>
