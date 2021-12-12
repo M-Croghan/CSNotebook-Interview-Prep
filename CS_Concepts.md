@@ -57,7 +57,10 @@ Removing unwanted objects to free up memory if they are no longer referenced. Ga
 
 
 ### <span style="color: aqua">Explain MVC</span>
-Software design pattern focused on Model, View, Controller components. Model aspect comprises the data of the application, the view is the component that operates as a display to the user and the control influences the activity between the model and the view.
+Software design pattern focused on Model, View, Controller components.
+- Model aspect comprises the data of the application, Represents an object carrying data. It can also contain logic to update controller if data changes.
+- View is the component that operates as a display to the user. Represents the visualization of the data that the model contains.
+- Control influences the activity between the model and the view. Acts on both of model & the view. Controls the data flow into model object & updates the view whenever the data changes (Keeps the model & view separate).
 
 ### <span style="color: aqua">What is a UML diagram?</span>
 UML is a general-purpose modeling language and is used to represent the components related to important OOP concepts. in essence it’s a general way of defining the whole software architecture or structure.

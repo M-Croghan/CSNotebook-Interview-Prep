@@ -1,11 +1,29 @@
 # SQL & DATABASES
+### <span style="color: aqua">What is a database?</span>
+Regardless of programming language, databases are vital. Databases help facilitate problem solving through implementing structure and rules. They ensure scalability, accessibility, accuracy, security, consistentcy, permanence.
 ### <span style="color: aqua">What is a relational database?</span>
 - A type of database that stores and provides access to data points that are related to one another.
 - Other types: Hierarchical, network, object-oriented, NoSQL
 
 ### <span style="color: aqua">What is a database management system?</span>
-DBMS represents the software that allows of user to interact with and manipulate information within a DB.
+DBMS represents the software that allows of user to interact with and manipulate information within a DB.  
+Database Management Systems (DBMS) -> Oracle - MySQL - Postgres  
+- Create and manages databases
+- Organization can maintain multiple databases   
+Multiple DBMS can be used within a single organization  
+Relational DBMS (RDBMS)  
+Features:  
+	- 1 or more tables (tables are the fundamental building block)  
+		- Composed of columns and rows  
+			- Columns: Name & Datatype   
+Rows: Represent a record
 
+### <span style="color: aqua">What is SQL?</span>
+***Structured Query Language***  
+- It operates declaritively, you describe the outcome but are not concerned with how it occurs.
+- CRUD Functions - Create, read, update, delete
+    - Its good practice to use a SELECT statement prior to a DELETE query execution.
+    
 ### <span style="color: aqua">What are aggregate functions in SQL?</span>
 - Is a function that returns certain value on the selected rows to produce more meaningful information.
     - Count(), Sum(), Avg(), Min(), Max()

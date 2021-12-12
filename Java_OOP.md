@@ -30,9 +30,9 @@ A file may contain no more than 1 public class. Default classes don't specify an
 A constructor is a special method that is used to create an object out of a class definition. Constructors are called first when an object of a class is instantiated. It is essentially responsible for setting up that object including assigning specific data members with values passed to it. If a class lacks a constructor, Java assigns one at run time. This empty constructor which maintains no parameters is known as the default constrcutor. Constructors cannot be private, they are _always public_. You can have more than 1 constructor which accepts different parameters (overloading).
 
 ### <span style="color: aqua">Where are objects / varibles stored?</span>
-Normals variables are stored in the ***stack***.  
-Objects are stored in the ***heap***.  
-
+- Normals variables are stored in the ***stack***.
+- Objects are stored in the ***heap***.
+    - The JVM allocates the heap, inside of which resides the ***string pool***
 
 ### <span style="color: aqua">What are some of the benefits / features of Java?</span>
 *	Object oriented - every is an object / easily extended.

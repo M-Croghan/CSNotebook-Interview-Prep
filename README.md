@@ -60,8 +60,10 @@ within computer science, as well as Java specific discussions.
 * []()
 
 ## SQL / DATABASES
+* [What is a database?]()
 * [What is a relational database?]()
 * [What is a database management system?]()
+* [What is SQL?]()
 * [What are aggregate functions in SQL?]()
 * [What are scalar functions in SQL?]()
 * [Discuss Normalization]()
