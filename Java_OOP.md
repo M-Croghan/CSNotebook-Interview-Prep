@@ -140,13 +140,42 @@ Mutable objects support both setter & getter methods. They allow for the states 
 * StringBuilder allows for dynamic modification of a string. It has it's own methods. The difference between StringBuilder and StringBuffer is that StringBuilder is unsynchronized where StringBuffer is synchronized.
 
 ### <span style="color: aqua">Explain Overriding</span>
-    - Method overriding is used to provide the specific implementation of the method that is already provided by its super class.
-        - It replaces the superclass method with a different version.
-    - In case of method overriding, parameter must be same.
-    - Method overriding is the example of run time polymorphism.
-    - Return type must be same or covariant in method overriding.
-    - Cannot override private, static, or final methods. (Only non-static)… (Hiding for static methods)
+- Method overriding is used to provide the specific implementation of the method that is already provided by its super class.
+  - It replaces the superclass method with a different version.
+- In case of method overriding, parameter must be same.
+- Method overriding is the example of run time polymorphism.
+- Return type must be same or covariant in method overriding.
+- Cannot override private, static, or final methods. (Only non-static)… (Hiding for static methods)
 
+
+### <span style="color: aqua">What is a Stream? What qualifies as one?</span>
+A stream is a sequence of objects that supports various methods which can be pipelined to produce the desired result. 
+The keyword ***collection*** is a pre-requisite to be considered a stream.
+- A stream is not a data structure instead it takes input from the Collections, Arrays or I/O channels.
+
+
+- Streams don’t change the original data structure, they only provide the result as per the pipelined methods.
+
+
+- Each intermediate operation is lazily executed and returns a stream as a result, hence various intermediate operations 
+can be pipelined. Terminal operations mark the end of the stream and return the result.
+
+### <span style="color: aqua">How would you order the filtering & sorting of a stream?</span>
+The most appropriate approach is to filter the collection first, then sort it. Filter will reduce the total number of elements to
+sort and thus result in fewer calls when sorting.
+
+### <span style="color: aqua">What is the Optional Class?</span>
+Optional is a special class which can be used if you suspect a value to be null rather than having to handle numerous 
+null checks. Optional is a container object which may or may not contain a non-null value. You can specify alternate 
+values to return or alternate code to run. This makes the code more readable because the facts which were hidden are now visible.
+
+### <span style="color: aqua"></span>
+
+### <span style="color: aqua"></span>
+
+### <span style="color: aqua"></span>
+
+### <span style="color: aqua"></span>
 
 ### <span style="color: aqua"></span>
 

@@ -1,5 +1,5 @@
 # COMPUTER SCIENCE CONCEPTS
-### <span style="color: aqua">Disucss the difference between _compiled_ & _interpreted_ languages:</span>
+### <span style="color: aqua">Discuss the difference between _compiled_ & _interpreted_ languages:</span>
 * Compiled Languages (C, C++, Go) - Converts source code to machine code instructions.
 * Interpreted Languages (JS, Ruby, Python) - Code executes within an interpreter shell.
 * Byte-Code Languages (C#, Scala, Java) - Compiled into bytecode and executed in the JVM. Involves JIT compiler (_just in time_) which inspects code as it executes.
@@ -51,9 +51,16 @@ Removing unwanted objects to free up memory if they are no longer referenced. Ga
         - Can be problematic in multithreading (solution via synchronization block)
 
 ### <span style="color: aqua">What are some of the different software development methodologies?</span>
-    - Waterfall, Agile, Rapid Application Development (RAD), Extreme Programming (XP)
-    - Waterfall – this approach needs to be well disciplined as there isn’t planned opportunity to back track. It starts with clear and complete requirements and moves through the development process sequentially/linearly in distinct phases. Some of the drawbacks include its relatively rigid and inflexible, there isn’t an avenue for feedback early in the process and can be financially devastating if requirements are missing or planning is mismanaged. Its best when projects are relatively simple, little change is expected and a project manager is closely involved.
-    - Agile – Focused on customer / stakeholder feedback & collaboration. There is an emphasis on rapid development to support fast delivery and is incredibly adaptable and open to change. The downsides however are that the lack of emphasis makes it difficult to truly develop a great design, its easy to get off track if the goals are unclear or the collaborative relationship steers the project in a different direction which may result in an unpredictable finished product.
+- Waterfall, Agile, Rapid Application Development (RAD), Extreme Programming (XP)
+- Waterfall – this approach needs to be well-disciplined as there isn’t planned opportunity to back track. It starts with 
+clear and complete requirements and moves through the development process sequentially/linearly in distinct phases. Some 
+drawbacks include its relatively rigid and inflexible, there isn’t an avenue for feedback early in the process 
+and can be financially devastating if requirements are missing or planning is mismanaged. Its best when projects are 
+relatively simple, little change is expected and a project manager is closely involved.
+- Agile – Focused on customer / stakeholder feedback & collaboration. There is an emphasis on rapid development to support 
+fast delivery and is incredibly adaptable and open to change. The downsides however are that the lack of emphasis makes 
+it difficult to truly develop a great design, its easy to get off track if the goals are unclear or the collaborative 
+relationship steers the project in a different direction which may result in an unpredictable finished product.
 
 
 ### <span style="color: aqua">Explain MVC</span>
@@ -63,15 +70,22 @@ Software design pattern focused on Model, View, Controller components.
 - Control influences the activity between the model and the view. Acts on both of model & the view. Controls the data flow into model object & updates the view whenever the data changes (Keeps the model & view separate).
 
 ### <span style="color: aqua">What is a UML diagram?</span>
-UML is a general-purpose modeling language and is used to represent the components related to important OOP concepts. in essence it’s a general way of defining the whole software architecture or structure.
+UML is a general-purpose modeling language and is used to represent the components related to important OOP concepts. in essence, it’s a general way of defining the whole software architecture or structure.
 
 ### <span style="color: aqua">What are design patterns?</span>
 Represent best practices / solutions to general problems  frequently faced by software developers.
 
-### <span style="color: aqua"></span>
+### <span style="color: aqua">What is an API?</span>
+An application-programming interface (API) is a set of programming instructions and standards for accessing a web-based
+software application or web tool. A software company releases its API to the public so that other software developers 
+can design products that are powered by its service... [it] is a software-to-software interface, not a user interface. 
+With APIs, applications talk to each other without any user knowledge or intervention. Notable examples being: Google Maps, 
+integrating social media sharing, and a secure payment system through PayPal.
 
-### <span style="color: aqua"></span>
-
+### <span style="color: aqua">What is Unit Testing?</span>
+Unit testing is typically done by developers themselves. It focuses on the smallest unit of software design and tests a
+piece of code (a unit) for correct behavior. "Does this class / method operate as intended?" A unit test can be targeted 
+at an individual unit or group of interrelated units. It is often done using sample input and observing its corresponding outputs.
 ### <span style="color: aqua"></span>
 
 ### <span style="color: aqua"></span>

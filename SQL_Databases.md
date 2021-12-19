@@ -43,9 +43,9 @@ Depending on the situation, denormalization might be appropriate. You could crea
 
 ### <span style="color: aqua">What are the different types of joins in SQL?</span>
 * INNER JOINS:
-    - Returns rows only with matches from both tables.
+    - Return rows only with matches from both tables. The most used / popular join.
 * LEFT / RIGHT OUTER JOINS
-    - Returns all of the rows for that precedence and matches from the opposing side where possible. (i.e. Left outer join returns all left rows regardless if they have a match).
+    - Returns all the rows for that precedence and matches from the opposing side where possible. (i.e. Left outer join returns all left rows regardless if they have a match).
 * FULL OUTER JOINS
     - Returns all rows no matter if they are matches or not.
 
@@ -68,7 +68,7 @@ WHERE keyword doesn’t apply to aggregate functions and the having clause allow
     - Used when creating many-to-many relationships
 
 ### <span style="color: aqua">What is a foreign key?</span>
-A foreign key creates a relationship with another table
+A foreign key creates a relationship with another table and is only used in one to one relationships.
 
 ### <span style="color: aqua">What are two different types of indexes for a table? [??]</span>
 Clustered & Non-Clustered
@@ -82,16 +82,20 @@ Act as a special lookup table that can improve the speed of data retrieval. Esse
 
 ### <span style="color: aqua">Discuss how to build relationships?</span>
 - One-to-One
+  - Relies on the use of a ***foreign key***.
 - One-To-Many: Most common
+  - Uses ***references keyword*** to build relationships.
 - Many-To-Many: Cannot create directly, not as obvious to identify
     - Created by using a junction or linking table
         - Only exists to join the table.
 
 ### <span style="color: aqua">ACID Test</span>
-- Atomic – all or nothing transactions
-- Consistency – guarantees committed transaction state
-- Isolation – Transactions are independent
-- Durability – Committed data is never lost.
+- Atomic – all or nothing transactions. Either all parts of the transaction occurs or none of them do.
+- Consistency – guarantees committed transaction state. The database must be consistent before & after a transaction occurs.
+If a transaction cannot be completed fully all at once, it rolls back to the original version.
+- Isolation – Transactions are independent and must occur without interference while still maintaining consistency. Transactions must 
+also occur concurrently.
+- Durability – Committed data is never lost. All changes must be permanently stored in the databases memory.
 
 ### <span style="color: aqua">What is Referential Integrity?</span>
 - You cannot delete part of data
