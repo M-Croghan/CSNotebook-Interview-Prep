@@ -22,7 +22,7 @@ Maven is a build tool / project management & comprehension tool.
 ### <span style="color: aqua">What is Inversion of Control (IoC)?</span>
 Instead of the programmer controlling the flow of the program, external sources (framework, services, etc.) take over.
 ### <span style="color: aqua">What is Dependency Injection?</span>
-A subset of IoC, an already instantiated instance can be injected into a class so it can use its methods.
+A subset of IoC, an already instantiated instance can be injected into a class, so it can use its methods.
 
 ### <span style="color: aqua">What is Aspect-Oriented Programming</span>
 

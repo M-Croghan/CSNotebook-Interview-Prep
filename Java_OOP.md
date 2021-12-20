@@ -1,18 +1,36 @@
 # JAVA OOP
 ### <span style="color: aqua">What are the 4 pillars of Object Oriented Programming? Describe them:</span>
-    - Abstraction: You don't need to know the inner workings of something to use it.  
-    - Polymorphism: A method can have multiple implementations (overriding & overloading).  
-    - Inheritance: Allows a class to inherit code from another. Improves code reuse and decreased development time. Java does not support multiple inheritence.  
-    - Encapsulation: Related to abstraction, hiding of information which if left free to be manipulated can have harmful / unintended consequences.  
+- ***Abstraction***: You don't need to know the inner workings of something to use it. 
+  - Data abstraction can be used to provide security for the data from the unauthorized methods.
+
+
+- ***Polymorphism***: A method can have multiple implementations (overriding & overloading).
+  - Polymorphism in Java occurs when there are one or more classes or objects related to each other by inheritance.
+  - It is the ability of an object to take many forms. Inheritance lets users inherit attributes and methods, and 
+  polymorphism uses these methods to perform different tasks. So, the goal is communication, but the approach is different.
+
+
+- ***Inheritance***: Allows a class to inherit code from another.
+  - Improves code reuse and decreased development time. 
+  - Java does not support multiple inheritance. 
+  - Using the _extends_ keyword, means that a class is inherits from another class.
+  - Inheritance is a mechanism in which one class gains the property of another class. 
+  - With inheritance, we can reuse the fields and methods of the existing class.
+
+
+- ***Encapsulation***: Related to abstraction, hiding of information which is left free to be manipulated can have harmful / unintended consequences.
+  - In object-oriented computer programming languages, the notion of encapsulation (or OOP Encapsulation) refers to 
+  the bundling of data, along with the methods that operate on that data, into a single unit.
+
 
 ### <span style="color: aqua">What is a class?</span>
 A class acts as a blueprint in which objects can be created. A simple example is a pattern to create a dress. The pattern is the class and the dress that is made from it is the object. Classes contain the relevant data and behavior(s) an object has.
 
 ### <span style="color: aqua">What is an object?</span>
-An instance of a class - contains the basic properties and behavior. Objects are instantiated using the 'new' keyword
+An instance of a class - contains the basic properties / states and behavior. Objects are instantiated using the 'new' keyword
 
 ### <span style="color: aqua">Discuss some of Java's naming conventions:</span>
-- Class names are always the same as the file name, with each class being its own unique & seperate file.
+- Class names are always the same as the file name, with each class being its own unique & separate file.
 - Class names are capitalized.
 - Variables should be logical & concise. 
 - CamelCasing  
@@ -24,18 +42,20 @@ Top level classes can only be public or default (not an inner class)
 A file may contain no more than 1 public class. Default classes don't specify an access modifier.  
   
 ### <span style="color: aqua">Explain the difference between method _overloading_ vs method _overriding_:</span>
-(Discuss method signature as well: the # of paramters specific to the constructor / method)
+- Overloading occurs between the methods in the same class.
+- Overriding occurs between superclass and subclass.
+- (Discuss method signature as well: the # of parameters specific to the constructor / method)
   
 ### <span style="color: aqua">What is a ***constructor***?</span>
 A constructor is a special method that is used to create an object out of a class definition. Constructors are called first when an object of a class is instantiated. It is essentially responsible for setting up that object including assigning specific data members with values passed to it. If a class lacks a constructor, Java assigns one at run time. This empty constructor which maintains no parameters is known as the default constrcutor. Constructors cannot be private, they are _always public_. You can have more than 1 constructor which accepts different parameters (overloading).
 
-### <span style="color: aqua">Where are objects / varibles stored?</span>
+### <span style="color: aqua">Where are objects / variables stored?</span>
 - Normals variables are stored in the ***stack***.
 - Objects are stored in the ***heap***.
-    - The JVM allocates the heap, inside of which resides the ***string pool***
+    - The JVM allocates the heap, inside which resides the ***string pool***
 
 ### <span style="color: aqua">What are some of the benefits / features of Java?</span>
-*	Object oriented - every is an object / easily extended.
+*	Object-oriented - every is an object / easily extended.
 *	Platform independent - Compiled and run on the JVM ("Write once, run anywhere" / Bytecode)
 *	Simple - relatively simple to learn if understand OOP
 *	Secure - enables virus / tamper-free systems.
@@ -54,10 +74,15 @@ A constructor is a special method that is used to create an object out of a clas
 
 
 ### <span style="color: aqua">Discuss Abstract Classes:</span>
-Abstract classes provide just a method signature which allows you to implement a framework / template method design pattern. They can contain both abstract and concrete methods but the abstract methods must be implemented elsewhere. Concrete methods are distinguished by having a full name & method body.
+Abstract classes aim to implement the same or different behaviour among multiple related objects. They provide just a method
+signature which allows you to implement a framework / template method design pattern. They can contain both abstract and 
+concrete methods but the abstract methods must be implemented elsewhere. Concrete methods are distinguished by having a full name & method body.
 
 ### <span style="color: aqua">Discuss Interfaces:</span>
-You cannot instantiate abstract classes or interfaces. By default, all methods are abstract. Methods themselves are the only things composing an interface, it merely acts as a contract with the compiler which states that these specific methods must be implemented by whatever class implements the interface. They cannot be static or involve any implementation.
+Interfaces are totally incomplete. They do not have any properties. They must show that the inheriting children are 
+capable of doing something. You cannot instantiate abstract classes or interfaces. By default, all methods are abstract. 
+Methods themselves are the only things composing an interface, it merely acts as a contract with the compiler which states 
+that these specific methods must be implemented by whatever class implements the interface. They cannot be static or involve any implementation.
 
 ### <span style="color: aqua">Can you achieve multiple inheritance in Java:</span>
 No, BUT - you can achieve multiple inheritance through the use of interfaces. (I.e. extending an abstract class, and implementing multiple interfaces).
@@ -77,13 +102,13 @@ Use interfaces when:
 
 ***Interface***: Is like a blueprint to implement a class. Maintains a collection of abstract methods but contains no concrete methods. But it offers full abstraction (something an abstract class can’t do). A declaration of the methods of a class but not the implementation. The operations an object can perform is defined and are used by the classes which implement that interface. Best used when various implementations share only method signature. When your classes need additional behavior or dependency injection.
 
-
-
 ### <span style="color: aqua">Prove: Everything in Java is an object.</span>
 Everything in java inherits from the object class.
 
 ### <span style="color: aqua">Difference between constructor vs. method?</span>
-A method is an ordinary member of a class used to describe a behavior of some object / class. A constructor is a special member of the class with the same name as the class with no return type.
+A method is a block of code which only runs when it is called. You can pass data, known as parameters, into a method. 
+Methods are used to perform certain actions and are an ordinary member of a class used to describe a behavior of some object / class. A constructor is a 
+special member of the class with the same name as the class with no return type.
 
 ### <span style="color: aqua">Give an example of ***checked*** vs. ***unchecked*** exceptions</span>
 - ***Checked Exceptions*** - fall under Exceptions; must be thrown or surrounded in a try/catch block otherwise the JVM won't compile the code. Outside resource failing.
@@ -93,14 +118,15 @@ A method is an ordinary member of a class used to describe a behavior of some ob
 
 
 ### <span style="color: aqua">Final vs. Finally vs. Finalize</span>
-* With ***FINAL*** We are not able to inherit a final class and cannot override a final method. Used to denote a variable whose value is constant - can also be used in method declaration to assert that the method cannot be overridden by subclasses. The keyword final is used to make a class, variable, or methods final. Final classes cannot be inherited, variables value cannot be changed, and methods cannot be overridden. 
+* With ***FINAL***, we are not able to inherit a final class and cannot override a final method. Used to denote a 
+variable whose value is constant, meaning that it cannot change in the future. Can also be used in method declaration to assert that the method cannot be overridden by subclasses. The keyword final is used to make a class, variable, or methods final. Final classes cannot be inherited, variables value cannot be changed, and methods cannot be overridden. 
 * The keyword ***FINALLY*** used in the exception handler to clear some post-task after the execution of try or catch block. 
 * The ***FINALIZE*** keyword used to clean up some tasks before the object is removed from memory. The finalize method mainly used in garbage collection.
 
 
 ### <span style="color: aqua">Discuss these access modifiers: Public / Private / Protected / Default</span>
 These are access modifiers which control the accessibility / scope of a field, method, constructor, or class.
-* ***Public*** – can be accessed anywhere, within the package, outside it, in or outside of the class.
+* ***Public*** – can be accessed anywhere, within the package, outside it, in or outside the class.
 * ***Private*** – Access is restricted to only within the class. (i.e. need methods to interact with a private field)
     * Cannot be overridden
 * ***Protected*** – access level is protected within the package and outside it through a child class. If you don’t create a child class, you cannot access it from outside the package.
@@ -120,11 +146,14 @@ These are access modifiers which control the accessibility / scope of a field, m
     * No multi-threading (event-based concurrency)
 
 
-### <span style="color: aqua">Discuss the difference between _class_ & _instance_ variables</span>
-- Class variables (denoted with the _static_ keyword) are bound to the class itself. This means that regardless of how many instances of that class are created, that single class variable is shared among them.  
-- Instance variables (or member variables) are delcared within a class and are essential to holding values to each specific instance created.
-- The static class variables that are shared among a class can be be accessed without creating an instance of the class.
-- Local variables which are delcared in methods, constructors, or blocks exist only within the local scope and are discarded after the method exists or are unavailable outside of their scope.
+### <span style="color: aqua">Discuss the difference between _class_ & _instance_ variables / methods</span>
+- Class variables (or _static_ variables) are bound / belong to the class itself, they're not available to the object. 
+This means that regardless of how many instances of that class are created, that single class variable is shared among them.
+Static methods belong to the entire class and aren't visible to an individual instance. They can be accessed with instantiating an instance of the class. 
+- Instance variables (or member variables) are declared within a class and are essential to holding values to each specific instance created.
+Similarly, instance methods represent behavior that each instance / object possesses.
+- The static class variables that are shared among a class can be accessed without creating an instance of the class.
+- Local variables which are declared in methods, constructors, or blocks exist only within the local scope and are discarded after the method exists or are unavailable outside their scope.
 
 ### <span style="color: aqua">Discuss Multithreading</span>
 Multithreading is a technique in which a process is divided into threads that can run concurrently. There are two ways to create threads in java: Implement Runnable interface or By extending Thread class
@@ -137,7 +166,7 @@ Mutable objects support both setter & getter methods. They allow for the states 
 
 ### <span style="color: aqua">StringBuffer vs. StringBuilder</span>
 * StringBuffer is mutable and the object created through it is stored in the heap. It is also thread-safe. It is synchronized and does not let two threads to simultaneously access the same method.
-* StringBuilder allows for dynamic modification of a string. It has it's own methods. The difference between StringBuilder and StringBuffer is that StringBuilder is unsynchronized where StringBuffer is synchronized.
+* StringBuilder allows for dynamic modification of a string. It has its own methods. The difference between StringBuilder and StringBuffer is that StringBuilder is unsynchronized where StringBuffer is synchronized.
 
 ### <span style="color: aqua">Explain Overriding</span>
 - Method overriding is used to provide the specific implementation of the method that is already provided by its super class.
