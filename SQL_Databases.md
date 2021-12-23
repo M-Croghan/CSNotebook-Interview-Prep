@@ -1,6 +1,6 @@
 # SQL & DATABASES
 ### <span style="color: aqua">What is a database?</span>
-Regardless of programming language, databases are vital. Databases help facilitate problem solving through implementing structure and rules. They ensure scalability, accessibility, accuracy, security, consistentcy, permanence.
+Regardless of programming language, databases are vital. Databases help facilitate problem-solving through implementing structure and rules. They ensure scalability, accessibility, accuracy, security, consistency, permanence.
 ### <span style="color: aqua">What is a relational database?</span>
 - A type of database that stores and provides access to data points that are related to one another.
 - Other types: Hierarchical, network, object-oriented, NoSQL
@@ -39,7 +39,7 @@ Rows: Represent a record
     - 3rd NF – (In 1st&2nd NF) No non-key field is dependent on any other key field.
 
 ### <span style="color: aqua">What do we need to do to decrease the retrieval time?</span>
-Depending on the situation, denormalization might be appropriate. You could create an index (which operates like an index in the back of a book). Its basically a pointer to data in a table. Speeds up select and where queries but might slow update and insert statements.
+Depending on the situation, denormalization might be appropriate. You could create an index (which operates like an index in the back of a book). It's basically a pointer to data in a table. Speeds up select and where queries but might slow update and insert statements.
 
 ### <span style="color: aqua">What are the different types of joins in SQL?</span>
 * INNER JOINS:
@@ -54,10 +54,10 @@ Virtual table. A view is a specific query made and saved from a table. Instead o
 
 ### <span style="color: aqua">What is group by, order by in SQL?</span>
 - Order by: sorts data into ascending or descending order. Ascending by default, DESC keyword.
-- Group by: used to arrange similar data into a group. Typically follows the WHERE clause and before ORDER BY.
+- Group by: used to arrange similar data into a group. Typically, follows the WHERE clause and before ORDER BY.
 
 ### <span style="color: aqua">What is the having clause?</span>
-WHERE keyword doesn’t apply to aggregate functions and the having clause allows to perform queries based on specific conditions.
+WHERE keyword doesn't apply to aggregate functions and the having clause allows one to perform queries based on specific conditions.
 
 ### <span style="color: aqua">Types of keys in SQL</span>
 - A key is used to uniquely identify a particular row
@@ -95,7 +95,7 @@ Act as a special lookup table that can improve the speed of data retrieval. Esse
 If a transaction cannot be completed fully all at once, it rolls back to the original version.
 - Isolation – Transactions are independent and must occur without interference while still maintaining consistency. Transactions must 
 also occur concurrently.
-- Durability – Committed data is never lost. All changes must be permanently stored in the databases memory.
+- Durability – Committed data is never lost. All changes must be permanently stored in the databases' memory.
 
 ### <span style="color: aqua">What is Referential Integrity?</span>
 - You cannot delete part of data

@@ -47,7 +47,7 @@ A file may contain no more than 1 public class. Default classes don't specify an
 - (Discuss method signature as well: the # of parameters specific to the constructor / method)
   
 ### <span style="color: aqua">What is a ***constructor***?</span>
-A constructor is a special method that is used to create an object out of a class definition. Constructors are called first when an object of a class is instantiated. It is essentially responsible for setting up that object including assigning specific data members with values passed to it. If a class lacks a constructor, Java assigns one at run time. This empty constructor which maintains no parameters is known as the default constrcutor. Constructors cannot be private, they are _always public_. You can have more than 1 constructor which accepts different parameters (overloading).
+A constructor is a special method that is used to create an object out of a class definition. Constructors are called first when an object of a class is instantiated. It is essentially responsible for setting up that object including assigning specific data members with values passed to it. If a class lacks a constructor, Java assigns one at run time. This empty constructor which maintains no parameters is known as the default constructor. Constructors cannot be private, they are _always public_. You can have more than 1 constructor which accepts different parameters (overloading).
 
 ### <span style="color: aqua">Where are objects / variables stored?</span>
 - Normals variables are stored in the ***stack***.
@@ -66,7 +66,7 @@ A constructor is a special method that is used to create an object out of a clas
 *	Interpreted - byte code translated on the fly to native machine languages.
 *   Memory Management (JVM handles garbage collection)
 *   Backward Compatible (Older versions supported despite new changes)
-*   Maturity & Support (Libaries & extensive documentation)
+*   Maturity & Support (Libraries & extensive documentation)
 
 ### <span style="color: aqua">Discuss Exception Handling (Errors vs. Exceptions)</span>
 * ***Errors*** occur only at runtime (unknown to the compiler) whereas ***Exceptions*** occur at compile time or runtime.
@@ -166,7 +166,7 @@ Mutable objects support both setter & getter methods. They allow for the states 
 
 ### <span style="color: aqua">StringBuffer vs. StringBuilder</span>
 * StringBuffer is mutable and the object created through it is stored in the heap. It is also thread-safe. It is synchronized and does not let two threads to simultaneously access the same method.
-* StringBuilder allows for dynamic modification of a string. It has its own methods. The difference between StringBuilder and StringBuffer is that StringBuilder is unsynchronized where StringBuffer is synchronized.
+* StringBuilder allows for dynamic modification of a string. It has its own methods. The difference between StringBuilder and StringBuffer is that StringBuilder is synchronized where StringBuffer is synchronized.
 
 ### <span style="color: aqua">Explain Overriding</span>
 - Method overriding is used to provide the specific implementation of the method that is already provided by its super class.
