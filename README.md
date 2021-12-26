@@ -1,7 +1,9 @@
 # INTERVIEW TOPICS, QUESTIONS & DISCUSSIONS
 ## INTRODUCTION
-This repo serves as a knowledge base exploring technical interview questions related to topics and concepts
-within computer science, as well as Java specific discussions.
+Shortly after finishing my BS in Computer Science (September 2021) I was offered an opportunity to participate in a General Assembly ***Java Software Engineering Immersive*** Boot Camp. It has been an awesome experience getting to refresh and test myself on concepts I've been exposed to, while learning new things and expanding my knowledge base. Most of all, getting to work with talented like-minded individuals with different backgrounds and experience levels has been incredibly rewarding and has helped hone my skills while working collaboratively with other professionals.  
+
+This repository serves as a knowledge base exploring technical interview questions related to topics and concepts
+within computer science, as well as Java specific discussions. I had sourced many of this questions on my own prior to the start of the cohort, but wanted to offer everyone the ability to refer to some of important topics and questions commonly brought up in a technical interview.
 
 # TABLE OF CONTENTS
 ## JAVA / OOP
