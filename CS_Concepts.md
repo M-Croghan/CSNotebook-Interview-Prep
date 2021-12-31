@@ -5,7 +5,18 @@
 * Byte-Code Languages (C#, Scala, Java) - Compiled into bytecode and executed in the JVM. Involves JIT compiler (_just in time_) which inspects code as it executes.
 
 ### <span style="color: aqua">Explain "IS-A" & "HAS-A" relationships:</span>
-.
+ ```IS-A``` Relationships is ***inheritance***. Classes which inherit are known as sub-classes or child classes.  
+ ``` class Apple extends Fruit { ```  
+In this case, An apple ***is a*** fruit.  
+
+```HAS-A``` Relationships is composition, meaning that instances have references to other objects. For example, a room has a table. So you will create a class room and then in that class create an instance of type table.  
+
+```class Room {```  
+    ```Table table = new Table();```  
+    ```}```  
+
+A HAS-A relationship is dynamic (run time) binding while inheritance is a static (compile time) binding. 
+
 
 ### <span style="color: aqua">List the 4 main pillars of OOP</span>
 - Abstraction
@@ -86,7 +97,15 @@ integrating social media sharing, and a secure payment system through PayPal.
 Unit testing is typically done by developers themselves. It focuses on the smallest unit of software design and tests a
 piece of code (a unit) for correct behavior. "Does this class / method operate as intended?" A unit test can be targeted 
 at an individual unit or group of interrelated units. It is often done using sample input and observing its corresponding outputs.
-### <span style="color: aqua"></span>
+
+### <span style="color: aqua">What happens when you type a URL into a browser and hit enter?</span>
+- The browser check the cache for a DNS record to find the corresponding IP address of the URL.
+- If the requested URL is not in the cache, ISP’s DNS server initiates a DNS query to find the IP address of the server that hosts the URL.
+- The browser initiates a TCP connection with the server.
+- The browser sends an HTTP request to the webserver.
+- The server handles the request and sends back a response.
+- The server sends out an HTTP response.
+- The browser displays the HTML content (for HTML responses, which is the most common).
 
 ### <span style="color: aqua"></span>
 

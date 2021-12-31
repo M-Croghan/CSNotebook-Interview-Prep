@@ -57,7 +57,7 @@ within computer science, as well as Java specific discussions. I had sourced man
 * [What are design patterns?](https://github.com/M-Croghan/Interview-Prep/blob/main/CS_Concepts.md#what-are-design-patterns)
 * [What is an API?](https://github.com/M-Croghan/Interview-Prep/blob/main/CS_Concepts.md#what-is-an-api)
 * [What is Unit Testing?](https://github.com/M-Croghan/Interview-Prep/blob/main/CS_Concepts.md#what-is-unit-testing)
-* []()
+* [What happens when you type a URL into a browser and hit enter?]()
 * []()
 * []()
 
@@ -75,6 +75,7 @@ within computer science, as well as Java specific discussions. I had sourced man
 * [What is group by, order by in SQL?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#what-is-group-by-order-by-in-sql)
 * [What is the having clause?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#what-is-the-having-clause)
 * [Types of keys in SQL](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#types-of-keys-in-sql)
+* [What is a primary key?]()
 * [What is a foreign key?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#what-is-a-foreign-key)
 * [What are two different types of indexes for a table?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#what-are-two-different-types-of-indexes-for-a-table-)
 * [What is an index?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#what-is-an-index)
@@ -82,17 +83,26 @@ within computer science, as well as Java specific discussions. I had sourced man
 * [Discuss how to build relationships?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#discuss-how-to-build-relationships)
 * [ACID Test](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#acid-test)
 * [What is Referential Integrity?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#what-is-referential-integrity)
-* []()
+* [What is an ERD?]()
+* [How can you get a list of all your databases?]()
+* [How can you get the list of all the tables in a database?]()
+* [How do you delete a table? ]()
+* [What is NoSQL?]()
+* [What is a candidate key?]()
+* [What is a composite key?]()
 * []()
 * []()
 
-## HTML
+## HTML & CSS
+* [What does it mean for a website to be responsive?]()
+* [What is CSS specificity?]()
+* [Where would you link a JS file in your HTML?]()
+* [What are the benefits of maintaining an external Javascript file?]()
 * []()
 * []()
 * []()
-
-
-## CSS
+* []()
+* []()
 * []()
 * []()
 * []()
@@ -100,6 +110,9 @@ within computer science, as well as Java specific discussions. I had sourced man
 
 ## JAVASCRIPT
 * [What is AJAX?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#what-is-ajax)
+* [Tell me about when you may need to use AJAX?]()
+* [What does callback mean in JS?]()
+* []()
 * []()
 * []()
 * []()

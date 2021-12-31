@@ -102,6 +102,52 @@ also occur concurrently.
 - You cannot refer to data that doesn't exist
 
 
-### <span style="color: aqua"></span>
+### <span style="color: aqua">What is an ERD?</span>
+An ***entity relationship diagram*** or ***ER diagram*** is a type of structural diagram for use in database design. An ERD contains different symbols and connectors that visualize two important pieces information: The major entities within the system scope, and the inter-relationships among these entities. Simply put, it models the entities within a database and the relationships between them.
 
-### <span style="color: aqua"></span>
+### <span style="color: aqua">What is a primary key?</span>
+A primary key is one or more columns that have been configured as the unique identifier field for the table. Most primary keys are comprised of a single column, but they can also be comprised of multiple columns. Any value stored in a primary key field is unique to that record. No other record contains that value. The value is a unique identifier. Some examples of what would be an appropriate primary key:  
+- An automatically generated number
+- Social Secuity Number
+- Drivers License Number
+- E-mail address (so long as no users share the same one)
+
+
+### <span style="color: aqua">How can you get a list of all your databases?</span>
+On the command line:  
+- psql  
+- ```\l``` ***or*** ```\list```
+### <span style="color: aqua">How can you get the list of all the tables in a database?</span>
+On the command line:  
+- psql 
+- Connect to a DB using ```\c <database_name>```  
+    - You can list databases available using ```\l``` ***or*** ```\list``` 
+- ```\dt``` ***or*** ```\dtables```
+
+### <span style="color: aqua">How do you delete a table?</span>
+On the command line:  
+- psql 
+- Connect to a DB using ```\c <database_name>```  
+    - You can list databases available using ```\l``` ***or*** ```\list```
+- ```DROP TABLE <table_name>;```
+
+### <span style="color: aqua">What is NoSQL?</span>
+NoSQL databases (also referred to as 'non-relational' or 'non-SQL') maintains unstructured data stored in JSON files. They're best for:  
+- Handling large, unrelated, indeterminate, or rapidly changing data.
+- Schema-Agnostic data or schema dictated by an application.
+- Applications where performance and availability are more important than strong consistency.  
+Some common scenarios involving NoSQL databases might be:  
+- Mobile Apps
+- Real-time Analytics
+- Content Management
+- Personalization
+- IoT Apps
+- Database Migration  
+
+NoSQL databses scale data horizontally by sharding across servers. This differs from Relational databases which scale vertically by increasing server load.
+
+### <span style="color: aqua">What is a candidate key?</span>
+Any column that can guarantee uniqueness is called a candidate key. But just because it’s a candidate key it doesn’t necessarily follow that it’s a primary key. Any candidate key would need to be specified as the primary key first. So it is possible that more than one column in a table can guarantee uniqueness, but only one of them is defined as the primary key.
+
+### <span style="color: aqua">What is a composite key?</span>
+A composite key is a candidate key defined by more than one column. Therefore, a primary key can consist of more than one column. Two or more columns can be specified as being the primary key. In this case, the value of these columns is combined to create a unique identifier. Each column on its own doesn’t necessarily guarantee uniqueness but when the columns are combined, they must guarantee uniqueness if they are to be used as a primary key.
