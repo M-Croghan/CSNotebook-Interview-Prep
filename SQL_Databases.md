@@ -1,4 +1,4 @@
-# SQL & DATABASES
+# SQL & DATABASES CONCEPTS & QUESTIONS
 ### <span style="color: aqua">What is a database?</span>
 Regardless of programming language, databases are vital. Databases help facilitate problem-solving through implementing structure and rules. They ensure scalability, accessibility, accuracy, security, consistency, permanence.
 ### <span style="color: aqua">What is a relational database?</span>

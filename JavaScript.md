@@ -1,3 +1,5 @@
+# JAVASCRIPT CONCEPTS & QUESTIONS
+
 ### <span style="color: aqua">What is AJAX?</span>
 AJAX stands for Asynchronous JavaScript and XML. It isn't a programming language but rather a method through which we are able to make HTTP requests. AJAX uses a combination of:  
 * A browser built-in XMLHttpRequest object (to request data from a web server)  

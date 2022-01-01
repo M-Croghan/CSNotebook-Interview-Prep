@@ -1,4 +1,4 @@
-# Spring Framework
+# SPRING FRAMEWORK CONCEPTS & QUESTIONS
 
 ### <span style="color: aqua">What is a framework?</span>
 Frameworks make building applications faster and more efficient. Spring being one of the more popular frameworks for Java.
@@ -20,9 +20,12 @@ Maven is a build tool / project management & comprehension tool.
   - Contains info about the project and configuration details used by maven to build the project
     - The dependencies.
 ### <span style="color: aqua">What is Inversion of Control (IoC)?</span>
-Instead of the programmer controlling the flow of the program, external sources (framework, services, etc.) take over.
+Instead of the programmer controlling the flow of the program, external sources (framework, services, etc.) take over. The framework makes most of the decisions until it comes time for the application specific logic written by the developer to be called upon, after which the developers code returns control back to the framework.
+
 ### <span style="color: aqua">What is Dependency Injection?</span>
-A subset of IoC, an already instantiated instance can be injected into a class, so it can use its methods.
+A dependency is a requirement necessary for something to function. Dependency injection generally means passing a dependent object as a parameter to a method, rather than having the method create the dependent object. This means that a method doesn't need to be dependent on any particular implementation, but one that meets the requirements can be passed to it as parameter. A subset of IoC, an already instantiated instance can be injected into a class, so it can use its methods.  
+
+An example would be that of programming a house-building robot. As it builds the walls of a house, every time it gets to a doorway, it has to make a decision on what door should be installed. It depends on having the exact type and specifications of the door and needs to figure those things out at each doorway. Dependency injection would be purchasing the doors we want from a supplier and passing them to the robot to install.
 
 ### <span style="color: aqua">What is Aspect-Oriented Programming</span>
 

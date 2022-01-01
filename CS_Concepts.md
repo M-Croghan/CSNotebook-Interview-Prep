@@ -1,4 +1,4 @@
-# COMPUTER SCIENCE CONCEPTS
+# COMPUTER SCIENCE CONCEPTS & QUESTIONS
 ### <span style="color: aqua">Discuss the difference between _compiled_ & _interpreted_ languages:</span>
 * Compiled Languages (C, C++, Go) - Converts source code to machine code instructions.
 * Interpreted Languages (JS, Ruby, Python) - Code executes within an interpreter shell.
@@ -49,17 +49,32 @@ Removing unwanted objects to free up memory if they are no longer referenced. Ga
 * Maintenance 
 
 
-### <span style="color: aqua">What is a singleton design pattern</span>
-- A design pattern which ensures a class only has 1 instance & provides a global point of access to it.
+### <span style="color: aqua">What is a singleton design pattern?</span>
+- A design pattern which ensures a class only has only 1 instance & provides a global point of access to it.
     1. Allows for lazy loading (initialize object creation only when you need it / are going to be using it).
-    2. Only when you need 1 instance (i.e. a database connection)
-        - Say if you create an object that is going to interacting with hardware & two could cause conflict.
+    2. When you need exactly one instance to coordinate actions across a system. (i.e. a database connection)
+        - Say if you create an object that is going to be interacting with hardware & two could cause conflict.
 - 3 main components
     - Single class
         - Private constructor
         - Private static instance
         - Factory static method responsible for instance creation
         - Can be problematic in multithreading (solution via synchronization block)
+
+### <span style="color: aqua">What is a factory design pattern?</span>
+A creational design pattern and one of the most used patterns in Java, it defines an interface or abstract class for creating an object but lets the subclasses decide which class to instantiate. An object is created without exposing the creation logic to the client and refer to newly created object using a common interface.  
+Helps keep code clean and concise as all object creation takes place in a centralized location.
+Useful:  
+- When you want a method to return one of several possible classes that share a common super class
+- When you don't know ahead of time what class object you need
+- Encapsulate object creation
+- Promotes loose-coupling by eliminating the need to bind application specific classes into the code.  
+
+Example:  
+A factory method in the interface defers the object creation to one or more concrete subclasses at run time. The subclasses implement the factory method to select the class whose objects need to be created.  
+
+You create an adventure game where a player can battle an array of enemies. A general Enemy interface allows for the creation of several subclasses and a factory design pattern can be used to randomly decide which type of enemy a player will encounter.	
+	
 
 ### <span style="color: aqua">What are some of the different software development methodologies?</span>
 - Waterfall, Agile, Rapid Application Development (RAD), Extreme Programming (XP)

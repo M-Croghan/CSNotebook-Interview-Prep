@@ -1,3 +1,4 @@
+# HTML & CSS CONCEPTS & QUESTIONS
 ### <span style="color: aqua">What does it mean for a website to be responsive?</span>
 Ultimately, a responsive website is one in which the pages and content can adapt to deliver the best experience to the users regardless of what device they're using. Responsive web design allows for websites to adapt and render on all manner of devices and screen sizes.
 
