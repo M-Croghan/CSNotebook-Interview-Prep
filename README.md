@@ -5,19 +5,19 @@ This repository serves as a knowledge base exploring technical interview questio
 within computer science, as well as Java specific discussions. There exist many great resources on technical interview questions (linked below), but I wanted to be able to compile a list of questions specific to my own experiences that would be relevant to a junior role.
 
 # TABLE OF CONTENTS
-1. [Java & OOP]()
-2. [Computer Science Concepts]()
-3. [SQL & Databases / Data Management]()
-4. [HTML / CSS]()
-5. [JavaScript]()
-6. [Spring Framework]()
-7. [Python]()
-8. [Git / GitHub]()
-9. [Angular]()
-10. [AWS]()
-11. [Linux]()
-12. [Reading List]()
-13. [Resources]()
+1. [Java & OOP](https://github.com/M-Croghan/Interview-Prep#-java--oop-)
+2. [Computer Science Concepts](https://github.com/M-Croghan/Interview-Prep#-computer-science-concepts-)
+3. [SQL & Databases / Data Management](https://github.com/M-Croghan/Interview-Prep#-sql--databases-)
+4. [HTML / CSS](https://github.com/M-Croghan/Interview-Prep#-html--css-)
+5. [JavaScript](https://github.com/M-Croghan/Interview-Prep#-javascript-)
+6. [Spring Framework](https://github.com/M-Croghan/Interview-Prep#-spring-framework-)
+7. [Python](https://github.com/M-Croghan/Interview-Prep#-python-)
+8. [Git / GitHub](https://github.com/M-Croghan/Interview-Prep#-git--github-)
+9. [Angular](https://github.com/M-Croghan/Interview-Prep#-angular-)
+10. [AWS](https://github.com/M-Croghan/Interview-Prep#-aws-)
+11. [Linux](https://github.com/M-Croghan/Interview-Prep#-linux-)
+12. [Reading List](https://github.com/M-Croghan/Interview-Prep#reading--book-list)
+13. [Resources](https://github.com/M-Croghan/Interview-Prep#links--resources)
 
 ## <img src="img/java_red.png" alt="Java logo in red" width="40"/> JAVA / OOP <img src="img/java.png" alt="java logo" width="50"/>
 :ballot_box_with_check: [What are the 4 pillars of Object-Oriented Programming? Describe them:](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#what-are-the-4-pillars-of-object-oriented-programming-describe-them)  
@@ -154,7 +154,7 @@ within computer science, as well as Java specific discussions. There exist many 
 
 ## LINKS / RESOURCES
 ----------------------------------------------------------------------------------------------
-# [READING / BOOK LIST]()
+# [READING / BOOK LIST](https://github.com/M-Croghan/Interview-Prep/blob/main/books.md)
 ----------------------------------------------------------------------------------------------
 * Preparation
     * [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook)
