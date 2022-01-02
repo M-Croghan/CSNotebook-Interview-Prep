@@ -31,3 +31,4 @@
 | Code | Pretzgold |
 | A History of Modern Computing | Ceruzzi |
 | Learning Python | Lutz  |
+| Cracking the Coding Interview | McDowell |
