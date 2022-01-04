@@ -25,16 +25,20 @@ A HAS-A relationship is dynamic (run time) binding while inheritance is a static
 - Inheritance
 
 ### <span style="color: aqua">What is polymorphism?</span>
-The ability for an object to also be present in many forms. Sub classes could inherit attributes and methods from a superclass (i.e. Animal). Polymorphism uses the methods to perform different tasks. For instance, a cat class and a dog class both inherit the animal sound from the Animal superclass. However, the cat 'meows' whereas the dog 'barks'.
+The ability for an object to also be present in many forms. Sub classes could inherit attributes and methods from a superclass (i.e. Animal). Polymorphism uses the methods to perform different tasks. For instance, a cat class and a dog class both inherit the animal sound from the Animal superclass. However, the cat 'meows' whereas the dog 'barks'. Polymorphism is the ability of programming languages to present the same interface for differing underlying data types. A polymorphic type is a type whose operations can also be applied to values of some other type.
 
 ### <span style="color: aqua">What is abstraction?</span>
-Abstraction is a process of hiding the implementation details and showing only functionality to the user. Abstraction lets you focus on what the object does instead of how it does it.
+Abstraction is a process of hiding the implementation details and showing only functionality to the user. Abstraction lets you focus on what the object does instead of how it does it. Abstraction is the process of separating ideas from specific instances and thus, develop classes in terms of their own functionality, instead of their implementation details. Java supports the creation and existence of abstract classes that expose interfaces, without including the actual implementation of all methods. The abstraction technique aims to separate the implementation details of a class from its behavior.
 
 ### <span style="color: aqua">What is inheritance?</span>
-Important in the context of DRY (don’t repeat yourself). Inheritance is a mechanism in which one object acquires all the properties and behavior of another object of another class. Gained by implementing interfaces or extending classes. A class cannot inherit more than one class. A class cannot call private methods except indirectly and a superclass can not inherit from a subclass.
+Important in the context of DRY (don’t repeat yourself). Inheritance is a mechanism in which one object acquires all the properties and behavior of another object of another class. Gained by implementing interfaces or extending classes. A class cannot inherit more than one class. A class cannot call private methods except indirectly and a superclass can not inherit from a subclass. Inheritance provides an object with the ability to acquire the fields and methods of another class, called base class. Inheritance provides reusability of code and can be used to add additional features to an existing class, without modifying it.
 
 ### <span style="color: aqua">What is encapsulation?</span>
-The bundling of data and the methods that interact with or operate on that data into a single unit in the form of a class. Think of it as like a black box, it doesn’t matter how the internals work, just how you can interact with it. Private fields or methods are an example of protecting the inner workings of a class. 
+The bundling of data and the methods that interact with or operate on that data into a single unit in the form of a class. Think of it as like a black box, it doesn’t matter how the internals work, just how you can interact with it. Private fields or methods are an example of protecting the inner workings of a class. Encapsulation provides objects with the ability to hide their internal characteristics and behavior. Each object provides a number of methods, which can be accessed by other objects and change its internal data. In Java, there are three access modifiers: public, private and protected. Each modifier imposes different access rights to other classes, either in the same or in external packages. Some of the advantages of using encapsulation are listed below:
+
+    The internal state of every object is protected by hiding its attributes.
+    It increases usability and maintenance of code, because the behavior of an object can be independently changed or extended.
+    It improves modularity by preventing objects to interact with each other, in an undesired way.
 
 ### <span style="color: aqua">What is Garbage Collection?</span>
 Removing unwanted objects to free up memory if they are no longer referenced. Garbage collection is done automatically in Java whenever there is no longer a reference pointed at a specific object. You need not to remove the unwanted objects explicitly. Garbage collector thread does this for you. C/C++ require you to deallocate memory yourself.
@@ -121,6 +125,21 @@ at an individual unit or group of interrelated units. It is often done using sam
 - The server handles the request and sends back a response.
 - The server sends out an HTTP response.
 - The browser displays the HTML content (for HTML responses, which is the most common).
+
+### <span style="color: aqua">What are the differences between Abstraction and Encapsulation?</span>
+Abstraction and encapsulation are complementary concepts. On the one hand, abstraction focuses on the behavior of an object. On the other hand, encapsulation focuses on the implementation of an object’s behavior. Encapsulation is usually achieved by hiding information about the internal state of an object and thus, can be seen as a strategy used in order to provide abstraction.
+### <span style="color: aqua">What are the types of Polymorphism?</span>
+Compile-time polymorphism (Static binding) – Method overloading
+Runtime polymorphism (Dynamic binding) – Method overriding
+### <span style="color: aqua">What is: Composition, Association, Aggregation?</span>
+Composition is exactly like Aggregation except that the lifetime of the ‘part’ is controlled by the ‘whole’. This control may be direct or transitive. That is, the ‘whole’ may take direct responsibility for creating or destroying the ‘part’, or it may accept an already created part, and later pass it on to some other whole that assumes responsibility for it.
+Association represents the ability of one instance to send a message to another instance. This is typically implemented with a pointer or reference instance variable, although it might also be implemented as a method argument or the creation of a local variable.
+Aggregation is the typical whole/part relationship. This is exactly the same as an association with the exception that instances cannot have cyclic aggregation relationships.
+### <span style="color: aqua"></span>
+
+### <span style="color: aqua"></span>
+
+### <span style="color: aqua"></span>
 
 ### <span style="color: aqua"></span>
 

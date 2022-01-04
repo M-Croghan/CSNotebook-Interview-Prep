@@ -29,6 +29,9 @@
   - In object-oriented computer programming languages, the notion of encapsulation (or OOP Encapsulation) refers to 
   the bundling of data, along with the methods that operate on that data, into a single unit. Each unit or object should control its own state.
   - It limits what pieces of your code can access the methods / properties of the object.
+  
+Data Encapsulation is an Object-Oriented Programming concept of hiding the data attributes and their behaviors in a single unit. It helps developers to follow modularity while developing software by ensuring that each object is independent of other objects by having its own methods, attributes, and functionalities. It is used for the security of the private properties of an object and hence serves the purpose of data hiding.
+
 
 
 ### <span style="color: aqua">What is a class?</span>
@@ -113,8 +116,15 @@ Use interfaces when:
 
 ***Interface***: Is like a blueprint to implement a class. Maintains a collection of abstract methods but contains no concrete methods. But it offers full abstraction (something an abstract class can’t do). A declaration of the methods of a class but not the implementation. The operations an object can perform is defined and are used by the classes which implement that interface. Best used when various implementations share only method signature. When your classes need additional behavior or dependency injection.
 
-### <span style="color: aqua">Prove: Everything in Java is an object.</span>
-With the exception of primatives, references, variables everything in java inherits from the object class. ```java.lang.Object```
+Availability of methods: Only abstract methods are available in interfaces, whereas non-abstract methods can be present along with abstract methods in abstract classes.
+Variable types: Static and final variables can only be declared in the case of interfaces, whereas abstract classes can also have non-static and non-final variables.
+Inheritance: Multiple inheritances are facilitated by interfaces, whereas abstract classes do not promote multiple inheritances.
+Data member accessibility: By default, the class data members of interfaces are of the public- type. Conversely, the class members for an abstract class can be protected or private also.
+Implementation: With the help of an abstract class, the implementation of an interface is easily possible. However, the converse is not true;
+
+
+### <span style="color: aqua">Prove: Everything in Java is an object.</span> :question:
+It could be argued that everything in java is an object as a great deal inherits from the object class. ```java.lang.Object```. But, Java makes use of primatives: byte, short, int, long, boolean, char, float, and double which themselves are not objects. Not 100%. Java does not satisfy all the OOP conditions (predefined types must be objects) because it uses eight primitive data types(Boolean, byte, char, int, float, double, long, short) which are not objects.
 
 ### <span style="color: aqua">Difference between constructor vs. method?</span>
 A method is a block of code which only runs when it is called. You can pass data, known as parameters, into a method. Methods are used to perform certain actions and are an ordinary member of a class used to describe a behavior of some object / class. 
@@ -210,8 +220,65 @@ sort and thus result in fewer calls when sorting.
 ### <span style="color: aqua">What is the Optional Class?</span>
 Optional is a special class used to deal with NullPointerExceptions. It can be used if you suspect a value to be null rather than having to handle numerous null checks. Optional is a container object which may or may not contain a non-null value. You can specify alternate values to return or alternate code to run. This makes the code more readable because the facts which were hidden are now visible.
 
-### <span style="color: aqua"></span>
+### <span style="color: aqua">What is the JIT Compiler?</span>
+IT stands for Just-In-Time and it is used for improving the performance during run time. It does the task of compiling parts of byte code having similar functionality at the same time thereby reducing the amount of compilation time for the code to run.
+The compiler is nothing but a translator of source code to machine-executable code. But what is special about the JIT compiler? Let us see how it works:
+First, the Java source code (.java) conversion to byte code (.class) occurs with the help of the javac compiler.
+Then, the .class files are loaded at run time by JVM and with the help of an interpreter, these are converted to machine understandable code.
+JIT compiler is a part of JVM. When the JIT compiler is enabled, the JVM analyzes the method calls in the .class files and compiles them to get more efficient and native code. It also ensures that the prioritized method calls are optimized.
+Once the above step is done, the JVM executes the optimized code directly instead of interpreting the code again. This increases the performance and speed of the execution.
 
+
+### <span style="color: aqua">What is the difference in checking equality with .equals() vs. '=='?</span>
+
+
+### <span style="color: aqua">Can Static Methods be Overridden or Overloaded?</span>
+Yes! There can be two or more static methods in a class with the same name but differing input parameters
+No! Declaration of static methods having the same signature can be done in the subclass but run time polymorphism can not take place in such cases.
+Overriding or dynamic polymorphism occurs during the runtime, but the static methods are loaded and looked up at the compile time statically. Hence, these methods cant be overridden
+
+### <span style="color: aqua">What is the point of garbage collection & what area of memory does it address?</span>
+The main objective of this process is to free up the memory space occupied by the unnecessary and unreachable objects during the Java program execution by deleting those unreachable objects. This ensures that the memory resource is used efficiently, but it provides no guarantee that there would be sufficient memory for the program execution. Focuses on the heap
+
+
+### <span style="color: aqua">Does Java Operate: "Pass by Reference" or "Pass by Value"?</span>
+Call by Value means calling a method with a parameter as value. Through this, the argument value is passed to the parameter. While Call by Reference means calling a method with a parameter as a reference. Through this, the argument reference is passed to the parameter. In call by value, the modification done to the parameter passed does not reflect in the caller's scope while in the call by reference, the modification done to the parameter passed are persistent and changes are reflected in the caller's scope. But Java uses only call by value. It creates a copy of references and pass them as value to the methods. If reference contains objects, then the value of an object can be modified in the method but not the entire object. When an object is passed by value, this means that a copy of the object is passed. Thus, even if changes are made to that object, it does not affect the original value. When an object is passed by reference, this means that the actual object is not passed, rather a reference of the object is passed. Thus, any changes made by the external method, are also reflected in all places.
+
+### <span style="color: aqua">What happens if there is no static modifier in the main method signature in Java?</span>
+There wouldn't be any compilation error. But then the program is run, since the JVM cant map the main method signature, the code throws “NoSuchMethodError” error at the runtime.
+
+### <span style="color: aqua">What happens if there are multiple main methods inside one class in Java?</span>
+The program can't compile as the compiler says that the method has been already defined inside the class.
+
+### <span style="color: aqua">How does an exception propagate in the code?</span>
+When an exception occurs, first it searches to locate the matching catch block. In case, the matching catch block is located, then that block would be executed. Else, the exception propagates through the method call stack and goes into the caller method where the process of matching the catch block is performed. This propagation happens until the matching catch block is found. If the match is not found, then the program gets terminated in the main method.
+
+### <span style="color: aqua">Is it mandatory for a catch block to be followed after a try block?</span>
+No, it is not necessary for a catch block to be present after a try block. - A try block should be followed either by a catch block or by a finally block. If the exceptions likelihood is more, then they should be declared using the throws clause of the method. 
+### <span style="color: aqua">Can you call a constructor of a class inside the another constructor?</span>
+Yes, the concept can be termed as constructor chaining and can be achieved using this()
+### <span style="color: aqua">Difference between ArrayList and LinkedList in Java?</span>
+In short, ArrayList is backed by an array in Java, while LinkedList is just a collection of nodes, similar to a linked list data structure. ArrayList also provides a random search if you know the index, while LinkedList only allows a sequential search. On other hand, adding and removing an element from the middle is efficient in LinkedList as compared to ArrayList because it only requires modifying links, and no other element is rearranged.
+### <span style="color: aqua">Difference between HashMap and Hashtable in Java?</span>
+...
+### <span style="color: aqua">Difference between TreeSet and TreeMap in Java?</span>
+...
+### <span style="color: aqua">Can we have a return statement in the finally clause? What will happen?</span>
+Yes, you can use the return statement in finally block, but it will not prevent finally block from being executed. BTW, if you also used the return statement in the try block then return the value from the finally block with override whatever is returned from the try block.
+### <span style="color: aqua">What is: Composition, Association, Aggregation?</span>
+
+### <span style="color: aqua">What is the JVM?</span>
+A Java virtual machine (JVM) is a process virtual machine that can execute Java bytecode. Each Java source file is compiled into a bytecode file, which is executed by the JVM.
+### <span style="color: aqua">Why is Java called the Platform Independent Programming Language?</span>
+Java was designed to allow application programs to be built that could be run on any platform, without having to be rewritten or recompiled by the programmer for each separate platform. A Java virtual machine makes this possible because it is aware of the specific instruction lengths and other particularities of the underlying hardware platform.
+### <span style="color: aqua">What is the Difference between JDK and JRE?</span>
+The Java Runtime Environment (JRE) is basically the Java Virtual Machine (JVM) where your Java programs are being executed. It also includes browser plugins for applet execution. The Java Development Kit (JDK) is the full-featured Software Development Kit for Java, including the JRE, the compilers and tools (like JavaDoc, and Java Debugger), in order for a user to develop, compile and execute Java applications.
+JDK	JRE
+JDK stands for the term : Java Development Kit.	JRE stands for the term: Java Runtime Environment.
+JDK is the tool for compilng, documenting and packaging Java software.	JRE is a runtime environment. JavaByte code gets executed in the environment.
+JDK has JRE and development tools.	JRE is a JVM implementation
+### <span style="color: aqua">What are wrapper classes?</span>
+A wrapper class converts java primitives into objects. So a primitive wrapper class is a wrapper class that encapsulates, hides or wraps data types from the eight primitive data types so that these can be used to create instantiated objects with methods in another class or in other classes. The primitive wrapper classes are found in the Java API.
 ### <span style="color: aqua"></span>
 
 ### <span style="color: aqua"></span>

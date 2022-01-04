@@ -49,8 +49,27 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [What is a Stream? What qualifies one?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#what-is-a-stream-what-qualifies-as-one)  
 :ballot_box_with_check: [How would you order the filtering & sorting of a stream?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#how-would-you-order-the-filtering--sorting-of-a-stream)  
 :ballot_box_with_check: [What is the Optional Class?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#what-is-the-optional-class)  
-  
-
+:ballot_box_with_check: [What is the JIT Compiler?]()  
+:ballot_box_with_check: [What is the difference in checking equality with .equals() vs. '=='?]()  
+:ballot_box_with_check: [Can Static Methods be Overridden or Overloaded?]()  
+:ballot_box_with_check: [What is the point of garbage collection & what area of memory does it address?]()  
+:ballot_box_with_check: [Does Java Operate: "Pass by Reference" or "Pass by Value"?]()  
+:ballot_box_with_check: [What happens if there is no static modifier in the main method signature in Java?]()  
+:ballot_box_with_check: [What happens if there are multiple main methods inside one class in Java?]()  
+:ballot_box_with_check: [How does an exception propagate in the code?]()  
+:ballot_box_with_check: [Is it mandatory for a catch block to be followed after a try block?]()  
+:ballot_box_with_check: [Can you call a constructor of a class inside the another constructor?]()  
+:ballot_box_with_check: [Difference between ArrayList and LinkedList in Java?]()  
+:ballot_box_with_check: [Difference between HashMap and Hashtable in Java?]()  
+:ballot_box_with_check: [Difference between TreeSet and TreeMap in Java?]()  
+:ballot_box_with_check: [Can we have a return statement in the finally clause? What will happen?]()   
+:ballot_box_with_check: [What is the JVM?]()  
+:ballot_box_with_check: [Why is Java called the Platform Independent Programming Language?]()  
+:ballot_box_with_check: [What is the Difference between JDK and JRE?]()  
+:ballot_box_with_check: [What are wrapper classes?]()  
+:ballot_box_with_check: []()  
+:ballot_box_with_check: []()  
+:ballot_box_with_check: []()   
 
 ## <img src="img/binary.png" alt="binary folder" width="50"/> COMPUTER SCIENCE CONCEPTS <img src="img/tree.png" alt="tree ds" width="50"/>
 :ballot_box_with_check: [Discuss the difference between _compiled_ & _interpreted_ languages:](https://github.com/M-Croghan/Interview-Prep/blob/main/CS_Concepts.md#discuss-the-difference-between-compiled--interpreted-languages)  
@@ -71,6 +90,9 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [What is an API?](https://github.com/M-Croghan/Interview-Prep/blob/main/CS_Concepts.md#what-is-an-api)  
 :ballot_box_with_check: [What is Unit Testing?](https://github.com/M-Croghan/Interview-Prep/blob/main/CS_Concepts.md#what-is-unit-testing)  
 :ballot_box_with_check: [What happens when you type a URL into a browser and hit enter?](https://github.com/M-Croghan/Interview-Prep/blob/main/CS_Concepts.md#what-happens-when-you-type-a-url-into-a-browser-and-hit-enter)  
+:ballot_box_with_check: [What are the differences between Abstraction and Encapsulation?]()  
+:ballot_box_with_check: [What are the types of Polymorphism?]()  
+:ballot_box_with_check: [What is: Composition, Association, Aggregation?]()  
 
 
 ## <img src="img/pg.png" alt="postgresql logo" width="45"/> SQL / DATABASES <img src="img/mysql.png" alt="mysql logo" width="50"/>
