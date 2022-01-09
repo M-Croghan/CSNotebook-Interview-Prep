@@ -94,9 +94,9 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [What is an API?](https://github.com/M-Croghan/Interview-Prep/blob/main/CS_Concepts.md#what-is-an-api)  
 :ballot_box_with_check: [What is Unit Testing?](https://github.com/M-Croghan/Interview-Prep/blob/main/CS_Concepts.md#what-is-unit-testing)  
 :ballot_box_with_check: [What happens when you type a URL into a browser and hit enter?](https://github.com/M-Croghan/Interview-Prep/blob/main/CS_Concepts.md#what-happens-when-you-type-a-url-into-a-browser-and-hit-enter)  
-:ballot_box_with_check: [What are the differences between Abstraction and Encapsulation?]()  
-:ballot_box_with_check: [What are the types of Polymorphism?]()  
-:ballot_box_with_check: [What is: Composition, Association, Aggregation?]()  
+:ballot_box_with_check: [What are the differences between Abstraction and Encapsulation?](https://github.com/M-Croghan/Interview-Prep/blob/main/CS_Concepts.md#what-are-the-differences-between-abstraction-and-encapsulation)  
+:ballot_box_with_check: [What are the types of Polymorphism?](https://github.com/M-Croghan/Interview-Prep/blob/main/CS_Concepts.md#what-are-the-types-of-polymorphism)  
+:ballot_box_with_check: [What is: Composition, Association, Aggregation?](https://github.com/M-Croghan/Interview-Prep/blob/main/CS_Concepts.md#what-is-composition-association-aggregation)  
 
 
 ## <img src="img/pg.png" alt="postgresql logo" width="45"/> SQL / DATABASES <img src="img/mysql.png" alt="mysql logo" width="50"/>
