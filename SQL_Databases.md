@@ -1,11 +1,11 @@
 # SQL & DATABASES CONCEPTS & QUESTIONS
-### <span style="color: aqua">What is a database?</span>
+### :dvd: <span style="color: aqua">What is a database?</span>
 Regardless of programming language, databases are vital. Databases help facilitate problem-solving through implementing structure and rules. They ensure scalability, accessibility, accuracy, security, consistency, permanence. A database is an organized collection of data, stored and retrieved digitally from a remote or local computer system. Databases can be vast and complex, and such databases are developed using fixed design and modeling approaches
-### <span style="color: aqua">What is a relational database?</span>
+### :dvd: <span style="color: aqua">What is a relational database?</span>
 - A type of database that stores and provides access to data points that are related to one another.
 - Other types: Hierarchical, network, object-oriented, NoSQL
 
-### <span style="color: aqua">What is a database management system (DBMS)?</span>
+### :dvd: <span style="color: aqua">What is a database management system (DBMS)?</span>
 DBMS stands for Database Management System. DBMS is a system software responsible for the creation, retrieval, updation, and management of the database. It ensures that our data is consistent, organized, and is easily accessible by serving as an interface between the database and its end-users or application software
 DBMS represents the software that allows of user to interact with and manipulate information within a DB.  
 Database Management Systems (DBMS) -> Oracle - MySQL - PostgreSQL  
@@ -19,14 +19,14 @@ Features:
 			- Columns: Name & Datatype   
 Rows: Represent a record
 
-### <span style="color: aqua">What is SQL?</span>
+### :dvd: <span style="color: aqua">What is SQL?</span>
 ***Structured Query Language***  
 SQL stands for Structured Query Language. It is the standard language for relational database management systems. It is especially useful in handling organized data comprised of entities (variables) and relations between different entities of the data.
 - It operates declaritively, you describe the outcome but are not concerned with how it occurs.
 - CRUD Functions - Create, read, update, delete
     - Its good practice to use a SELECT statement prior to a DELETE query execution.
     
-### <span style="color: aqua">What are aggregate functions in SQL?</span>
+### :dvd: <span style="color: aqua">What are aggregate functions in SQL?</span>
 An aggregate function performs operations on a collection of values to return a single scalar value. Aggregate functions are often used with the GROUP BY and HAVING clauses of the SELECT statement. Following are the widely used SQL aggregate functions:
 
     AVG() - Calculates the mean of a collection of values.
@@ -40,7 +40,7 @@ An aggregate function performs operations on a collection of values to return a 
 - Is a function that returns certain value on the selected rows to produce more meaningful information.
     - Count(), Sum(), Avg(), Min(), Max()
 
-### <span style="color: aqua">What are scalar functions in SQL?</span>
+### :dvd: <span style="color: aqua">What are scalar functions in SQL?</span>
 A scalar function returns a single value based on the input value. Following are the widely used SQL scalar functions:
 
     LEN() - Calculates the total length of the given field (column).
@@ -55,7 +55,7 @@ A scalar function returns a single value based on the input value. Following are
 - Similar to aggregate, performs operation on the data
     - UCASE(), LCASE(), ROUND(), NOW(), MID()
 
-### <span style="color: aqua">Discuss Normalization</span>
+### :dvd: <span style="color: aqua">Discuss Normalization</span>
 - Normalization aims to improve the quality of the data. Typically, in most business contexts 1st, 2nd, 3rd normal form is sufficient, but other normal forms exist and are more practical in a scientific setting. Additionally, denormalization may be warranted if there is a need to improve performance.
 
     - 1st NF – each cell in the col. / table must have only 1 value and no repeating groups
@@ -69,10 +69,10 @@ A scalar function returns a single value based on the input value. Following are
 
 Normalization represents the way of organizing structured data in the database efficiently. It includes the creation of tables, establishing relationships between them, and defining rules for those relationships. Inconsistency and redundancy can be kept in check based on these rules, hence, adding flexibility to the database.
 
-### <span style="color: aqua">What do we need to do to decrease the retrieval time?</span>
+### :dvd: <span style="color: aqua">What do we need to do to decrease the retrieval time?</span>
 Depending on the situation, denormalization might be appropriate. You could create an index (which operates like an index in the back of a book). It's basically a pointer to data in a table. Speeds up select and where queries but might slow update and insert statements.
 
-### <span style="color: aqua">What are the different types of joins in SQL?</span>
+### :dvd: <span style="color: aqua">What are the different types of joins in SQL?</span>
 The SQL Join clause is used to combine records (rows) from two or more tables in a SQL database based on a related column between the two.
 * INNER JOINS:
     - Return rows only with matches from both tables. The most used / popular join.
@@ -81,19 +81,19 @@ The SQL Join clause is used to combine records (rows) from two or more tables in
 * FULL OUTER JOINS
     - Returns all rows no matter if they are matches or not.
 
-### <span style="color: aqua">Tables vs. Views in SQL</span>
+### :dvd: <span style="color: aqua">Tables vs. Views in SQL</span>
 Virtual table. A view is a specific query made and saved from a table. Instead of having to reproduce a specific / complex query repeatedly, you could create a view to save that information. You can also join other tables using the view, additionally it provides an element of security as users can access data through the view rather than needing permissions to interact with a table directly.
 
 A view in SQL is a virtual table based on the result-set of an SQL statement. A view contains rows and columns, just like a real table. The fields in a view are fields from one or more real tables in the database.
 
-### <span style="color: aqua">What is group by, order by in SQL?</span>
+### :dvd: <span style="color: aqua">What is group by, order by in SQL?</span>
 - Order by: sorts data into ascending or descending order. Ascending by default, DESC keyword.
 - Group by: used to arrange similar data into a group. Typically, follows the WHERE clause and before ORDER BY.
 
-### <span style="color: aqua">What is the having clause?</span>
+### :dvd: <span style="color: aqua">What is the having clause?</span>
 WHERE keyword doesn't apply to aggregate functions and the having clause allows one to perform queries based on specific conditions.
 
-### <span style="color: aqua">Types of keys in SQL</span>
+### :dvd: <span style="color: aqua">Types of keys in SQL</span>
 - A key is used to uniquely identify a particular row
 - Primary Keys - are unique and cannot occur more than once in a particular column
 - A Unique Key – similar to primary key in that they provide uniqueness to a record but unlike a primary key it can accept a NULL value and be used on more than one column
@@ -101,12 +101,12 @@ WHERE keyword doesn't apply to aggregate functions and the having clause allows 
 - Composite Keys - When no natural keys exist, 2 fields are combined to create a primary key.
     - Used when creating many-to-many relationships
 
-### <span style="color: aqua">What is a foreign key?</span>
+### :dvd: <span style="color: aqua">What is a foreign key?</span>
 A foreign key creates a relationship with another table and is only used in one to one relationships.
 A FOREIGN KEY comprises of single or collection of fields in a table that essentially refers to the PRIMARY KEY in another table. Foreign key constraint ensures referential integrity in the relation between two tables.
 The table with the foreign key constraint is labeled as the child table, and the table containing the candidate key is labeled as the referenced or parent table
 
-### <span style="color: aqua">What are two different types of indexes for a table? [??]</span>
+### :dvd: <span style="color: aqua">What are two different types of indexes for a table? [??]</span>
 Clustered & Non-Clustered
     Unique and Non-Unique Index:
 
@@ -128,15 +128,15 @@ As explained above, the differences can be broken down into three small factors 
 
 
 
-### <span style="color: aqua">What is an index?</span>
+### :dvd: <span style="color: aqua">What is an index?</span>
 Act as a special lookup table that can improve the speed of data retrieval. Essentially a pointer to data in a table the same way an index in the back of a book points you to the related topic or information you’re looking for. 
 A database index is a data structure that provides a quick lookup of data in a column or columns of a table. It enhances the speed of operations accessing data from a database table at the cost of additional writes and memory to maintain the index data structure.
 
-### <span style="color: aqua">What are clustered / non-clustered indexes?</span>
+### :dvd: <span style="color: aqua">What are clustered / non-clustered indexes?</span>
 - A CLUSTERED index – a table that is stored in a sorted order based on key value. Can only have 1 at a time (only sort in 1 order). Data and index are stored together similar to a phonebook. If you don’t have a clustered index it’s referred to as a heap.
 - A NON-CLUSTERED index – also called secondary indexes: stores only key values with a pointer to the row that contains the value.
 
-### <span style="color: aqua">Discuss how to build relationships?</span>
+### :dvd: <span style="color: aqua">Discuss how to build relationships?</span>
 - One-to-One
   - Relies on the use of a ***foreign key***.
 - One-To-Many: Most common
@@ -150,7 +150,7 @@ One-to-Many & Many-to-One - This is the most commonly used relationship where a 
 Many-to-Many - This is used in cases when multiple instances on both sides are needed for defining a relationship.
 Self-Referencing Relationships - This is used when a table needs to define a relationship with itself
 
-### <span style="color: aqua">ACID Test</span>
+### :dvd: <span style="color: aqua">ACID Test</span>
 - Atomic – all or nothing transactions. Either all parts of the transaction occurs or none of them do.
 - Consistency – guarantees committed transaction state. The database must be consistent before & after a transaction occurs.
 If a transaction cannot be completed fully all at once, it rolls back to the original version.
@@ -158,15 +158,15 @@ If a transaction cannot be completed fully all at once, it rolls back to the ori
 also occur concurrently.
 - Durability – Committed data is never lost. All changes must be permanently stored in the databases' memory.
 
-### <span style="color: aqua">What is Referential Integrity?</span>
+### :dvd: <span style="color: aqua">What is Referential Integrity?</span>
 - You cannot delete part of data
 - You cannot refer to data that doesn't exist
 
 
-### <span style="color: aqua">What is an ERD?</span>
+### :dvd: <span style="color: aqua">What is an ERD?</span>
 An ***entity relationship diagram*** or ***ER diagram*** is a type of structural diagram for use in database design. An ERD contains different symbols and connectors that visualize two important pieces information: The major entities within the system scope, and the inter-relationships among these entities. Simply put, it models the entities within a database and the relationships between them.
 
-### <span style="color: aqua">What is a primary key?</span>
+### :dvd: <span style="color: aqua">What is a primary key?</span>
 A primary key is one or more columns that have been configured as the unique identifier field for the table. Most primary keys are comprised of a single column, but they can also be comprised of multiple columns. Any value stored in a primary key field is unique to that record. No other record contains that value. The value is a unique identifier. Some examples of what would be an appropriate primary key:  
 - An automatically generated number
 - Social Secuity Number
@@ -176,25 +176,25 @@ The PRIMARY KEY constraint uniquely identifies each row in a table. It must cont
 A table in SQL is strictly restricted to have one and only one primary key, which is comprised of single or multiple fields (columns)
 
 
-### <span style="color: aqua">How can you get a list of all your databases?</span>
+### :dvd: <span style="color: aqua">How can you get a list of all your databases?</span>
 On the command line:  
 - psql  
 - ```\l``` ***or*** ```\list```
-### <span style="color: aqua">How can you get the list of all the tables in a database?</span>
+### :dvd: <span style="color: aqua">How can you get the list of all the tables in a database?</span>
 On the command line:  
 - psql 
 - Connect to a DB using ```\c <database_name>```  
     - You can list databases available using ```\l``` ***or*** ```\list``` 
 - ```\dt``` ***or*** ```\dtables```
 
-### <span style="color: aqua">How do you delete a table?</span>
+### :dvd: <span style="color: aqua">How do you delete a table?</span>
 On the command line:  
 - psql 
 - Connect to a DB using ```\c <database_name>```  
     - You can list databases available using ```\l``` ***or*** ```\list```
 - ```DROP TABLE <table_name>;```
 
-### <span style="color: aqua">What is NoSQL?</span>
+### :dvd: <span style="color: aqua">What is NoSQL?</span>
 NoSQL databases (also referred to as 'non-relational' or 'non-SQL') maintains unstructured data stored in JSON files. They're best for:  
 - Handling large, unrelated, indeterminate, or rapidly changing data.
 - Schema-Agnostic data or schema dictated by an application.
@@ -209,18 +209,18 @@ Some common scenarios involving NoSQL databases might be:
 
 NoSQL databses scale data horizontally by sharding across servers. This differs from Relational databases which scale vertically by increasing server load.
 
-### <span style="color: aqua">What is a candidate key?</span>
+### :dvd: <span style="color: aqua">What is a candidate key?</span>
 Any column that can guarantee uniqueness is called a candidate key. But just because it’s a candidate key it doesn’t necessarily follow that it’s a primary key. Any candidate key would need to be specified as the primary key first. So it is possible that more than one column in a table can guarantee uniqueness, but only one of them is defined as the primary key.
 
-### <span style="color: aqua">What is a composite key?</span>
+### :dvd: <span style="color: aqua">What is a composite key?</span>
 A composite key is a candidate key defined by more than one column. Therefore, a primary key can consist of more than one column. Two or more columns can be specified as being the primary key. In this case, the value of these columns is combined to create a unique identifier. Each column on its own doesn’t necessarily guarantee uniqueness but when the columns are combined, they must guarantee uniqueness if they are to be used as a primary key.
 
-### <span style="color: aqua">What is RDBMS? How is it different from DBMS?</span>
+### :dvd: <span style="color: aqua">What is RDBMS? How is it different from DBMS?</span>
 RDBMS stands for Relational Database Management System. The key difference here, compared to DBMS, is that RDBMS stores data in the form of a collection of tables, and relations can be defined between the common fields of these tables. Most modern database management systems like MySQL, Microsoft SQL Server, Oracle, IBM DB2, and Amazon Redshift are based on RDBMS.  
 
-### <span style="color: aqua">What are Tables and Fields?</span>
+### :dvd: <span style="color: aqua">What are Tables and Fields?</span>
 A table is an organized collection of data stored in the form of rows and columns. Columns can be categorized as vertical and rows as horizontal. The columns in a table are called fields while the rows can be referred to as records.
-### <span style="color: aqua">What are Constraints in SQL?</span>
+### :dvd: <span style="color: aqua">What are Constraints in SQL?</span>
 Constraints are used to specify the rules concerning data in the table. It can be applied for single or multiple fields in an SQL table during the creation of the table or after creating using the ALTER TABLE command. The constraints are:
 
     NOT NULL - Restricts NULL value from being inserted into a column.
@@ -230,62 +230,62 @@ Constraints are used to specify the rules concerning data in the table. It can b
     INDEX - Indexes a field providing faster retrieval of records.
     PRIMARY KEY - Uniquely identifies each record in a table.
     FOREIGN KEY - Ensures referential integrity for a record in another table
-### <span style="color: aqua">What is a UNIQUE constraint?</span>
+### :dvd: <span style="color: aqua">What is a UNIQUE constraint?</span>
 A UNIQUE constraint ensures that all values in a column are different. This provides uniqueness for the column(s) and helps identify each row uniquely. Unlike primary key, there can be multiple unique constraints defined per table. The code syntax for UNIQUE is quite similar to that of PRIMARY KEY and can be used interchangeably.
-### <span style="color: aqua">What is a Self-Join?</span>
+### :dvd: <span style="color: aqua">What is a Self-Join?</span>
 A self JOIN is a case of regular join where a table is joined to itself based on some relation between its own column(s). Self-join uses the INNER JOIN or LEFT JOIN clause and a table alias is used to assign different names to the table within the query.
 
-### <span style="color: aqua">What is a Cross-Join?</span>
+### :dvd: <span style="color: aqua">What is a Cross-Join?</span>
 Cross join can be defined as a cartesian product of the two tables included in the join. The table after join contains the same number of rows as in the cross-product of the number of rows in the two tables. If a WHERE clause is used in cross join then the query will work like an INNER JOIN.
-### <span style="color: aqua">What is Data Integrity?</span>
+### :dvd: <span style="color: aqua">What is Data Integrity?</span>
 Data Integrity is the assurance of accuracy and consistency of data over its entire life-cycle and is a critical aspect of the design, implementation, and usage of any system which stores, processes, or retrieves data. It also defines integrity constraints to enforce business rules on the data when it is entered into an application or a database.
-### <span style="color: aqua">What is a Query?</span>
+### :dvd: <span style="color: aqua">What is a Query?</span>
 A query is a request for data or information from a database table or combination of tables. A database query can be either a select query or an action query.
-### <span style="color: aqua">What is a Subquery? What are its types?</span>
+### :dvd: <span style="color: aqua">What is a Subquery? What are its types?</span>
 A subquery is a query within another query, also known as a nested query or inner query. It is used to restrict or enhance the data to be queried by the main query, thus restricting or enhancing the output of the main query respectively.
-### <span style="color: aqua">What is the SELECT statement?</span>
+### :dvd: <span style="color: aqua">What is the SELECT statement?</span>
 SELECT operator in SQL is used to select data from a database. The data returned is stored in a result table, called the result-set
-### <span style="color: aqua">What are some common clauses used with SELECT query in SQL?</span>
+### :dvd: <span style="color: aqua">What are some common clauses used with SELECT query in SQL?</span>
 - WHERE clause in SQL is used to filter records that are necessary, based on specific conditions.
 - ORDER BY clause in SQL is used to sort the records based on some field(s) in ascending (ASC) or descending order (DESC).
 - GROUP BY clause in SQL is used to group records with identical data and can be used in conjunction with some aggregation functions to produce summarized results from the database.
 - HAVING clause in SQL is used to filter records in combination with the GROUP BY clause. It is different from WHERE, since the WHERE clause cannot filter aggregated records.
 
 
-### <span style="color: aqua"> What are UNION, MINUS and INTERSECT commands?</span>
+### :dvd: <span style="color: aqua"> What are UNION, MINUS and INTERSECT commands?</span>
 The UNION operator combines and returns the result-set retrieved by two or more SELECT statements.
 The MINUS operator in SQL is used to remove duplicates from the result-set obtained by the second SELECT query from the result-set obtained by the first SELECT query and then return the filtered results from the first.
 The INTERSECT clause in SQL combines the result-set fetched by the two SELECT statements where records from one match the other and then returns this intersection of result-sets.
-### <span style="color: aqua">What are Entities and Relationships?</span>
+### :dvd: <span style="color: aqua">What are Entities and Relationships?</span>
 Entity: An entity can be a real-world object, either tangible or intangible, that can be easily identifiable. For example, in a college database, students, professors, workers, departments, and projects can be referred to as entities. Each entity has some associated properties that provide it an identity.
 
 Relationships: Relations or links between entities that have something to do with each other. For example - The employee's table in a company's database can be associated with the salary table in the same database.
-### <span style="color: aqua">What is an Alias in SQL?</span>
+### :dvd: <span style="color: aqua">What is an Alias in SQL?</span>
 An alias is a feature of SQL that is supported by most, if not all, RDBMSs. It is a temporary name assigned to the table or table column for the purpose of a particular SQL query. In addition, aliasing can be employed as an obfuscation technique to secure the real names of database fields. A table alias is also called a correlation name.
 
 An alias is represented explicitly by the AS keyword but in some cases, the same can be performed without it as well. Nevertheless, using the AS keyword is always a good practice.
-### <span style="color: aqua">What is Denormalization?</span>
+### :dvd: <span style="color: aqua">What is Denormalization?</span>
 Denormalization is the inverse process of normalization, where the normalized schema is converted into a schema that has redundant information. The performance is improved by using redundancy and keeping the redundant data consistent. The reason for performing denormalization is the overheads produced in the query processor by an over-normalized structure.
-### <span style="color: aqua">What are the TRUNCATE, DELETE and DROP statements?</span>
+### :dvd: <span style="color: aqua">What are the TRUNCATE, DELETE and DROP statements?</span>
 DELETE statement is used to delete rows from a table.
 TRUNCATE command is used to delete all the rows from the table and free the space containing the table.
 DROP command is used to remove an object from the database. If you drop a table, all the rows in the table are deleted and the table structure is removed from the database.
 
 
-### <span style="color: aqua">What is the difference between DROP and TRUNCATE statements?</span>
+### :dvd: <span style="color: aqua">What is the difference between DROP and TRUNCATE statements?</span>
 If a table is dropped, all things associated with the tables are dropped as well. This includes - the relationships defined on the table with other tables, the integrity checks and constraints, access privileges and other grants that the table has. To create and use the table again in its original form, all these relations, checks, constraints, privileges and relationships need to be redefined. However, if a table is truncated, none of the above problems exist and the table retains its original structure
-### <span style="color: aqua">What is the difference between DELETE and TRUNCATE statements?</span>
+### :dvd: <span style="color: aqua">What is the difference between DELETE and TRUNCATE statements?</span>
 The TRUNCATE command is used to delete all the rows from the table and free the space containing the table.
 The DELETE command deletes only the rows from the table based on the condition given in the where clause or deletes all the rows from the table if no condition is specified. But it does not free the space containing the table
-### <span style="color: aqua">What is OLTP?</span>
+### :dvd: <span style="color: aqua">What is OLTP?</span>
 OLTP stands for Online Transaction Processing, is a class of software applications capable of supporting transaction-oriented programs. An essential attribute of an OLTP system is its ability to maintain concurrency. To avoid single points of failure, OLTP systems are often decentralized. These systems are usually designed for a large number of users who conduct short transactions. Database queries are usually simple, require sub-second response times, and return relatively few records. Here is an insight into the working of an OLTP system
-### <span style="color: aqua">What are the differences between OLTP and OLAP?</span>
+### :dvd: <span style="color: aqua">What are the differences between OLTP and OLAP?</span>
 OLTP stands for Online Transaction Processing, is a class of software applications capable of supporting transaction-oriented programs. An important attribute of an OLTP system is its ability to maintain concurrency. OLTP systems often follow a decentralized architecture to avoid single points of failure. These systems are generally designed for a large audience of end-users who conduct short transactions. Queries involved in such databases are generally simple, need fast response times, and return relatively few records. A number of transactions per second acts as an effective measure for such systems.
 
 OLAP stands for Online Analytical Processing, a class of software programs that are characterized by the relatively low frequency of online transactions. Queries are often too complex and involve a bunch of aggregations. For OLAP systems, the effectiveness measure relies highly on response time. Such systems are widely used for data mining or maintaining aggregated, historical data, usually in multi-dimensional schemas
-### <span style="color: aqua">How to create empty tables with the same structure as another table?</span>
+### :dvd: <span style="color: aqua">How to create empty tables with the same structure as another table?</span>
 Creating empty tables with the same structure can be done smartly by fetching the records of one table into a new table using the INTO operator while fixing a WHERE clause to be false for all records. Hence, SQL prepares the new table with a duplicate structure to accept the fetched records but since no records get fetched due to the WHERE clause in action, nothing is inserted into the new table.
-### <span style="color: aqua">What is Pattern Matching in SQL?</span>
+### :dvd: <span style="color: aqua">What is Pattern Matching in SQL?</span>
 SQL pattern matching provides for pattern search in data if you have no clue as to what that word should be. This kind of SQL query uses wildcards to match a string pattern, rather than writing the exact word. The LIKE operator is used in conjunction with SQL Wildcards to fetch the required information.
 
     Using the % wildcard to perform a simple search
@@ -307,14 +307,14 @@ The _ wildcard matches exactly one character of any type. It can be used in conj
     Matching patterns for a specific length
 
 The _ wildcard plays an important role as a limitation when it matches exactly one character. It limits the length and position of the matched results.
-### <span style="color: aqua">What is PostgreSQL?</span>
+### :dvd: <span style="color: aqua">What is PostgreSQL?</span>
 PostgreSQL was first called Postgres and was developed by a team led by Computer Science Professor Michael Stonebraker in 1986. It was developed to help developers build enterprise-level applications by upholding data integrity by making systems fault-tolerant. PostgreSQL is therefore an enterprise-level, flexible, robust, open-source, and object-relational DBMS that supports flexible workloads along with handling concurrent users. It has been consistently supported by the global developer community. Due to its fault-tolerant nature, PostgreSQL has gained widespread popularity among developers.
 
-### <span style="color: aqua">What is Stored Procedure?</span>
+### :dvd: <span style="color: aqua">What is Stored Procedure?</span>
 A stored procedure is a named group of SQL statements that have been previously created and stored in the server database. Stored procedures accept input parameters so that a single procedure can be used over the network by several clients using different input data. And when the procedure is modified, all clients automatically get the new version. Stored procedures reduce network traffic and improve performance. Stored procedures can be used to help ensure the integrity of the database.
-### <span style="color: aqua">What is Trigger?</span>
+### :dvd: <span style="color: aqua">What is Trigger?</span>
 A trigger is a SQL procedure that initiates an action when an event (INSERT, DELETE or UPDATE) occurs. Triggers are stored in and managed by the DBMS. Triggers are used to maintain the referential integrity of data by changing the data in a systematic fashion. A trigger cannot be called or executed; DBMS automatically fires the trigger as a result of a data modification to the associated table. Triggers can be viewed as similar to stored procedures in that both consist of procedural logic that is stored at the database level. Stored procedures, however, are not event-drive and are not attached to a specific table as triggers are. Stored procedures are explicitly executed by invoking a CALL to the procedure while triggers are implicitly executed. In addition, triggers can also execute stored procedures.
-### <span style="color: aqua">What is Cursor?</span>
+### :dvd: <span style="color: aqua">What is Cursor?</span>
 Cursor is a database object used by applications to manipulate data in a set on a row-by- row basis, instead of the typical SQL commands that operate on all the rows in the set at one time.
 
 In order to work with a cursor we need to perform some steps in the following order:
@@ -326,11 +326,11 @@ In order to work with a cursor we need to perform some steps in the following or
     Close cursor
     Deallocate cursor
 
-### <span style="color: aqua">What is Collation?</span>
+### :dvd: <span style="color: aqua">What is Collation?</span>
 Collation refers to a set of rules that determine how data is sorted and compared. Character data is sorted using rules that define the correct character sequence, with options for specifying case sensitivity, accent marks, kana character types and character width.
-### <span style="color: aqua">What is Difference between Function and Stored Procedure?</span>
+### :dvd: <span style="color: aqua">What is Difference between Function and Stored Procedure?</span>
 UDF (User Defined Function) can be used in the SQL statements anywhere in the WHERE/HAVING/SELECT section where as Stored procedures cannot be. UDFs that return tables can be treated as another rowset. This can be used in JOINs with other tables. Inline UDF's can be thought of as views that take parameters and can be used in JOINs and other Rowset operations.
-### <span style="color: aqua">What is User Defined Functions? What kind of User-Defined Functions can be created?</span>
+### :dvd: <span style="color: aqua">What is User Defined Functions? What kind of User-Defined Functions can be created?</span>
 User-Defined Functions allow defining its own T-SQL functions that can accept 0 or more parameters and return a single scalar data value or a table data type.
 Different Kinds of User-Defined Functions created are:
 
@@ -338,18 +338,18 @@ Different Kinds of User-Defined Functions created are:
     Inline Table-Value User-Defined Function An Inline Table-Value user-defined function returns a table data type and is an exceptional alternative to a view as the user-defined function can pass parameters into a T-SQL select command and in essence provide us with a parameterized, non-updateable view of the underlying tables.
     Multi-statement Table-Value User-Defined Function A Multi-Statement Table-Value user-defined function returns a table and is also an exceptional alternative to a view as the function can support multiple T-SQL statements to build the final result where the view is limited to a single SELECT statement. Also, the ability to pass parameters into a TSQL select command or a group of them gives us the capability to in essence create a parameterized, non-updateable view of the data in the underlying tables. Within the create function command you must define the table structure that is being returned. After creating this type of user-defined function, It can be used in the FROM clause of a T-SQL command unlike the behavior found when using a stored procedure which can also return record sets.
 
-### <span style="color: aqua">What is Identity?</span>
+### :dvd: <span style="color: aqua">What is Identity?</span>
 Identity (or AutoNumber) is a column that automatically generates numeric values. A start and increment value can be set, but most DBA leave these at 1. A GUID column also generates numbers; the value of this cannot be controlled. Identity/GUID columns do not need to be indexed.
 
-### <span style="color: aqua">What is Data Warehousing?</span>
+### :dvd: <span style="color: aqua">What is Data Warehousing?</span>
 
     Subject-oriented, meaning that the data in the database is organized so that all the data elements relating to the same real-world event or object are linked together;
     Time-variant, meaning that the changes to the data in the database are tracked and recorded so that reports can be produced showing changes over time;
     Non-volatile, meaning that data in the database is never over-written or deleted, once committed, the data is static, read-only, but retained for future reporting.
     Integrated, meaning that the database contains data from most or all of an organization's operational applications, and that this data is made consistent.
 
-### <span style="color: aqua">What is Data Mining?</span>
+### :dvd: <span style="color: aqua">What is Data Mining?</span>
 Data Mining is a subcategory of Computer Science which aims at extraction of information from set of data and transform it into Human Readable structure, to be used later.
-### <span style="color: aqua"></span>
+### :dvd: <span style="color: aqua"></span>
 
-### <span style="color: aqua"></span>
+### :dvd: <span style="color: aqua"></span>
