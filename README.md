@@ -1,4 +1,7 @@
 # INTERVIEW TOPICS, QUESTIONS & DISCUSSIONS
+<img src="img/cslogo.png" alt="CS Logo" />  
+  
+
 # INTRODUCTION
 
 This repository serves as a knowledge base exploring technical interview questions related to topics and concepts
@@ -49,24 +52,25 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [What is a Stream? What qualifies one?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#what-is-a-stream-what-qualifies-as-one)  
 :ballot_box_with_check: [How would you order the filtering & sorting of a stream?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#how-would-you-order-the-filtering--sorting-of-a-stream)  
 :ballot_box_with_check: [What is the Optional Class?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#what-is-the-optional-class)  
-:ballot_box_with_check: [What is the JIT Compiler?]()  
-:ballot_box_with_check: [What is the difference in checking equality with .equals() vs. '=='?]()  
-:ballot_box_with_check: [Can Static Methods be Overridden or Overloaded?]()  
-:ballot_box_with_check: [What is the point of garbage collection & what area of memory does it address?]()  
-:ballot_box_with_check: [Does Java Operate: "Pass by Reference" or "Pass by Value"?]()  
-:ballot_box_with_check: [What happens if there is no static modifier in the main method signature in Java?]()  
-:ballot_box_with_check: [What happens if there are multiple main methods inside one class in Java?]()  
-:ballot_box_with_check: [How does an exception propagate in the code?]()  
-:ballot_box_with_check: [Is it mandatory for a catch block to be followed after a try block?]()  
-:ballot_box_with_check: [Can you call a constructor of a class inside the another constructor?]()  
-:ballot_box_with_check: [Difference between ArrayList and LinkedList in Java?]()  
-:ballot_box_with_check: [Difference between HashMap and Hashtable in Java?]()  
-:ballot_box_with_check: [Difference between TreeSet and TreeMap in Java?]()  
-:ballot_box_with_check: [Can we have a return statement in the finally clause? What will happen?]()   
-:ballot_box_with_check: [What is the JVM?]()  
-:ballot_box_with_check: [Why is Java called the Platform Independent Programming Language?]()  
-:ballot_box_with_check: [What is the Difference between JDK and JRE?]()  
-:ballot_box_with_check: [What are wrapper classes?]()  
+:ballot_box_with_check: [What is the JIT Compiler?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#what-is-the-jit-compiler)  
+:ballot_box_with_check: [What is the difference in checking equality with .equals() vs. '=='?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#what-is-the-difference-in-checking-equality-with-equals-vs-)  
+:ballot_box_with_check: [Can Static Methods be Overridden or Overloaded?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#can-static-methods-be-overridden-or-overloaded)  
+:ballot_box_with_check: [What is the point of garbage collection & what area of memory does it address?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#what-is-the-point-of-garbage-collection--what-area-of-memory-does-it-address)  
+:ballot_box_with_check: [Does Java Operate: "Pass by Reference" or "Pass by Value"?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#does-java-operate-pass-by-reference-or-pass-by-value)  
+:ballot_box_with_check: [What happens if there is no static modifier in the main method signature in Java?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#what-happens-if-there-is-no-static-modifier-in-the-main-method-signature-in-java)  
+:ballot_box_with_check: [What happens if there are multiple main methods inside one class in Java?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#what-happens-if-there-are-multiple-main-methods-inside-one-class-in-java)  
+:ballot_box_with_check: [How does an exception propagate in the code?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#how-does-an-exception-propagate-in-the-code)  
+:ballot_box_with_check: [Is it mandatory for a catch block to be followed after a try block?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#is-it-mandatory-for-a-catch-block-to-be-followed-after-a-try-block)  
+:ballot_box_with_check: [Can you call a constructor of a class inside the another constructor?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#can-you-call-a-constructor-of-a-class-inside-the-another-constructor)  
+:ballot_box_with_check: [Difference between ArrayList and LinkedList in Java?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#difference-between-arraylist-and-linkedlist-in-java)  
+:ballot_box_with_check: [Difference between HashMap and Hashtable in Java?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#difference-between-hashmap-and-hashtable-in-java)  
+:ballot_box_with_check: [Difference between TreeSet and TreeMap in Java?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#difference-between-treeset-and-treemap-in-java)  
+:ballot_box_with_check: [Can we have a return statement in the finally clause? What will happen?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#can-we-have-a-return-statement-in-the-finally-clause-what-will-happen)  
+:ballot_box_with_check: [What is: Composition, Association, Aggregation?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#what-is-composition-association-aggregation) 
+:ballot_box_with_check: [What is the JVM?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#what-is-the-jvm)  
+:ballot_box_with_check: [Why is Java called the Platform Independent Programming Language?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#why-is-java-called-the-platform-independent-programming-language)  
+:ballot_box_with_check: [What is the Difference between JDK and JRE?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#what-is-the-difference-between-jdk-and-jre)  
+:ballot_box_with_check: [What are wrapper classes?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#what-are-wrapper-classes)  
 :ballot_box_with_check: []()  
 :ballot_box_with_check: []()  
 :ballot_box_with_check: []()   
@@ -184,7 +188,7 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [Is it possible to change an inline element into a block level element?]()  
 :ballot_box_with_check: [In how many ways can we position an HTML element? Or what are the permissible values of the position attribute?]()  
 :ballot_box_with_check: [In how many ways you can display HTML elements?]()  
-:ballot_box_with_check: [What is the difference between “display: none” and “visibility: hidden”, when used as attributes to the HTML element.]()  
+:ballot_box_with_check: [Whats the difference between “display: none” & “visibility: hidden”, when used as attributes to the HTML element?]()  
 :ballot_box_with_check: [How to specify the link in HTML and explain the target attribute?]()  
 :ballot_box_with_check: [In how many ways can we specify the CSS styles for the HTML element?]()    
 :ballot_box_with_check: [Difference between link tag <link> and anchor tag <a>?]()  
@@ -208,8 +212,8 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [Can a web page contain multiple 'header' elements? What about 'footer' elements? ]()  
 :ballot_box_with_check: [What is the difference between span and div?]()  
 :ballot_box_with_check: [What’s one main result if you do not specify a doctype in an HTML page?]()  
-:ballot_box_with_check: []() 
-:ballot_box_with_check: []() 
+:ballot_box_with_check: []()  
+:ballot_box_with_check: []()  
 
 
 ## <img src="img/js.png" alt="yellow js logo" width="50"/> JAVASCRIPT <img src="img/javascript.png" alt="green js logo" width="37"/>
