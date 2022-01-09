@@ -1,12 +1,12 @@
 # SPRING FRAMEWORK CONCEPTS & QUESTIONS
 
-### <span style="color: aqua">What is a framework?</span>
+### :leaves: <span style="color: aqua">What is a framework?</span>
 Frameworks make building applications faster and more efficient. Spring being one of the more popular frameworks for Java.
 
-### <span style="color: aqua">What is the default web server built-in to Spring?</span>
+### :leaves: <span style="color: aqua">What is the default web server built-in to Spring?</span>
 Apache Tomcat
 
-### <span style="color: aqua">What is Maven?</span>
+### :leaves: <span style="color: aqua">What is Maven?</span>
 Maven is a build tool / project management & comprehension tool.
 - Makes the build process easier
 - Provides a uniform build system
@@ -14,22 +14,22 @@ Maven is a build tool / project management & comprehension tool.
 - Provides guidelines for best practices development
 - Allows transparent migration to new features
 
-### <span style="color: aqua">What purpose does the pom.xml file serve?</span>
+### :leaves: <span style="color: aqua">What purpose does the pom.xml file serve?</span>
 - POM: Project Object Model
   - The fundamental unit of work in Maven
   - Contains info about the project and configuration details used by maven to build the project
     - The dependencies.
-### <span style="color: aqua">What is Inversion of Control (IoC)?</span>
+### :leaves: <span style="color: aqua">What is Inversion of Control (IoC)?</span>
 Instead of the programmer controlling the flow of the program, external sources (framework, services, etc.) take over. The framework makes most of the decisions until it comes time for the application specific logic written by the developer to be called upon, after which the developers code returns control back to the framework.
 
-### <span style="color: aqua">What is Dependency Injection?</span>
+### :leaves: <span style="color: aqua">What is Dependency Injection?</span>
 A dependency is a requirement necessary for something to function. Dependency injection generally means passing a dependent object as a parameter to a method, rather than having the method create the dependent object. This means that a method doesn't need to be dependent on any particular implementation, but one that meets the requirements can be passed to it as parameter. A subset of IoC, an already instantiated instance can be injected into a class, so it can use its methods.  
 
 An example would be that of programming a house-building robot. As it builds the walls of a house, every time it gets to a doorway, it has to make a decision on what door should be installed. It depends on having the exact type and specifications of the door and needs to figure those things out at each doorway. Dependency injection would be purchasing the doors we want from a supplier and passing them to the robot to install.
 
-### <span style="color: aqua">What is Aspect-Oriented Programming</span>
+### :leaves: <span style="color: aqua">What is Aspect-Oriented Programming</span>
 
-### <span style="color: aqua">Discuss POJOs & Beans</span>
+### :leaves: <span style="color: aqua">Discuss POJOs & Beans</span>
 - POJO: Plain Old Java Object.
   - Any java object is a POJO.
 - A Bean is also a POJO
@@ -37,7 +37,7 @@ An example would be that of programming a house-building robot. As it builds the
     - Singleton Pattern
       - Singleton Beans = Stateless Beans
 
-### <span style="color: aqua">What is a profile?</span>
+### :leaves: <span style="color: aqua">What is a profile?</span>
 Profiles serve as the configuration that govern a given environment (i.e. development, production, etc.). Within a Spring application,
 the resources' folder holds the profiles. These profiles are .properties files and follow a naming convention to denote which environment 
 they pertain to (i.e. ***application-dev.properties***).
