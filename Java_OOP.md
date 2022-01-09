@@ -5,7 +5,7 @@
   - Lets you focus on what the object does instead of how it does it.
   - Greatly improves code reusability & maintainability!
   - Data abstraction can be used to provide security for the data from the unauthorized methods.
-  - A non-abstract approach is hard coding every possiblility in every use case. Abstraction removes this complexity. If you were creating a coffee machine, an abstract example would be a machine with a single button: _Make Coffee_. You don't need to know all of the additional steps.  
+  - A non-abstract approach is hard coding every possibility in every use case. Abstraction removes this complexity. If you were creating a coffee machine, an abstract example would be a machine with a single button: _Make Coffee_. You don't need to know all of the additional steps.  
 
 
 - ***Polymorphism***: A method can have multiple implementations (overriding & overloading).
@@ -124,7 +124,7 @@ Implementation: With the help of an abstract class, the implementation of an int
 
 
 ### :coffee: <span style="color: aqua">Prove: Everything in Java is an object.</span> :question:
-It could be argued that everything in java is an object as a great deal inherits from the object class. ```java.lang.Object```. But, Java makes use of primatives: byte, short, int, long, boolean, char, float, and double which themselves are not objects. Not 100%. Java does not satisfy all the OOP conditions (predefined types must be objects) because it uses eight primitive data types(Boolean, byte, char, int, float, double, long, short) which are not objects.
+It could be argued that everything in java is an object as a great deal inherits from the object class. ```java.lang.Object```. But, Java makes use of primitives: byte, short, int, long, boolean, char, float, and double which themselves are not objects. Not 100%. Java does not satisfy all the OOP conditions (predefined types must be objects) because it uses eight primitive data types(Boolean, byte, char, int, float, double, long, short) which are not objects.
 
 ### :coffee: <span style="color: aqua">Difference between constructor vs. method?</span>
 A method is a block of code which only runs when it is called. You can pass data, known as parameters, into a method. Methods are used to perform certain actions and are an ordinary member of a class used to describe a behavior of some object / class. 
@@ -223,7 +223,7 @@ Optional is a special class used to deal with NullPointerExceptions. It can be u
 ### :coffee: <span style="color: aqua">What is the JIT Compiler?</span>
 IT stands for Just-In-Time and it is used for improving the performance during run time. It does the task of compiling parts of byte code having similar functionality at the same time thereby reducing the amount of compilation time for the code to run.
 The compiler is nothing but a translator of source code to machine-executable code. But what is special about the JIT compiler? Let us see how it works:
-First, the Java source code (.java) conversion to byte code (.class) occurs with the help of the javac compiler.
+First, the Java source code (.java) conversion to byte code (.class) occurs with the help of the Java compiler.
 Then, the .class files are loaded at run time by JVM and with the help of an interpreter, these are converted to machine understandable code.
 JIT compiler is a part of JVM. When the JIT compiler is enabled, the JVM analyzes the method calls in the .class files and compiles them to get more efficient and native code. It also ensures that the prioritized method calls are optimized.
 Once the above step is done, the JVM executes the optimized code directly instead of interpreting the code again. This increases the performance and speed of the execution.
@@ -275,7 +275,7 @@ Java was designed to allow application programs to be built that could be run on
 The Java Runtime Environment (JRE) is basically the Java Virtual Machine (JVM) where your Java programs are being executed. It also includes browser plugins for applet execution. The Java Development Kit (JDK) is the full-featured Software Development Kit for Java, including the JRE, the compilers and tools (like JavaDoc, and Java Debugger), in order for a user to develop, compile and execute Java applications.
 JDK	JRE
 JDK stands for the term : Java Development Kit.	JRE stands for the term: Java Runtime Environment.
-JDK is the tool for compilng, documenting and packaging Java software.	JRE is a runtime environment. JavaByte code gets executed in the environment.
+JDK is the tool for compiling, documenting and packaging Java software.	JRE is a runtime environment. JavaByte code gets executed in the environment.
 JDK has JRE and development tools.	JRE is a JVM implementation
 ### :coffee: <span style="color: aqua">What are wrapper classes?</span>
 A wrapper class converts java primitives into objects. So a primitive wrapper class is a wrapper class that encapsulates, hides or wraps data types from the eight primitive data types so that these can be used to create instantiated objects with methods in another class or in other classes. The primitive wrapper classes are found in the Java API.
