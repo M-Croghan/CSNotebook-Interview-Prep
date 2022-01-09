@@ -1,10 +1,10 @@
 # COMPUTER SCIENCE CONCEPTS & QUESTIONS
-### <span style="color: aqua">Discuss the difference between _compiled_ & _interpreted_ languages:</span>
+### :computer: <span style="color: aqua">Discuss the difference between _compiled_ & _interpreted_ languages:</span>
 * Compiled Languages (C, C++, Go) - Converts source code to machine code instructions.
 * Interpreted Languages (JS, Ruby, Python) - Code executes within an interpreter shell.
 * Byte-Code Languages (C#, Scala, Java) - Compiled into bytecode and executed in the JVM. Involves JIT compiler (_just in time_) which inspects code as it executes.
 
-### <span style="color: aqua">Explain "IS-A" & "HAS-A" relationships:</span>
+### :computer: <span style="color: aqua">Explain "IS-A" & "HAS-A" relationships:</span>
  ```IS-A``` Relationships is ***inheritance***. Classes which inherit are known as sub-classes or child classes.  
  ``` class Apple extends Fruit { ```  
 In this case, An apple ***is a*** fruit.  
@@ -18,32 +18,32 @@ In this case, An apple ***is a*** fruit.
 A HAS-A relationship is dynamic (run time) binding while inheritance is a static (compile time) binding. 
 
 
-### <span style="color: aqua">List the 4 main pillars of OOP</span>
+### :computer: <span style="color: aqua">List the 4 main pillars of OOP</span>
 - Abstraction
 - Polymorphism
 - Encapsulation
 - Inheritance
 
-### <span style="color: aqua">What is polymorphism?</span>
+### :computer: <span style="color: aqua">What is polymorphism?</span>
 The ability for an object to also be present in many forms. Sub classes could inherit attributes and methods from a superclass (i.e. Animal). Polymorphism uses the methods to perform different tasks. For instance, a cat class and a dog class both inherit the animal sound from the Animal superclass. However, the cat 'meows' whereas the dog 'barks'. Polymorphism is the ability of programming languages to present the same interface for differing underlying data types. A polymorphic type is a type whose operations can also be applied to values of some other type.
 
-### <span style="color: aqua">What is abstraction?</span>
+### :computer: <span style="color: aqua">What is abstraction?</span>
 Abstraction is a process of hiding the implementation details and showing only functionality to the user. Abstraction lets you focus on what the object does instead of how it does it. Abstraction is the process of separating ideas from specific instances and thus, develop classes in terms of their own functionality, instead of their implementation details. Java supports the creation and existence of abstract classes that expose interfaces, without including the actual implementation of all methods. The abstraction technique aims to separate the implementation details of a class from its behavior.
 
-### <span style="color: aqua">What is inheritance?</span>
+### :computer: <span style="color: aqua">What is inheritance?</span>
 Important in the context of DRY (don’t repeat yourself). Inheritance is a mechanism in which one object acquires all the properties and behavior of another object of another class. Gained by implementing interfaces or extending classes. A class cannot inherit more than one class. A class cannot call private methods except indirectly and a superclass can not inherit from a subclass. Inheritance provides an object with the ability to acquire the fields and methods of another class, called base class. Inheritance provides reusability of code and can be used to add additional features to an existing class, without modifying it.
 
-### <span style="color: aqua">What is encapsulation?</span>
+### :computer: <span style="color: aqua">What is encapsulation?</span>
 The bundling of data and the methods that interact with or operate on that data into a single unit in the form of a class. Think of it as like a black box, it doesn’t matter how the internals work, just how you can interact with it. Private fields or methods are an example of protecting the inner workings of a class. Encapsulation provides objects with the ability to hide their internal characteristics and behavior. Each object provides a number of methods, which can be accessed by other objects and change its internal data. In Java, there are three access modifiers: public, private and protected. Each modifier imposes different access rights to other classes, either in the same or in external packages. Some of the advantages of using encapsulation are listed below:
 
     The internal state of every object is protected by hiding its attributes.
     It increases usability and maintenance of code, because the behavior of an object can be independently changed or extended.
     It improves modularity by preventing objects to interact with each other, in an undesired way.
 
-### <span style="color: aqua">What is Garbage Collection?</span>
+### :computer: <span style="color: aqua">What is Garbage Collection?</span>
 Removing unwanted objects to free up memory if they are no longer referenced. Garbage collection is done automatically in Java whenever there is no longer a reference pointed at a specific object. You need not to remove the unwanted objects explicitly. Garbage collector thread does this for you. C/C++ require you to deallocate memory yourself.
 
-### <span style="color: aqua">Explain the Software Developmnt Lifecycle (SDLC)</span>
+### :computer: <span style="color: aqua">Explain the Software Developmnt Lifecycle (SDLC)</span>
 ***Requirements Gathering > Planning > Design > Development > Testing > Deployment > Maintenance***  
 * Requirements gathering / pre-planning phase: goal to create a comprehensive list of software requirements specification that reflect all the functional & nonfunction requirements for the end product.
 * Architecture Design: involves creating a design document that specifies the architecture based on the data collected. You’re still getting stakeholder input while defining roles and responsibilities.
@@ -53,7 +53,7 @@ Removing unwanted objects to free up memory if they are no longer referenced. Ga
 * Maintenance 
 
 
-### <span style="color: aqua">What is a singleton design pattern?</span>
+### :computer: <span style="color: aqua">What is a singleton design pattern?</span>
 - A design pattern which ensures a class only has only 1 instance & provides a global point of access to it.
     1. Allows for lazy loading (initialize object creation only when you need it / are going to be using it).
     2. When you need exactly one instance to coordinate actions across a system. (i.e. a database connection)
@@ -65,7 +65,7 @@ Removing unwanted objects to free up memory if they are no longer referenced. Ga
         - Factory static method responsible for instance creation
         - Can be problematic in multithreading (solution via synchronization block)
 
-### <span style="color: aqua">What is a factory design pattern?</span>
+### :computer: <span style="color: aqua">What is a factory design pattern?</span>
 A creational design pattern and one of the most used patterns in Java, it defines an interface or abstract class for creating an object but lets the subclasses decide which class to instantiate. An object is created without exposing the creation logic to the client and refer to newly created object using a common interface.  
 Helps keep code clean and concise as all object creation takes place in a centralized location.
 Useful:  
@@ -80,7 +80,7 @@ A factory method in the interface defers the object creation to one or more conc
 You create an adventure game where a player can battle an array of enemies. A general Enemy interface allows for the creation of several subclasses and a factory design pattern can be used to randomly decide which type of enemy a player will encounter.	
 	
 
-### <span style="color: aqua">What are some of the different software development methodologies?</span>
+### :computer: <span style="color: aqua">What are some of the different software development methodologies?</span>
 - Waterfall, Agile, Rapid Application Development (RAD), Extreme Programming (XP)
 - Waterfall – this approach needs to be well-disciplined as there isn’t planned opportunity to back track. It starts with 
 clear and complete requirements and moves through the development process sequentially/linearly in distinct phases. Some 
@@ -93,31 +93,31 @@ it difficult to truly develop a great design, its easy to get off track if the g
 relationship steers the project in a different direction which may result in an unpredictable finished product.
 
 
-### <span style="color: aqua">Explain MVC</span>
+### :computer: <span style="color: aqua">Explain MVC</span>
 Software design pattern focused on Model, View, Controller components.
 - Model aspect comprises the data of the application, Represents an object carrying data. It can also contain logic to update controller if data changes.
 - View is the component that operates as a display to the user. Represents the visualization of the data that the model contains.
 - Control influences the activity between the model and the view. Acts on both of model & the view. Controls the data flow into model object & updates the view whenever the data changes (Keeps the model & view separate).
 
-### <span style="color: aqua">What is a UML diagram?</span>
+### :computer: <span style="color: aqua">What is a UML diagram?</span>
 UML is a general-purpose modeling language and is used to represent the components related to important OOP concepts. in essence, it’s a general way of defining the whole software architecture or structure.
 
-### <span style="color: aqua">What are design patterns?</span>
+### :computer: <span style="color: aqua">What are design patterns?</span>
 Represent best practices / solutions to general problems  frequently faced by software developers.
 
-### <span style="color: aqua">What is an API?</span>
+### :computer: <span style="color: aqua">What is an API?</span>
 An application-programming interface (API) is a set of programming instructions and standards for accessing a web-based
 software application or web tool. A software company releases its API to the public so that other software developers 
 can design products that are powered by its service... [it] is a software-to-software interface, not a user interface. 
 With APIs, applications talk to each other without any user knowledge or intervention. Notable examples being: Google Maps, 
 integrating social media sharing, and a secure payment system through PayPal.
 
-### <span style="color: aqua">What is Unit Testing?</span>
+### :computer: <span style="color: aqua">What is Unit Testing?</span>
 Unit testing is typically done by developers themselves. It focuses on the smallest unit of software design and tests a
 piece of code (a unit) for correct behavior. "Does this class / method operate as intended?" A unit test can be targeted 
 at an individual unit or group of interrelated units. It is often done using sample input and observing its corresponding outputs.
 
-### <span style="color: aqua">What happens when you type a URL into a browser and hit enter?</span>
+### :computer: <span style="color: aqua">What happens when you type a URL into a browser and hit enter?</span>
 - The browser check the cache for a DNS record to find the corresponding IP address of the URL.
 - If the requested URL is not in the cache, ISP’s DNS server initiates a DNS query to find the IP address of the server that hosts the URL.
 - The browser initiates a TCP connection with the server.
@@ -126,12 +126,12 @@ at an individual unit or group of interrelated units. It is often done using sam
 - The server sends out an HTTP response.
 - The browser displays the HTML content (for HTML responses, which is the most common).
 
-### <span style="color: aqua">What are the differences between Abstraction and Encapsulation?</span>
+### :computer: <span style="color: aqua">What are the differences between Abstraction and Encapsulation?</span>
 Abstraction and encapsulation are complementary concepts. On the one hand, abstraction focuses on the behavior of an object. On the other hand, encapsulation focuses on the implementation of an object’s behavior. Encapsulation is usually achieved by hiding information about the internal state of an object and thus, can be seen as a strategy used in order to provide abstraction.
-### <span style="color: aqua">What are the types of Polymorphism?</span>
+### :computer: <span style="color: aqua">What are the types of Polymorphism?</span>
 Compile-time polymorphism (Static binding) – Method overloading
 Runtime polymorphism (Dynamic binding) – Method overriding
-### <span style="color: aqua">What is: Composition, Association, Aggregation?</span>
+### :computer: <span style="color: aqua">What is: Composition, Association, Aggregation?</span>
 Composition is exactly like Aggregation except that the lifetime of the ‘part’ is controlled by the ‘whole’. This control may be direct or transitive. That is, the ‘whole’ may take direct responsibility for creating or destroying the ‘part’, or it may accept an already created part, and later pass it on to some other whole that assumes responsibility for it.
 Association represents the ability of one instance to send a message to another instance. This is typically implemented with a pointer or reference instance variable, although it might also be implemented as a method argument or the creation of a local variable.
 Aggregation is the typical whole/part relationship. This is exactly the same as an association with the exception that instances cannot have cyclic aggregation relationships.
