@@ -15,7 +15,7 @@ within computer science, as well as Java specific discussions. There exist many 
 5. [JavaScript](https://github.com/M-Croghan/Interview-Prep#-javascript-)
 6. [Spring Framework](https://github.com/M-Croghan/Interview-Prep#-spring-framework-)
 7. [Python](https://github.com/M-Croghan/Interview-Prep#-python-)
-8. [Git / GitHub](https://github.com/M-Croghan/Interview-Prep#-git--github-)
+8. [Git](https://github.com/M-Croghan/Interview-Prep#-git--github-)
 9. [Angular](https://github.com/M-Croghan/Interview-Prep#-angular-)
 10. [AWS](https://github.com/M-Croghan/Interview-Prep#-aws-)
 11. [Linux](https://github.com/M-Croghan/Interview-Prep#-linux-)
@@ -70,10 +70,7 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [What is the JVM?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-what-is-the-jvm)  
 :ballot_box_with_check: [Why is Java called the Platform Independent Programming Language?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-why-is-java-called-the-platform-independent-programming-language)  
 :ballot_box_with_check: [What is the Difference between JDK and JRE?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-what-is-the-difference-between-jdk-and-jre)  
-:ballot_box_with_check: [What are wrapper classes?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-what-are-wrapper-classes)  
-:ballot_box_with_check: []()  
-:ballot_box_with_check: []()  
-:ballot_box_with_check: []()   
+:ballot_box_with_check: [What are wrapper classes?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-what-are-wrapper-classes)   
 
 ## <img src="img/binary.png" alt="binary folder" width="50"/> COMPUTER SCIENCE CONCEPTS <img src="img/tree.png" alt="tree ds" width="50"/>
 :ballot_box_with_check: [Discuss the difference between _compiled_ & _interpreted_ languages:](https://github.com/M-Croghan/Interview-Prep/blob/main/CS_Concepts.md#computer-discuss-the-difference-between-compiled--interpreted-languages)  
@@ -97,6 +94,26 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [What are the differences between Abstraction and Encapsulation?](https://github.com/M-Croghan/Interview-Prep/blob/main/CS_Concepts.md#computer-what-are-the-differences-between-abstraction-and-encapsulation)  
 :ballot_box_with_check: [What are the types of Polymorphism?](https://github.com/M-Croghan/Interview-Prep/blob/main/CS_Concepts.md#computer-what-are-the-types-of-polymorphism)  
 :ballot_box_with_check: [What is: Composition, Association, Aggregation?](https://github.com/M-Croghan/Interview-Prep/blob/main/CS_Concepts.md#computer-what-is-composition-association-aggregation)  
+:ballot_box_with_check: [What is the computer system?]()  
+:ballot_box_with_check: [List out components of a computer system]()  
+:ballot_box_with_check: [What is a microprocessor?]()  
+:ballot_box_with_check: [Explain the meaning of file.]()  
+:ballot_box_with_check: [What is Integrated Development Environment?]()  
+:ballot_box_with_check: [List the types of constructors?]()  
+:ballot_box_with_check: [What is artificial intelligence?]()  
+:ballot_box_with_check: [What is machine learning?]()  
+:ballot_box_with_check: [What is deep learning?]()  
+:ballot_box_with_check: [List out Layers of OSI Model]()  
+:ballot_box_with_check: [What is s the primary difference between process and thread?]()  
+:ballot_box_with_check: [Explain primary memory]()  
+:ballot_box_with_check: [What is the operating system?]()  
+:ballot_box_with_check: [What is an Algorithm?]()  
+:ballot_box_with_check: [What is cryptography?]()  
+:ballot_box_with_check: []()  
+:ballot_box_with_check: []()  
+:ballot_box_with_check: []()  
+:ballot_box_with_check: []()  
+:ballot_box_with_check: []()  
 
 
 ## <img src="img/pg.png" alt="postgresql logo" width="45"/> SQL / DATABASES <img src="img/mysql.png" alt="mysql logo" width="50"/>
@@ -212,9 +229,6 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [Can a web page contain multiple 'header' elements? What about 'footer' elements? ](https://github.com/M-Croghan/Interview-Prep/blob/main/HTML_CSS.md#paintbrush-can-a-web-page-contain-multiple-header-elements-what-about-footer-elements-)  
 :ballot_box_with_check: [What is the difference between span and div?](https://github.com/M-Croghan/Interview-Prep/blob/main/HTML_CSS.md#paintbrush-what-is-the-difference-between-span-and-div)  
 :ballot_box_with_check: [What’s one main result if you do not specify a doctype in an HTML page?](https://github.com/M-Croghan/Interview-Prep/blob/main/HTML_CSS.md#paintbrush-whats-one-main-result-if-you-do-not-specify-a-doctype-in-an-html-page)  
-:ballot_box_with_check: []()  
-:ballot_box_with_check: []()  
-
 
 ## <img src="img/js.png" alt="yellow js logo" width="50"/> JAVASCRIPT <img src="img/javascript.png" alt="green js logo" width="37"/>
 :ballot_box_with_check: [What is AJAX?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-is-ajax)  
@@ -279,11 +293,6 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [How are event handlers utilized in JavaScript?]()   
 :ballot_box_with_check: [What are the various functional components in JavaScript?]()   
 :ballot_box_with_check: [What does the following statement declare?]()   
-:ballot_box_with_check: []()  
-:ballot_box_with_check: []()  
-:ballot_box_with_check: []()  
-
-
 
 ## <img src="img/spring.png" alt="spring logo" width="40"/> SPRING FRAMEWORK <img src="img/sboot.png" alt="spring boot logo" width="50"/>
 :ballot_box_with_check: [What is a framework?](https://github.com/M-Croghan/Interview-Prep/blob/main/Spring.md#leaves-what-is-a-framework)  
@@ -295,12 +304,37 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [What is Aspect-Oriented Programming?](https://github.com/M-Croghan/Interview-Prep/blob/main/Spring.md#leaves-what-is-aspect-oriented-programming)  
 :ballot_box_with_check: [Discuss POJOs & Beans](https://github.com/M-Croghan/Interview-Prep/blob/main/Spring.md#leaves-discuss-pojos--beans)  
 :ballot_box_with_check: [What is a profile?](https://github.com/M-Croghan/Interview-Prep/blob/main/Spring.md#leaves-what-is-a-profile)  
+:ballot_box_with_check: [What is Spring Boot?]()  
+:ballot_box_with_check: [How to create Spring Boot application using Maven?]()  
+:ballot_box_with_check: [What are the Spring Boot Starters?]()  
+:ballot_box_with_check: [What is Spring Boot Actuator?]()  
+:ballot_box_with_check: [What is @RequestMapping annotation in Spring Boot?]()  
+:ballot_box_with_check: [Spring Vs Spring Boot?]()  
+:ballot_box_with_check: [What is the need for Spring Boot DevTools?]()  
+:ballot_box_with_check: [Mention the differences between JPA and Hibernate.]()  
+:ballot_box_with_check: [Explain Spring Data]()  
+:ballot_box_with_check: [Features of Spring Boot that make it different?]()  
+:ballot_box_with_check: [What are the Spring Boot key components?]()  
+:ballot_box_with_check: [How does a spring boot application get started?]()  
+:ballot_box_with_check: [What is Spring Initializer?]()  
+:ballot_box_with_check: [Is it possible to change the port of the embedded Tomcat server in Spring Boot?]()  
+:ballot_box_with_check: [What is the default port of tomcat in spring boot?]()  
+:ballot_box_with_check: [Can we override or replace the Embedded tomcat server in Spring Boot?]()  
+:ballot_box_with_check: [Can we disable the default web server in the Spring boot application?]()  
+:ballot_box_with_check: [Explain @RestController annotation in Sprint boot?]()  
+:ballot_box_with_check: [What is the difference between @RestController and @Controller in Spring Boot?]()  
+:ballot_box_with_check: [What is the difference between RequestMapping and GetMapping?]()  
+:ballot_box_with_check: [What is an IOC container?]()  
+:ballot_box_with_check: [Default HTML template engine in Spring Boot?]()  
+:ballot_box_with_check: []()  
+
+
 
 ## <img src="img/py.png" alt="python logo" width="40"/> PYTHON <img src="img/py.png" alt="python logo" width="40"/>
 :ballot_box_with_check: []()  
 :ballot_box_with_check: []()  
 :ballot_box_with_check: []()  
-## <img src="img/git.png" alt="git logo" width="40"/> GIT / GITHUB <img src="img/github_white.png" alt="github logo" width="40"/>
+## <img src="img/git.png" alt="git logo" width="40"/> GIT <img src="img/github_white.png" alt="github logo" width="40"/>
 :ballot_box_with_check: [What is GIT?]()  
 :ballot_box_with_check: [What is a repository in GIT?]()  
 :ballot_box_with_check: [What is the command you can use to write a commit message?]()  

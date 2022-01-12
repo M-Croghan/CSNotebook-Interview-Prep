@@ -135,16 +135,51 @@ Runtime polymorphism (Dynamic binding) – Method overriding
 Composition is exactly like Aggregation except that the lifetime of the ‘part’ is controlled by the ‘whole’. This control may be direct or transitive. That is, the ‘whole’ may take direct responsibility for creating or destroying the ‘part’, or it may accept an already created part, and later pass it on to some other whole that assumes responsibility for it.
 Association represents the ability of one instance to send a message to another instance. This is typically implemented with a pointer or reference instance variable, although it might also be implemented as a method argument or the creation of a local variable.
 Aggregation is the typical whole/part relationship. This is exactly the same as an association with the exception that instances cannot have cyclic aggregation relationships.
+### :computer: <span style="color: aqua">What is the computer system?
+</span>
+A computer system is a combination of memory, CPU, peripheral devices that are connected to it, and OS (Operating System).
+
+### :computer: <span style="color: aqua">List out components of a computer system</span>
+The components of a computer system are:
+- CPU (Central Processing Unit) including control unit and arithmetic logic unit
+- Memory like primary and secondary
+- Input and output devices like keyboard mouse, printer scanner, etc.
+
+### :computer: <span style="color: aqua">What is a microprocessor?</span>
+A microprocessor is an integrated circuit having all the functionality of a central processing unit of a PC.
+
+### :computer: <span style="color: aqua">Explain the meaning of file.</span>
+A file is a named location that stores information or data permanently. It is always stored in the storage device using a file name with primary and secondary name, which is separated by a “.”(DOT).
+### :computer: <span style="color: aqua">What is Integrated Development Environment?</span>
+An IDE is a GUI-based software program. It is designed to help programmers build applications with all the needed programs and libraries.
+### :computer: <span style="color: aqua">List the types of constructors</span>
+There are two types of the constructor:  
+1. parameterized constructor 
+2. default constructor.
+### :computer: <span style="color: aqua">What is artificial intelligence?</span>
+Artificial Intelligence or machine intelligence is a common term that is used to build smart machines capable of performing tasks. The main aim of AI is to solve problems in a way that are better and faster.
+### :computer: <span style="color: aqua">What is machine learning?</span>
+Machine Learning is a system that can learn from an excellent example through self-improvement and without being explicitly coded by a programmer.
+### :computer: <span style="color: aqua">What is deep learning?</span>
+Deep learning is computer software that mimics the network of neurons in a brain. It is a subset of machine learning and is called deep learning because it makes use of deep neural networks.
+### :computer: <span style="color: aqua">List out Layers of OSI Model</span>
+Layers of OSI models are:  
+1. Physical
+2. Application
+3. Presentation
+4. Session
+5. Transport
+6. Network
+7. Data Link Layer
+### :computer: <span style="color: aqua">What is s the primary difference between process and thread?</span>
+Process is called as a program which is in execution. Thread is a segment of a process, so; a process can have more than one thread.
+### :computer: <span style="color: aqua">Explain primary memory</span>
+Primary memory, RAM is the main memory of a computer which can be directly accessed by the Central Processing Unit (CPU). It stores temporary information until the process finishes its execution.
+### :computer: <span style="color: aqua">What is the operating system?</span>
+An Operating system (OS) is a software that acts as an interface between the end-user and computer hardware. Every computer must have at least one OS to run other programs.
+### :computer: <span style="color: aqua">What is an Algorithm?</span>
+An algorithm is a rule or step-by-step process that must be followed in order to solve a particular problem.
+### :computer: <span style="color: aqua">What is cryptography?</span>
+Cryptography is the study of techniques that hide the real meaning of information. It transforms this information into a format that cannot be read by humans and vice versa.
 ### <span style="color: aqua"></span>
 
-### <span style="color: aqua"></span>
-
-### <span style="color: aqua"></span>
-
-### <span style="color: aqua"></span>
-
-### <span style="color: aqua"></span>
-
-### <span style="color: aqua"></span>
-
-### <span style="color: aqua"></span>
