@@ -1,8 +1,7 @@
 # SPRING FRAMEWORK CONCEPTS & QUESTIONS
 
 ### :leaves: <span style="color: aqua">What is a framework?</span>
-Frameworks make building applications faster and more efficient. Spring being one of the more popular frameworks for Java.
-The framework is a platform for making software applications. It provides the basis on which developers can build programs for a specific platform. For example, a framework may include predetermined classes as well as functions. It can be used to process inputs, manage hardware, and interact with system software.
+Frameworks make building applications faster and more efficient. It provides the basis on which developers can build programs for a specific platform. For example, a framework may include predetermined classes as well as functions. It can be used to process inputs, manage hardware, and interact with system software. (ex. Spring is one of the more popular frameworks for Java.)
 
 ### :leaves: <span style="color: aqua">What is the default web server built-in to Spring?</span>
 Apache Tomcat

@@ -181,5 +181,50 @@ An Operating system (OS) is a software that acts as an interface between the end
 An algorithm is a rule or step-by-step process that must be followed in order to solve a particular problem.
 ### :computer: <span style="color: aqua">What is cryptography?</span>
 Cryptography is the study of techniques that hide the real meaning of information. It transforms this information into a format that cannot be read by humans and vice versa.
+### :computer: <span style="color: aqua">What is a Virtual Machine?</span>
+A virtual machine, commonly shortened to just VM, is no different than any other physical computer like a laptop, smart phone, or server. It has a CPU, memory, disks to store your files, and can connect to the internet if needed. While the parts that make up your computer (called hardware) are physical and tangible, VMs are often thought of as virtual computers or software-defined computers within physical servers, existing only as code. Virtualization is the process of creating a software-based, or "virtual" version of a computer, with dedicated amounts of CPU, memory, and storage that are "borrowed" from a physical host computer—such as your personal computer— and/or a remote server—such as a server in a cloud provider's datacenter. A virtual machine is a computer file, typically called an image, that behaves like an actual computer. It can run in a window as a separate computing environment, often to run a different operating system—or even to function as the user's entire computer experience—as is common on many people's work computers. The virtual machine is partitioned from the rest of the system, meaning that the software inside a VM can't interfere with the host computer's primary operating system.
+### :computer: <span style="color: aqua">What is a Framework?</span>
+Frameworks make building applications faster and more efficient. It provides the basis on which developers can build programs for a specific platform. For example, a framework may include predetermined classes as well as functions. It can be used to process inputs, manage hardware, and interact with system software. (ex. Spring is one of the more popular frameworks for Java.)
+
+Pros:  
+- Enables devs to build applications faster and more efficiently.
+- Reduces the code length...allowing you to add conventional functionality without long lines of code.
+- More practical for junior devs... (gives them "guardrails" as they build new applications).
+- Most "popular" frameworks are free.
+- Allow you to write and integrate unit tests and integrations tests with ease.
+- Help establish an "appropriate" use of design patterns.
+- Typically, large popular frameworks are well-maintained (including documentation).
+
+Cons:  
+- They can have a lot of extra code... which can lead to longer load times and decreased performance.
+- Stops many devs from taking the time to learn CSS. (Specifically for UI Frameworks).
+- Overcomplicates simple projects - using a lot more data, space, unnecessary files, etc... for something that could simply be done with a few files.
+- Frameworks are inflexible... cannot modify core tenents of their structure.
+- Once a framework is chosen... switching to another is difficult.
+- Updates can introduce bugs into your implementation of the framework.
+
+
+### :computer: <span style="color: aqua">What is a Library?</span>
+
+Pros:
+- The programmer is in charge of the flow of the program.
+- Designed to perform often-time highly specific tasks.
+- Tend ot have less structure than a Framework...which can speed up development time when you know what you're doing.
+- You can easily replace one library for another.
+- Libraries require significantly less code than a framework to implement... typically.
+- Flexibility of being able to pick and choose what libraries you do and don't want to use... unlike frameworks.
+
+Cons:  
+- Updates can introduce bugs into your implementation of the library.
+- You have to re-compile your program each time you wish to run.
+- The need to utilize the entire library codebase to use one piece.
+- Tend ot have less structure than a Framework... which can create unnecessary headaches.
+- You can often end up using multiple libraries to achieve your end goal.
+- Often the documentation for a specific library can be sparse.
+
+### <span style="color: aqua"></span>
+
+### <span style="color: aqua"></span>
+
 ### <span style="color: aqua"></span>
 

@@ -238,9 +238,9 @@ The different functional components in JavaScript are:
 ### :scroll: <span style="color: aqua">What does the following statement declare?</span>
 ```var myArray = [[[]]];```  
 It declares a three-dimensional array.
-### :scroll: <span style="color: aqua"></span>
+### :scroll: <span style="color: aqua">What is TypeScript?</span>
 
-### :scroll: <span style="color: aqua"></span>
+### :scroll: <span style="color: aqua">What is _Transpiling_?</span>
 
 ### :scroll: <span style="color: aqua"></span>
 

@@ -105,15 +105,15 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [What is deep learning?]()  
 :ballot_box_with_check: [List out Layers of OSI Model]()  
 :ballot_box_with_check: [What is s the primary difference between process and thread?]()  
-:ballot_box_with_check: [Explain primary memory]()  
+:ballot_box_with_check: [Explain primary memory?]()  
 :ballot_box_with_check: [What is the operating system?]()  
 :ballot_box_with_check: [What is an Algorithm?]()  
-:ballot_box_with_check: [What is cryptography?]()  
+:ballot_box_with_check: [What is Cryptography?]()  
+:ballot_box_with_check: [What is a Virtual Machine?]()  
+:ballot_box_with_check: [What is a Framework?]()  
+:ballot_box_with_check: [What is a Library?]()  
 :ballot_box_with_check: []()  
-:ballot_box_with_check: []()  
-:ballot_box_with_check: []()  
-:ballot_box_with_check: []()  
-:ballot_box_with_check: []()  
+
 
 
 ## <img src="img/pg.png" alt="postgresql logo" width="45"/> SQL / DATABASES <img src="img/mysql.png" alt="mysql logo" width="50"/>
@@ -230,7 +230,7 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [What is the difference between span and div?](https://github.com/M-Croghan/Interview-Prep/blob/main/HTML_CSS.md#paintbrush-what-is-the-difference-between-span-and-div)  
 :ballot_box_with_check: [What’s one main result if you do not specify a doctype in an HTML page?](https://github.com/M-Croghan/Interview-Prep/blob/main/HTML_CSS.md#paintbrush-whats-one-main-result-if-you-do-not-specify-a-doctype-in-an-html-page)  
 
-## <img src="img/js.png" alt="yellow js logo" width="50"/> JAVASCRIPT <img src="img/javascript.png" alt="green js logo" width="37"/>
+## <img src="img/js.png" alt="yellow js logo" width="50"/> JAVASCRIPT / TYPESCRIPT <img src="img/ts.png" alt="green js logo" width="40"/>
 :ballot_box_with_check: [What is AJAX?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-is-ajax)  
 :ballot_box_with_check: [Tell me about when you may need to use AJAX?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-tell-me-about-when-you-may-need-to-use-ajax)  
 :ballot_box_with_check: [What does callback mean in JS?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-does-callback-mean-in-js)  
@@ -293,6 +293,8 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [How are event handlers utilized in JavaScript?]()   
 :ballot_box_with_check: [What are the various functional components in JavaScript?]()   
 :ballot_box_with_check: [What does the following statement declare?]()   
+:ballot_box_with_check: [What is TypeScript?]()
+:ballot_box_with_check: [What is _Transpiling_?]()
 
 ## <img src="img/spring.png" alt="spring logo" width="40"/> SPRING FRAMEWORK <img src="img/sboot.png" alt="spring boot logo" width="50"/>
 :ballot_box_with_check: [What is a framework?](https://github.com/M-Croghan/Interview-Prep/blob/main/Spring.md#leaves-what-is-a-framework)  
