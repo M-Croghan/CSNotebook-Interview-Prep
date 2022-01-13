@@ -49,27 +49,31 @@ Garbage collection involves freeing up of memory if there no longer exists a ref
 
 ### :computer: <span style="color: aqua">Explain the Software Developmnt Lifecycle (SDLC)</span>
 ***Requirements Gathering > Planning > Design > Development > Testing > Deployment > Maintenance***  
-* Requirements gathering / pre-planning phase: goal to create a comprehensive list of software requirements specification that reflect all the functional & non-functional requirements for the end product.
-* Planning
-* Architecture Design: involves creating a design document that specifies the architecture based on the data collected. You’re still getting stakeholder input while defining roles and responsibilities.
-* Implementation: Main core of the software development process. Involves the actual process of working through the compiled list of necessary work and developing a functional system. It’s the main entry point to production, writing code, testing, and optimizing.
-* Testing: generally, a continuous process. Unit testing is an ongoing process throughout development and integration testing is verifying all software components at the final stage of the production.
-* Deployment & Delivery
-* Maintenance  
-:star::star::star:  
-
+* _Requirements gathering_ / pre-planning phase: What problems need to be solved?
+    * The goal is to create a comprehensive list of software requirements / specifications that reflect all the functional & non-functional requirements for the end product.
+* _Planning:_ What do we want to do?
+* _Architectural / Software Design:_ How do we reach our goal?
+    * Involves creating a design document that specifies the architecture based on the data collected. You’re still getting stakeholder input while defining roles and responsibilities.
+* _Software Development / Implementation:_ Start Building!
+    * Main core of the software development process. Involves the actual process of working through the compiled list of necessary work and developing a functional system. It’s the main entry point to production, writing code, testing, and optimizing.
+* _Testing:_ Let's ensure what was built works!
+    * Generally, a continuous process. Unit testing is an ongoing process throughout development and integration testing is verifying all software components at the final stage of the production.
+* _Deployment & Delivery:_ Lets take our solution & use it!
+* _Maintenance:_ Continual support.  
 
 ### :computer: <span style="color: aqua">What is a singleton design pattern?</span>
-- A design pattern which ensures a class only has only 1 instance & provides a global point of access to it.
+- A a creational design pattern which involves a single class that can only create a single object & provides a global point of access to it. (Can be problematic in multithreading (solution via synchronization block))
     1. Allows for lazy loading (initialize object creation only when you need it / are going to be using it).
     2. When you need exactly one instance to coordinate actions across a system. (i.e. a database connection)
         - Say if you create an object that is going to be interacting with hardware & two could cause conflict.
-- 3 main components
-    - Single class
-        - Private constructor
-        - Private static instance
-        - Factory static method responsible for instance creation
-        - Can be problematic in multithreading (solution via synchronization block)
+- ```public SingleObject {```
+    - Private static instance of the object instantiated in the class:
+    - ```private static SingleObject instance = new SingleObject();```
+    - Private constructor:
+    - ```private SingleObject(){}```
+    - Public static method responsible for getting the object / instance:
+    - ```public static SingleObject getObject(){return instance}```
+        
 
 ### :computer: <span style="color: aqua">What is a factory design pattern?</span>
 A creational design pattern and one of the most used patterns in Java, it defines an interface or abstract class for creating an object but lets the subclasses decide which class to instantiate. An object is created without exposing the creation logic to the client and refer to newly created object using a common interface.  
@@ -81,13 +85,11 @@ Useful:
 - Promotes loose-coupling by eliminating the need to bind application specific classes into the code.  
 
 Example:  
-A factory method in the interface defers the object creation to one or more concrete subclasses at run time. The subclasses implement the factory method to select the class whose objects need to be created.  
-
-You create an adventure game where a player can battle an array of enemies. A general Enemy interface allows for the creation of several subclasses and a factory design pattern can be used to randomly decide which type of enemy a player will encounter.	
+A factory method in the interface defers the object creation to one or more concrete subclasses at run time. The subclasses implement the factory method to select the class whose objects need to be created. Say you create an adventure game where a player can battle an array of enemies. A general Enemy interface allows for the creation of several subclasses and a factory design pattern can be used to randomly decide which type of enemy a player will encounter.	
 	
 
 ### :computer: <span style="color: aqua">What are some of the different software development methodologies?</span>
-- Waterfall, Agile, Rapid Application Development (RAD), Extreme Programming (XP)
+Two main areas:
 - Waterfall – this approach needs to be well-disciplined as there isn’t planned opportunity to back track. It starts with 
 clear and complete requirements and moves through the development process sequentially/linearly in distinct phases. Some 
 drawbacks include its relatively rigid and inflexible, there isn’t an avenue for feedback early in the process 
@@ -97,6 +99,8 @@ relatively simple, little change is expected and a project manager is closely in
 fast delivery and is incredibly adaptable and open to change. The downsides however are that the lack of emphasis makes 
 it difficult to truly develop a great design, its easy to get off track if the goals are unclear or the collaborative 
 relationship steers the project in a different direction which may result in an unpredictable finished product.
+    - Variations: Rapid Application Development, Extreme Programming, DevOps... etc.  
+:star::star::star:
 
 
 ### :computer: <span style="color: aqua">Explain MVC</span>
