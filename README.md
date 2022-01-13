@@ -14,9 +14,9 @@ within computer science, as well as Java specific discussions. There exist many 
 4. [HTML / CSS](https://github.com/M-Croghan/Interview-Prep#-html--css-)
 5. [JavaScript](https://github.com/M-Croghan/Interview-Prep#-javascript-)
 6. [Spring Framework](https://github.com/M-Croghan/Interview-Prep#-spring-framework-)
-7. [Python](https://github.com/M-Croghan/Interview-Prep#-python-)
-8. [Git](https://github.com/M-Croghan/Interview-Prep#-git--github-)
-9. [Angular](https://github.com/M-Croghan/Interview-Prep#-angular-)
+7. [Git](https://github.com/M-Croghan/Interview-Prep#-git--github-)
+8. [Angular](https://github.com/M-Croghan/Interview-Prep#-angular-)
+9. [Python](https://github.com/M-Croghan/Interview-Prep#-python-)
 10. [AWS](https://github.com/M-Croghan/Interview-Prep#-aws-)
 11. [Linux](https://github.com/M-Croghan/Interview-Prep#-linux-)
 12. [Reading List](https://github.com/M-Croghan/Interview-Prep#reading--book-list)
@@ -112,8 +112,6 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [What is a Virtual Machine?]()  
 :ballot_box_with_check: [What is a Framework?]()  
 :ballot_box_with_check: [What is a Library?]()  
-:ballot_box_with_check: []()  
-
 
 
 ## <img src="img/pg.png" alt="postgresql logo" width="45"/> SQL / DATABASES <img src="img/mysql.png" alt="mysql logo" width="50"/>
@@ -331,11 +329,6 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: []()  
 
 
-
-## <img src="img/py.png" alt="python logo" width="40"/> PYTHON <img src="img/py.png" alt="python logo" width="40"/>
-:ballot_box_with_check: []()  
-:ballot_box_with_check: []()  
-:ballot_box_with_check: []()  
 ## <img src="img/git.png" alt="git logo" width="40"/> GIT <img src="img/github_white.png" alt="github logo" width="40"/>
 :ballot_box_with_check: [What is GIT?]()  
 :ballot_box_with_check: [What is a repository in GIT?]()  
@@ -383,19 +376,18 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [Why is it advisable to create an additional commit rather than amending an existing commit?]()  
 :ballot_box_with_check: [What is ‘bare repository’ in GIT?]()  
 :ballot_box_with_check: [Name a few Git repository hosting services]()  
-:ballot_box_with_check: []()  
+ 
 ## <img src="img/angular.png" alt="angular logo" width="50"/> ANGULAR <img src="img/angular.png" alt="angular logo" width="50"/>
 :ballot_box_with_check: []()  
 :ballot_box_with_check: []()  
 :ballot_box_with_check: []()  
+
+## <img src="img/py.png" alt="python logo" width="40"/> PYTHON <img src="img/py.png" alt="python logo" width="40"/>
+:ballot_box_with_check: [COMING SOON...]()  
 ## <img src="img/aws1.png" alt="aws logo" width="80"/> AWS <img src="img/aws2.png" alt="aws logo" width="60"/>
-:ballot_box_with_check: []()  
-:ballot_box_with_check: []()  
-:ballot_box_with_check: []()  
+:ballot_box_with_check: [COMING SOON...]()   
 ## <img src="img/linux.png" alt="linux logo" width="50"/> LINUX <img src="img/linux.png" alt="linux logo" width="50"/>
-:ballot_box_with_check: []()  
-:ballot_box_with_check: []()  
-:ballot_box_with_check: []()  
+:ballot_box_with_check: [COMING SOON...]()  
 
 
 ## LINKS / RESOURCES
