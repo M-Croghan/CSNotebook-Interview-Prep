@@ -1,11 +1,12 @@
 # COMPUTER SCIENCE CONCEPTS & QUESTIONS
 ### :computer: <span style="color: aqua">Discuss the difference between _compiled_ & _interpreted_ languages:</span>
 * Compiled Languages (C, C++, Go) - Converts source code to machine code instructions.
-* Interpreted Languages (JS, Ruby, Python) - Code executes within an interpreter shell.
-* Byte-Code Languages (C#, Scala, Java) - Compiled into bytecode and executed in the JVM. Involves JIT compiler (_just in time_) which inspects code as it executes.
+* Interpreted Languages (JS, Ruby, Python) - Code isn't compiled into machine code, but rather it is read & executes within an interpreter shell.
+* Byte-Code Languages (C#, Scala, Java) - Compiled into bytecode and executes in a virtual machine. Byte-Code is a form of instruction set designed for efficient execution by a software interpreter.
+    * Java & the JVM is a popular example. Involves JIT compiler (_just in time_) which inspects code as it executes.
 
 ### :computer: <span style="color: aqua">Explain "IS-A" & "HAS-A" relationships:</span>
- ```IS-A``` Relationships is ***inheritance***. Classes which inherit are known as sub-classes or child classes.  
+ ```IS-A``` Relationships involve ***inheritance***. Classes which inherit are known as sub-classes or child classes.  
  ``` class Apple extends Fruit { ```  
 In this case, An apple ***is a*** fruit.  
 
@@ -25,32 +26,37 @@ A HAS-A relationship is dynamic (run time) binding while inheritance is a static
 - Inheritance
 
 ### :computer: <span style="color: aqua">What is polymorphism?</span>
-The ability for an object to also be present in many forms. Sub classes could inherit attributes and methods from a superclass (i.e. Animal). Polymorphism uses the methods to perform different tasks. For instance, a cat class and a dog class both inherit the animal sound from the Animal superclass. However, the cat 'meows' whereas the dog 'barks'. Polymorphism is the ability of programming languages to present the same interface for differing underlying data types. A polymorphic type is a type whose operations can also be applied to values of some other type.
+The ability for an object to also be present in many forms. Sub classes could inherit attributes and methods from a superclass (i.e. Animal). Polymorphism uses the methods to perform different tasks. For instance, a cat class and a dog class both inherit the animal sound from the Animal superclass. However, the cat 'meows' whereas the dog 'barks'. Polymorphism is the ability of programming languages to present a single interface to entities of different types.A polymorphic type is a type whose operations can also be applied to values of some other type. Some types include:  
+- Runtime (Sub-type) - Most common (The above animal example).
+- Parametric (Overloading) - Provide 1 function to interact with multiple types.
+- Compile-Time (Ad-Hoc) - Functions with the same name act differently for different types (Addition in Python).
+- Casting (Coercion) - The direct transformation of one type into another.
 
 ### :computer: <span style="color: aqua">What is abstraction?</span>
-Abstraction is a process of hiding the implementation details and showing only functionality to the user. Abstraction lets you focus on what the object does instead of how it does it. Abstraction is the process of separating ideas from specific instances and thus, develop classes in terms of their own functionality, instead of their implementation details. Java supports the creation and existence of abstract classes that expose interfaces, without including the actual implementation of all methods. The abstraction technique aims to separate the implementation details of a class from its behavior.
+Abstraction is a process of hiding the implementation details and showing only functionality to the user. It lets you focus on what the object does instead of how it does it. By separating ideas from specific instances you can develop classes in terms of their own functionality, instead of their implementation details. Java supports the creation and existence of abstract classes that expose interfaces, without including the actual implementation of all methods. The abstraction technique aims to separate the implementation details of a class from its behavior.
 
 ### :computer: <span style="color: aqua">What is inheritance?</span>
-Important in the context of DRY (don’t repeat yourself). Inheritance is a mechanism in which one object acquires all the properties and behavior of another object of another class. Gained by implementing interfaces or extending classes. A class cannot inherit more than one class. A class cannot call private methods except indirectly and a superclass can not inherit from a subclass. Inheritance provides an object with the ability to acquire the fields and methods of another class, called base class. Inheritance provides reusability of code and can be used to add additional features to an existing class, without modifying it.
+Inheritance is a mechanism in which an object acquires all the properties and behavior of another object or another class. It provides reusability of code and can be used to add additional features to an existing class, without modifying it. This is important in the context of the DRY principle (don’t repeat yourself). The superclass or base class allows child or sub-classes to acquire it's fields and methods. A superclass however, cannot inherit from one of it's subclasses. Inheritance is gained by implementing interfaces or extending classes, but in Java: a class cannot inherit more than one class.
 
 ### :computer: <span style="color: aqua">What is encapsulation?</span>
-The bundling of data and the methods that interact with or operate on that data into a single unit in the form of a class. Think of it as like a black box, it doesn’t matter how the internals work, just how you can interact with it. Private fields or methods are an example of protecting the inner workings of a class. Encapsulation provides objects with the ability to hide their internal characteristics and behavior. Each object provides a number of methods, which can be accessed by other objects and change its internal data. In Java, there are three access modifiers: public, private and protected. Each modifier imposes different access rights to other classes, either in the same or in external packages. Some of the advantages of using encapsulation are listed below:
-
-    The internal state of every object is protected by hiding its attributes.
-    It increases usability and maintenance of code, because the behavior of an object can be independently changed or extended.
-    It improves modularity by preventing objects to interact with each other, in an undesired way.
+Encapsulation provides objects with the ability to hide their internal characteristics and behavior. It is the bundling of data / methods that interact with or operate on that data into a single unit in the form of a class. A good rule of thumb is to encapsulate as much as possible. The last thing you want is data being changed or manipulated in a way not intended. Private fields or methods are an example of protecting the inner workings of a class. Some of the advantages of using encapsulation are:
+- The internal state of every object is protected by hiding its attributes.
+- It increases usability and maintenance of code, because the behavior of an object can be independently changed or extended.
+- It improves modularity by preventing objects to interact with each other, in an undesired way.
 
 ### :computer: <span style="color: aqua">What is Garbage Collection?</span>
-Removing unwanted objects to free up memory if they are no longer referenced. Garbage collection is done automatically in Java whenever there is no longer a reference pointed at a specific object. You need not to remove the unwanted objects explicitly. Garbage collector thread does this for you. C/C++ require you to deallocate memory yourself.
+Garbage collection involves freeing up of memory if there no longer exists a reference to a specific object. In Java, the JVM handles garbage collection automatically whenever this condition exists so you need not to remove the unwanted objects explicitly, unlike C/C++ which require you to de-allocate memory yourself.
 
 ### :computer: <span style="color: aqua">Explain the Software Developmnt Lifecycle (SDLC)</span>
 ***Requirements Gathering > Planning > Design > Development > Testing > Deployment > Maintenance***  
-* Requirements gathering / pre-planning phase: goal to create a comprehensive list of software requirements specification that reflect all the functional & nonfunction requirements for the end product.
+* Requirements gathering / pre-planning phase: goal to create a comprehensive list of software requirements specification that reflect all the functional & non-functional requirements for the end product.
+* Planning
 * Architecture Design: involves creating a design document that specifies the architecture based on the data collected. You’re still getting stakeholder input while defining roles and responsibilities.
 * Implementation: Main core of the software development process. Involves the actual process of working through the compiled list of necessary work and developing a functional system. It’s the main entry point to production, writing code, testing, and optimizing.
 * Testing: generally, a continuous process. Unit testing is an ongoing process throughout development and integration testing is verifying all software components at the final stage of the production.
 * Deployment & Delivery
-* Maintenance 
+* Maintenance  
+:star::star::star:  
 
 
 ### :computer: <span style="color: aqua">What is a singleton design pattern?</span>
