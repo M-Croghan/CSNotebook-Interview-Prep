@@ -100,35 +100,31 @@ fast delivery and is incredibly adaptable and open to change. The downsides howe
 it difficult to truly develop a great design, its easy to get off track if the goals are unclear or the collaborative 
 relationship steers the project in a different direction which may result in an unpredictable finished product.
     - Variations: Rapid Application Development, Extreme Programming, DevOps... etc.  
-:star::star::star:
-
 
 ### :computer: <span style="color: aqua">Explain MVC</span>
-Software design pattern focused on Model, View, Controller components.
-- Model aspect comprises the data of the application, Represents an object carrying data. It can also contain logic to update controller if data changes.
-- View is the component that operates as a display to the user. Represents the visualization of the data that the model contains.
-- Control influences the activity between the model and the view. Acts on both of model & the view. Controls the data flow into model object & updates the view whenever the data changes (Keeps the model & view separate).
+MVC is a software design pattern focusing on 3 main components:
+- The Model comprises all of the data of the application. All info to be displayed and its requirements with respect to access and other validations are all specified here.
+- View is the component that operates as a display to the user. Specifically it represents the visualization of the data that the model contains.
+- Control influences the activity between the model and the view. Acts on both the model & the view. Controls the data flow into model object & updates the view whenever the data changes (Keeps the model & view separate).
 
 ### :computer: <span style="color: aqua">What is a UML diagram?</span>
-UML is a general-purpose modeling language and is used to represent the components related to important OOP concepts. in essence, it’s a general way of defining the whole software architecture or structure.
+UML is a general-purpose modeling language and is used to represent the components related to important OOP concepts. In essence, it’s a general way of defining the whole software architecture or structure. I.e. using UML to flesh out details of classes and their properties, methods, and relationships (inheritance).
 
 ### :computer: <span style="color: aqua">What are design patterns?</span>
 Represent best practices / solutions to general problems  frequently faced by software developers.
 
 ### :computer: <span style="color: aqua">What is an API?</span>
 An application-programming interface (API) is a set of programming instructions and standards for accessing a web-based
-software application or web tool. A software company releases its API to the public so that other software developers 
-can design products that are powered by its service... [it] is a software-to-software interface, not a user interface. 
-With APIs, applications talk to each other without any user knowledge or intervention. Notable examples being: Google Maps, 
-integrating social media sharing, and a secure payment system through PayPal.
+software application or web tool. It is a software-to-software interface, not a user interface. With APIs, applications talk to each other without any user knowledge or intervention. In practice, a software company releases its API to the public so other developers 
+can design products that are powered by its service. Notable examples being: Google Maps, integrating social media sharing, and a secure payment system through PayPal.
 
 ### :computer: <span style="color: aqua">What is Unit Testing?</span>
 Unit testing is typically done by developers themselves. It focuses on the smallest unit of software design and tests a
-piece of code (a unit) for correct behavior. "Does this class / method operate as intended?" A unit test can be targeted 
+piece of code (a unit) for correct behavior. It asks: "Does this class / method operate as intended?". A unit test can be targeted 
 at an individual unit or group of interrelated units. It is often done using sample input and observing its corresponding outputs.
 
 ### :computer: <span style="color: aqua">What happens when you type a URL into a browser and hit enter?</span>
-- The browser check the cache for a DNS record to find the corresponding IP address of the URL.
+- The browser checks the cache for a DNS record to find the corresponding IP address of the URL.
 - If the requested URL is not in the cache, ISP’s DNS server initiates a DNS query to find the IP address of the server that hosts the URL.
 - The browser initiates a TCP connection with the server.
 - The browser sends an HTTP request to the webserver.
@@ -142,9 +138,10 @@ Abstraction and encapsulation are complementary concepts. On the one hand, abstr
 Compile-time polymorphism (Static binding) – Method overloading
 Runtime polymorphism (Dynamic binding) – Method overriding
 ### :computer: <span style="color: aqua">What is: Composition, Association, Aggregation?</span>
-Composition is exactly like Aggregation except that the lifetime of the ‘part’ is controlled by the ‘whole’. This control may be direct or transitive. That is, the ‘whole’ may take direct responsibility for creating or destroying the ‘part’, or it may accept an already created part, and later pass it on to some other whole that assumes responsibility for it.
-Association represents the ability of one instance to send a message to another instance. This is typically implemented with a pointer or reference instance variable, although it might also be implemented as a method argument or the creation of a local variable.
-Aggregation is the typical whole/part relationship. This is exactly the same as an association with the exception that instances cannot have cyclic aggregation relationships.
+Composition is a way to design or implement a "has-a" relationship. We use an instance variable that refers to another object.
+- Association represents the ability of one instance to send a message to another instance. (1-1, 1-Many, Many-1, Many-Many).
+    - This is typically implemented with a pointer or reference instance variable, although it might also be implemented as a method argument or the creation of a local variable.
+Aggregation represents HAS-A relationship. It is the typical whole/part relationship. This is exactly the same as an association with the exception that instances cannot have cyclic aggregation relationships.
 ### :computer: <span style="color: aqua">What is the computer system?
 </span>
 A computer system is a combination of memory, CPU, peripheral devices that are connected to it, and OS (Operating System).
@@ -164,14 +161,17 @@ A file is a named location that stores information or data permanently. It is al
 An IDE is a GUI-based software program. It is designed to help programmers build applications with all the needed programs and libraries.
 ### :computer: <span style="color: aqua">List the types of constructors</span>
 There are two types of the constructor:  
-1. parameterized constructor 
-2. default constructor.
+1. Parameterized constructor - Has no parameters. If you don't create one the class will automatically call default constructor when an object is created.
+2. Default constructor - Has at least one parameter is called a parametrized constructor.
+3. Copy Constructor - Creates an object by copying variables from another object.
+4. Static Constructor - Used to initialize any static data, or to perform a particular action that needs to be performed once only. It is called automatically before the first instance is created or any static members are referenced.
+5. Private constructor - generally used in classes that contain static members only. If a class has one or more private constructors and no public constructors, other classes (except nested classes) cannot create instances of this class. The use of private constructor is to serve singleton classes.
 ### :computer: <span style="color: aqua">What is artificial intelligence?</span>
-Artificial Intelligence or machine intelligence is a common term that is used to build smart machines capable of performing tasks. The main aim of AI is to solve problems in a way that are better and faster.
+Artificial Intelligence or machine intelligence is a common term that is used to build smart machines capable of performing tasks. The main aim of AI is to solve problems in a way that are better and faster. Simply put: AI refers to systems / machines that mimic human intelligence to perform tasks and can iteratively improve themselves based on the information they collect.
 ### :computer: <span style="color: aqua">What is machine learning?</span>
-Machine Learning is a system that can learn from an excellent example through self-improvement and without being explicitly coded by a programmer.
+Machine Learning is a subset of AI: It is focused on teaching computers to learn from data and to improve with experience – instead of being explicitly programmed to do so.
 ### :computer: <span style="color: aqua">What is deep learning?</span>
-Deep learning is computer software that mimics the network of neurons in a brain. It is a subset of machine learning and is called deep learning because it makes use of deep neural networks.
+Deep learning is a machine learning technique that teaches computers to do what comes naturally to humans: learn by example. Deep learning is computer software that mimics the network of neurons in a brain. It is a subset of machine learning and is called deep learning because it makes use of deep neural networks. Models are trained by using a large set of labeled data and neural network architectures that contain many layers.
 ### :computer: <span style="color: aqua">List out Layers of OSI Model</span>
 Layers of OSI models are:  
 1. Physical
@@ -184,13 +184,13 @@ Layers of OSI models are:
 ### :computer: <span style="color: aqua">What is s the primary difference between process and thread?</span>
 Process is called as a program which is in execution. Thread is a segment of a process, so; a process can have more than one thread.
 ### :computer: <span style="color: aqua">Explain primary memory</span>
-Primary memory, RAM is the main memory of a computer which can be directly accessed by the Central Processing Unit (CPU). It stores temporary information until the process finishes its execution.
+Primary memory, RAM is the main memory of a computer which can be directly accessed by the Central Processing Unit (CPU). It stores temporary information until the process finishes its execution. It is said to be volatile as it persists only as long as the computer is powered on.
 ### :computer: <span style="color: aqua">What is the operating system?</span>
-An Operating system (OS) is a software that acts as an interface between the end-user and computer hardware. Every computer must have at least one OS to run other programs.
+An Operating system (OS) is is a fully integrated set of specialized instructions (software) that handle all the operations of the computer and acts as an interface between the end-user and computer hardware. A computer doesn't need to have an OS to run other programs but if this is the case an application must handle / perform its functions, including managing resources (processes, memory, etc.). 
 ### :computer: <span style="color: aqua">What is an Algorithm?</span>
 An algorithm is a rule or step-by-step process that must be followed in order to solve a particular problem.
 ### :computer: <span style="color: aqua">What is cryptography?</span>
-Cryptography is the study of techniques that hide the real meaning of information. It transforms this information into a format that cannot be read by humans and vice versa.
+Cryptography is the study of techniques that hide the real meaning of information. It transforms this information into a format that cannot be read by humans and vice versa. It involves secure communications techniques that allow only the sender and intended recipient of a message to view its contents.
 ### :computer: <span style="color: aqua">What is a Virtual Machine?</span>
 A virtual machine, commonly shortened to just VM, is no different than any other physical computer like a laptop, smart phone, or server. It has a CPU, memory, disks to store your files, and can connect to the internet if needed. While the parts that make up your computer (called hardware) are physical and tangible, VMs are often thought of as virtual computers or software-defined computers within physical servers, existing only as code. Virtualization is the process of creating a software-based, or "virtual" version of a computer, with dedicated amounts of CPU, memory, and storage that are "borrowed" from a physical host computer—such as your personal computer— and/or a remote server—such as a server in a cloud provider's datacenter. A virtual machine is a computer file, typically called an image, that behaves like an actual computer. It can run in a window as a separate computing environment, often to run a different operating system—or even to function as the user's entire computer experience—as is common on many people's work computers. The virtual machine is partitioned from the rest of the system, meaning that the software inside a VM can't interfere with the host computer's primary operating system.
 ### :computer: <span style="color: aqua">What is a Framework?</span>
@@ -208,13 +208,14 @@ Pros:
 Cons:  
 - They can have a lot of extra code... which can lead to longer load times and decreased performance.
 - Stops many devs from taking the time to learn CSS. (Specifically for UI Frameworks).
-- Overcomplicates simple projects - using a lot more data, space, unnecessary files, etc... for something that could simply be done with a few files.
-- Frameworks are inflexible... cannot modify core tenents of their structure.
+- Over-complicates simple projects - using a lot more data, space, unnecessary files, etc... for something that could simply be done with a few files.
+- Frameworks are inflexible... cannot modify core tenants of their structure.
 - Once a framework is chosen... switching to another is difficult.
 - Updates can introduce bugs into your implementation of the framework.
 
 
 ### :computer: <span style="color: aqua">What is a Library?</span>
+A code library is used to solve a specific problem or add a specific feature to your program.
 
 Pros:
 - The programmer is in charge of the flow of the program.
@@ -231,10 +232,3 @@ Cons:
 - Tend ot have less structure than a Framework... which can create unnecessary headaches.
 - You can often end up using multiple libraries to achieve your end goal.
 - Often the documentation for a specific library can be sparse.
-
-### <span style="color: aqua"></span>
-
-### <span style="color: aqua"></span>
-
-### <span style="color: aqua"></span>
-
