@@ -22,7 +22,8 @@ within computer science, as well as Java specific discussions. There exist many 
 12. [Reading List](https://github.com/M-Croghan/Interview-Prep#reading--book-list)
 13. [Resources](https://github.com/M-Croghan/Interview-Prep#links--resources)
 
-## <img src="img/java_red.png" alt="Java logo in red" width="40"/> JAVA / OOP <img src="img/java.png" alt="java logo" width="50"/>
+## <img src="img/java_red.png" alt="Java logo in red" width="40"/> JAVA / OOP <img src="img/java.png" alt="java logo" width="50"/>  
+:white_check_mark: ALL QUESTIONS UPDATED ON 1/13/2022 :white_check_mark:  
 :ballot_box_with_check: [What are the 4 pillars of Object-Oriented Programming? Describe them:](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-what-are-the-4-pillars-of-object-oriented-programming-describe-them)  
 :ballot_box_with_check: [What is a class?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-what-is-a-class)  
 :ballot_box_with_check: [What is an object?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-what-is-an-object)  
@@ -65,12 +66,12 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [Difference between ArrayList and LinkedList in Java?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-difference-between-arraylist-and-linkedlist-in-java)  
 :ballot_box_with_check: [Difference between HashMap and Hashtable in Java?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-difference-between-hashmap-and-hashtable-in-java)  
 :ballot_box_with_check: [Difference between TreeSet and TreeMap in Java?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-difference-between-treeset-and-treemap-in-java)  
-:ballot_box_with_check: [Can we have a return statement in the finally clause? What will happen?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-can-we-have-a-return-statement-in-the-finally-clause-what-will-happen)  
-:ballot_box_with_check: [What is: Composition, Association, Aggregation?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-what-is-composition-association-aggregation)  
+:ballot_box_with_check: [Can we have a return statement in the finally clause? What will happen?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-can-we-have-a-return-statement-in-the-finally-clause-what-will-happen)   
 :ballot_box_with_check: [What is the JVM?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-what-is-the-jvm)  
 :ballot_box_with_check: [Why is Java called the Platform Independent Programming Language?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-why-is-java-called-the-platform-independent-programming-language)  
 :ballot_box_with_check: [What is the Difference between JDK and JRE?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-what-is-the-difference-between-jdk-and-jre)  
 :ballot_box_with_check: [What are wrapper classes?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-what-are-wrapper-classes)   
+:ballot_box_with_check: [What is Serialization?]()  
 
 ## <img src="img/binary.png" alt="binary folder" width="50"/> COMPUTER SCIENCE CONCEPTS <img src="img/tree.png" alt="tree ds" width="50"/>
 :white_check_mark: ALL QUESTIONS UPDATED ON 1/13/2022 :white_check_mark:  

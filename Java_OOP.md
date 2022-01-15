@@ -257,22 +257,29 @@ Yes, the concept can be termed as constructor chaining and can be achieved using
 ### :coffee: <span style="color: aqua">Difference between ArrayList and LinkedList in Java?</span>
 In short, ArrayList is backed by an array in Java, while LinkedList is just a collection of nodes, similar to a linked list data structure. ArrayList also provides a random search if you know the index, while LinkedList only allows a sequential search. On the other hand, adding and removing an element from the middle is efficient in LinkedList as compared to ArrayList because it only requires modifying links, and no other element is rearranged.
 ### :coffee: <span style="color: aqua">Difference between HashMap and Hashtable in Java?</span>
-...
+|   HashMap    |   HashTable    |
+|--------------|-----------------|
+| Non-Synchronized | Synchronized |
+| Allows 1 null key and any number of null values | Doesn't allow any null keys / values |
+| Fast    |     Slow      |
 ### :coffee: <span style="color: aqua">Difference between TreeSet and TreeMap in Java?</span>
-...
+The main difference is that TreeMap is an implementation of the Map Interface whereas TreeSet used the set interface. Beyond that TreeSet only stores a single value where TreeMap stores key/value objects. Following rules of Sets, TreeSet does not allow duplicate values where TreeMap does. Both are sorted data structures and thus maintain elements in a predefined sorted order. Both are slower than their Hash counterparts.
 ### :coffee: <span style="color: aqua">Can we have a return statement in the finally clause? What will happen?</span>
-Yes, you can use the return statement in finally block, but it will not prevent finally block from being executed. BTW, if you also used the return statement in the try block then return the value from the finally block with override whatever is returned from the try block.
-### :coffee: <span style="color: aqua">What is: Composition, Association, Aggregation?</span>
+Yes, you can use the return statement in finally block, but it will not prevent finally block from being executed. If you also used the return statement in the try block then return the value from the finally block with override whatever is returned from the try block.
 
 ### :coffee: <span style="color: aqua">What is the JVM?</span>
-A Java virtual machine (JVM) is a process virtual machine that can execute Java bytecode. Each Java source file is compiled into a bytecode file, which is executed by the JVM.
+The Java virtual machine (JVM) is what provides a portable execution environment for running Java based applications while also manaaging system memory. Each Java source file is compiled into a bytecode file, which is what is executed by the JVM.
 ### :coffee: <span style="color: aqua">Why is Java called the Platform Independent Programming Language?</span>
 Java was designed to allow application programs to be built that could be run on any platform, without having to be rewritten or recompiled by the programmer for each separate platform. A Java virtual machine makes this possible because it is aware of the specific instruction lengths and other particularities of the underlying hardware platform.
 ### :coffee: <span style="color: aqua">What is the Difference between JDK and JRE?</span>
 The Java Runtime Environment (JRE) is basically the Java Virtual Machine (JVM) where your Java programs are being executed. It also includes browser plugins for applet execution. The Java Development Kit (JDK) is the full-featured Software Development Kit for Java, including the JRE, the compilers and tools (like JavaDoc, and Java Debugger), in order for a user to develop, compile and execute Java applications.
-JDK	JRE
-JDK stands for the term : Java Development Kit.	JRE stands for the term: Java Runtime Environment.
-JDK is the tool for compiling, documenting and packaging Java software.	JRE is a runtime environment. JavaByte code gets executed in the environment.
-JDK has JRE and development tools.	JRE is a JVM implementation
+|JDK	| JRE|
+|-----|----|
+| Java Development Kit | Java Runtime Environment |
+| Tool for compiling, documenting and packaging Java software |	Runtime environment. JavaByte code gets executed in the environment.|
+| Has JRE and development tools | Is a JVM implementation |
 ### :coffee: <span style="color: aqua">What are wrapper classes?</span>
 A wrapper class converts java primitives into objects. So a primitive wrapper class is a wrapper class that encapsulates, hides or wraps data types from the eight primitive data types so that these can be used to create instantiated objects with methods in another class or in other classes. The primitive wrapper classes are found in the Java API.
+
+### :coffee: <span style="color: aqua">What is Serialization?</span>
+Very simply, serialization is the process whereby information is transformed in a manner that allows its transfer through a connection where it can then be deserialized (recreated) and used. This is useful when we need to recreate objects in their original state in a different JVM. It converts an object into a stream of bytes for easy shipment of the information so it can be shipped to another JVM. It saves the state of the object for recreation without having to reprocess them in a different platform.
