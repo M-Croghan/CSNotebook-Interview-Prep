@@ -23,7 +23,7 @@ within computer science, as well as Java specific discussions. There exist many 
 13. [Resources](https://github.com/M-Croghan/Interview-Prep#links--resources)
 
 ## <img src="img/java_red.png" alt="Java logo in red" width="40"/> JAVA / OOP <img src="img/java.png" alt="java logo" width="50"/>  
-:white_check_mark: ALL QUESTIONS UPDATED ON 1/13/2022 :white_check_mark:  
+:white_check_mark: ALL QUESTIONS UPDATED ON 1/15/2022 :white_check_mark:  
 :ballot_box_with_check: [What are the 4 pillars of Object-Oriented Programming? Describe them:](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-what-are-the-4-pillars-of-object-oriented-programming-describe-them)  
 :ballot_box_with_check: [What is a class?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-what-is-a-class)  
 :ballot_box_with_check: [What is an object?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-what-is-an-object)  
@@ -71,7 +71,7 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [Why is Java called the Platform Independent Programming Language?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-why-is-java-called-the-platform-independent-programming-language)  
 :ballot_box_with_check: [What is the Difference between JDK and JRE?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-what-is-the-difference-between-jdk-and-jre)  
 :ballot_box_with_check: [What are wrapper classes?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-what-are-wrapper-classes)   
-:ballot_box_with_check: [What is Serialization?]()  
+:ballot_box_with_check: [What is Serialization?](https://github.com/M-Croghan/Interview-Prep/blob/main/Java_OOP.md#coffee-what-is-serialization)  
 
 ## <img src="img/binary.png" alt="binary folder" width="50"/> COMPUTER SCIENCE CONCEPTS <img src="img/tree.png" alt="tree ds" width="50"/>
 :white_check_mark: ALL QUESTIONS UPDATED ON 1/13/2022 :white_check_mark:  
@@ -117,6 +117,7 @@ within computer science, as well as Java specific discussions. There exist many 
 
 
 ## <img src="img/pg.png" alt="postgresql logo" width="45"/> SQL / DATABASES <img src="img/mysql.png" alt="mysql logo" width="50"/>
+:white_check_mark: ALL QUESTIONS UPDATED ON 1/15/2022 :white_check_mark:  
 :ballot_box_with_check:[What is a database?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-a-database)  
 :ballot_box_with_check: [What is a relational database?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-a-relational-database)  
 :ballot_box_with_check: [What is a database management system?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-a-database-management-system)  
@@ -131,8 +132,7 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [What is the having clause?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-the-having-clause)  
 :ballot_box_with_check: [Types of keys in SQL](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-types-of-keys-in-sql)  
 :ballot_box_with_check: [What is a primary key?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-a-primary-key)  
-:ballot_box_with_check: [What is a foreign key?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-a-foreign-key)  
-:ballot_box_with_check: [What are two different types of indexes for a table?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-are-two-different-types-of-indexes-for-a-table-)  
+:ballot_box_with_check: [What is a foreign key?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-a-foreign-key)   
 :ballot_box_with_check: [What is an index?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-an-index)  
 :ballot_box_with_check: [What are clustered / non-clustered indexes?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-are-clustered--non-clustered-indexes)  
 :ballot_box_with_check: [Discuss how to build relationships?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-discuss-how-to-build-relationships)  
@@ -153,7 +153,7 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [What is a Cross-Join?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-a-cross-join)  
 :ballot_box_with_check: [What is Data Integrity?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-data-integrity)  
 :ballot_box_with_check: [What is a Query?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-a-query)  
-:ballot_box_with_check: [What is a Subquery? What are its types?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-a-subquery-what-are-its-types)  
+:ballot_box_with_check: [What is a Sub-query / Nested Query?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-a-subquery-what-are-its-types)  
 :ballot_box_with_check: [What is the SELECT statement?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-the-select-statement)  
 :ballot_box_with_check: [What are some common clauses used with SELECT query in SQL?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-are-some-common-clauses-used-with-select-query-in-sql)  
 :ballot_box_with_check: [ What are UNION, MINUS and INTERSECT commands?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd--what-are-union-minus-and-intersect-commands)  
@@ -171,9 +171,6 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [What is Stored Procedure?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-stored-procedure)  
 :ballot_box_with_check: [What is Trigger?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-trigger)  
 :ballot_box_with_check: [What is Cursor?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-cursor)  
-:ballot_box_with_check: [What is Collation?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-collation)  
-:ballot_box_with_check: [What is Difference between Function and Stored Procedure?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-difference-between-function-and-stored-procedure)  
-:ballot_box_with_check: [What is User Defined Functions? What kind of User-Defined Functions can be created?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-user-defined-functions-what-kind-of-user-defined-functions-can-be-created)  
 :ballot_box_with_check: [What is Identity?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-identity)  
 :ballot_box_with_check: [What is Data Warehousing?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-data-warehousing)  
 :ballot_box_with_check: [What is Data Mining?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-data-mining)  
