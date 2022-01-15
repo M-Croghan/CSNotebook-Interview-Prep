@@ -176,6 +176,7 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [What is Data Mining?](https://github.com/M-Croghan/Interview-Prep/blob/main/SQL_Databases.md#dvd-what-is-data-mining)  
 
 ## <img src="img/html-css.png" alt="html css logos" width="50"/> HTML & CSS <img src="img/html-css.png" alt="html css logos" width="50"/>
+:white_check_mark: ALL QUESTIONS UPDATED ON 1/15/2022 :white_check_mark:  
 :ballot_box_with_check: [What does it mean for a website to be responsive?](https://github.com/M-Croghan/Interview-Prep/blob/main/HTML_CSS.md#paintbrush-what-does-it-mean-for-a-website-to-be-responsive)  
 :ballot_box_with_check: [What is CSS specificity?](https://github.com/M-Croghan/Interview-Prep/blob/main/HTML_CSS.md#paintbrush-what-is-css-specificity)  
 :ballot_box_with_check: [Where would you link a JS file in your HTML?](https://github.com/M-Croghan/Interview-Prep/blob/main/HTML_CSS.md#paintbrush-where-would-you-link-a-js-file-in-your-html)  
@@ -228,6 +229,7 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [What’s one main result if you do not specify a doctype in an HTML page?](https://github.com/M-Croghan/Interview-Prep/blob/main/HTML_CSS.md#paintbrush-whats-one-main-result-if-you-do-not-specify-a-doctype-in-an-html-page)  
 
 ## <img src="img/js.png" alt="yellow js logo" width="50"/> JAVASCRIPT / TYPESCRIPT <img src="img/ts.png" alt="green js logo" width="40"/>
+:white_check_mark: ALL QUESTIONS UPDATED ON 1/15/2022 :white_check_mark:  
 :ballot_box_with_check: [What is AJAX?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-is-ajax)  
 :ballot_box_with_check: [Tell me about when you may need to use AJAX?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-tell-me-about-when-you-may-need-to-use-ajax)  
 :ballot_box_with_check: [What does callback mean in JS?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-does-callback-mean-in-js)  
@@ -245,12 +247,11 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [Which symbol is used for comments in Javascript?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-which-symbol-is-used-for-comments-in-javascript)  
 :ballot_box_with_check: [What is the difference between ViewState and SessionState?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-is-the-difference-between-viewstate-and-sessionstate)  
 :ballot_box_with_check: [What is === operator?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-is--operator)  
-:ballot_box_with_check: [How you can submit a form using JavaScript?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-how-you-can-submit-a-form-using-javascript)  
 :ballot_box_with_check: [Does JavaScript support automatic type conversion?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-does-javascript-support-automatic-type-conversion)  
 :ballot_box_with_check: [How can the style/class of an element be changed?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-how-can-the-styleclass-of-an-element-be-changed)   
 :ballot_box_with_check: [How to read and write a file using JavaScript?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-how-to-read-and-write-a-file-using-javascript)  
 :ballot_box_with_check: [What are all the looping structures in JavaScript?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-are-all-the-looping-structures-in-javascript)  
-:ballot_box_with_check: [What is called Variable typing in Javascript?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-is-called-variable-typing-in-javascript)  
+:ballot_box_with_check: [What is _variable typing_ in Javascript?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-is-called-variable-typing-in-javascript)  
 :ballot_box_with_check: [How can you convert the string of any base to an integer in JavaScript?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-how-can-you-convert-the-string-of-any-base-to-an-integer-in-javascript)  
 :ballot_box_with_check: [Difference between “==” and “===”?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-difference-between--and-)  
 :ballot_box_with_check: [What would be the result of 3+2+”7″?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-would-be-the-result-of-327)  
@@ -261,12 +262,11 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [What are all the types of Pop up boxes available in JavaScript?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-are-all-the-types-of-pop-up-boxes-available-in-javascript)  
 :ballot_box_with_check: [What is the use of Void (0)?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-is-the-use-of-void-0)  
 :ballot_box_with_check: [How can a page be forced to load another page in JavaScript?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-how-can-a-page-be-forced-to-load-another-page-in-javascript)  
-:ballot_box_with_check: [What are the data types of variables in JavaScript?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-is-the-data-type-of-variables-in-javascript)  
 :ballot_box_with_check: [What is the difference between an alert box and a confirmation box?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-is-the-difference-between-an-alert-box-and-a-confirmation-box)  
 :ballot_box_with_check: [What are escape characters?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-are-escape-characters)  
 :ballot_box_with_check: [What are JavaScript Cookies?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-are-javascript-cookies)  
 :ballot_box_with_check: [What a pop() method in JavaScript is?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-a-pop-method-in-javascript-is)  
-:ballot_box_with_check: [Does JavaScript has concept level scope?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-does-javascript-has-concept-level-scope)  
+:ballot_box_with_check: [Does JavaScript have concept level scope?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-does-javascript-has-concept-level-scope)  
 :ballot_box_with_check: [What are the disadvantages of using innerHTML in JavaScript?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-are-the-disadvantages-of-using-innerhtml-in-javascript)  
 :ballot_box_with_check: [What is break and continue statements?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-is-break-and-continue-statements)  
 :ballot_box_with_check: [What are the two basic groups of data types in JavaScript?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-are-the-two-basic-groups-of-data-types-in-javascript)  
@@ -276,7 +276,6 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [Which keyword is used to print the text on the screen?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-which-keyword-is-used-to-print-the-text-on-the-screen)  
 :ballot_box_with_check: [What is the use of the blur function?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-is-the-use-of-the-blur-function)  
 :ballot_box_with_check: [What is variable typing?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-is-variable-typing)   
-:ballot_box_with_check: [How to find an operating system in the client machine using JavaScript?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-how-to-find-an-operating-system-in-the-client-machine-using-javascript)  
 :ballot_box_with_check: [What are the different types of errors in JavaScript?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-are-the-different-types-of-errors-in-javascript)  
 :ballot_box_with_check: [What is DOM in JavaScipt?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-is-dom-in-javascript)  
 :ballot_box_with_check: [What is the use of the Push method in JavaScript?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-is-the-use-of-the-push-method-in-javascript)  
