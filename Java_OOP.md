@@ -10,7 +10,7 @@
 
 - ***Polymorphism***: A method can have multiple implementations (overriding & overloading).
   - Polymorphism in Java occurs when there are one or more classes or objects related to each other by inheritance capable of doing different things.
-  - It is the ability of an object to take many forms. Inheritance lets users inherit attributes and methods, and 
+  - It is the ability of an object to take many forms. Inheritance lets classes inherit attributes and methods, and 
   polymorphism uses these methods to perform different tasks. So, the goal is communication, but the approach is different.
     - For instance, a cat class and a dog class both inherit the animal ```sound``` from the Animal superclass. However, the cat 'meows' whereas the dog 'barks'.
 
@@ -53,7 +53,7 @@ An instance of a class - contains the basic properties / states and behavior. Ob
 ### :coffee: <span style="color: aqua">Explain the difference between an object & a class:</span>
 ```Class```: The building block that leads to Object-Oriented Programming. It is a user-defined data type, that holds its own data members and member functions, which can be accessed and used by creating an instance of that class. It is the blueprint of any object. 
 
-```Object```: An object is an instance of a class. All data members and member functions of the class can be accessed with the help of objects. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created), memory is allocated. For example, considering the objects for the Account class is Saving account, Current account, etc.
+```Object```: An object is an instance of a class. All data members and member functions of the class can be accessed through objects. Memory is only allocated when an object is instantiated (i.e. an object is created).
 
 Top level classes can only be public or default (not an inner class)  
 A file may contain no more than 1 public class. Default classes don't specify an access modifier.  
@@ -95,32 +95,31 @@ A constructor is a special method that is used to create an object out of a clas
 ### :coffee: <span style="color: aqua">Discuss Abstract Classes:</span>
 Abstract classes aim to implement the same or different behavior among multiple related objects. They provide just a method signature which allows you to implement a framework / template method design pattern. They can contain both abstract and concrete methods but the abstract methods must be implemented elsewhere. Concrete methods are distinguished by having a full name & method body. They cannot be instantiated. Can have final methods which will force the subclass to not change the method body.
 
-### :coffee: <span style="color: aqua">Discuss Interfaces:</span>
-Interfaces are totally incomplete. They do not have any properties. They must show that the inheriting children are capable of doing something. You cannot instantiate abstract classes or interfaces. By default, all methods are abstract. Methods themselves are the only things composing an interface, it merely acts as a contract with the compiler which states that these specific methods must be implemented by whatever class implements the interface. They cannot be static or involve any implementation.
+***Abstract Class***: a class which is declared with the “abstract” keyword. Cannot be instantiated thus you cannot create an object with it. It’s a collection of subclass methods and can have multiple concrete methods but includes at least 1 abstract method. When you require a base class or when several implementations of the same type share a common behavior.  
 
+### :coffee: <span style="color: aqua">Discuss Interfaces:</span>
+Interfaces are totally incomplete, they do not have any properties, only method signatures. They merely act as a contract with the compiler which states that these specific methods must be implemented by whatever class implements the interface. They must show that the inheriting children are capable of doing something. You cannot instantiate abstract classes or interfaces. In Java 8, functional interfaces allowed for static methods.
+
+***Interface***: Is like a blueprint to implement a class. Maintains a collection of abstract methods but contains no concrete methods. But it offers full abstraction (something an abstract class can’t do). A declaration of the methods of a class but not the implementation. The operations an object can perform is defined and are used by the classes which implement that interface. Best used when various implementations share only method signature. When your classes need additional behavior or dependency injection.
 ### :coffee: <span style="color: aqua">Can you achieve multiple inheritance in Java:</span>
 No, You can only extend from a single class. BUT - you can achieve multiple inheritance through the use of interfaces. (I.e. extending an abstract class, and implementing multiple interfaces). 
 
 ### :coffee: <span style="color: aqua">Using an abstract class vs. an interface</span>
-Use abstract classes when:  
-    - You need both static / non-static methods  
-    - You need both abstract & non-abstract methods  
-    - You don't want all of your fields to be final
+- Use abstract classes when:  
+  - You need both static / non-static methods  
+  - You need both abstract & non-abstract methods  
+  - You don't want all of your fields to be final
 
-Use interfaces when:  
-    - All methods are abstract  
-    - You need future devs to follow a pattern in development  
-    - You need to use more than one interface (A class can implement multiple interfaces <- an advantage over an abstract class)
+- Use interfaces when:  
+  - All methods are abstract  
+  - You need future devs to follow a pattern in development  
+  - You need to use more than one interface (A class can implement multiple interfaces <- an advantage over an abstract class)
 
-***Abstract Class***: a class which is declared with the “abstract” keyword. Cannot be instantiated thus you cannot create an object with it. It’s a collection of subclass methods and can have multiple concrete methods but includes at least 1 abstract method. When you require a base class or when several implementations of the same type share a common behavior.  
-
-***Interface***: Is like a blueprint to implement a class. Maintains a collection of abstract methods but contains no concrete methods. But it offers full abstraction (something an abstract class can’t do). A declaration of the methods of a class but not the implementation. The operations an object can perform is defined and are used by the classes which implement that interface. Best used when various implementations share only method signature. When your classes need additional behavior or dependency injection.
-
-Availability of methods: Only abstract methods are available in interfaces, whereas non-abstract methods can be present along with abstract methods in abstract classes.
-Variable types: Static and final variables can only be declared in the case of interfaces, whereas abstract classes can also have non-static and non-final variables.
-Inheritance: Multiple inheritances are facilitated by interfaces, whereas abstract classes do not promote multiple inheritances.
-Data member accessibility: By default, the class data members of interfaces are of the public- type. Conversely, the class members for an abstract class can be protected or private also.
-Implementation: With the help of an abstract class, the implementation of an interface is easily possible. However, the converse is not true;
+- ```Availability of methods```: Only abstract methods are available in interfaces, whereas non-abstract methods can be present along with abstract methods in abstract classes.
+- ```Variable types```: Static and final variables can only be declared in the case of interfaces, whereas abstract classes can also have non-static and non-final variables.
+- ```Inheritance:``` Multiple inheritances are facilitated by interfaces, whereas abstract classes do not promote multiple inheritances.
+- ```Data member accessibility```: By default, the class data members of interfaces are of the public- type. Conversely, the class members for an abstract class can be protected or private also.
+- ```Implementation```: With the help of an abstract class, the implementation of an interface is easily possible. However, the converse is not true;
 
 
 ### :coffee: <span style="color: aqua">Prove: Everything in Java is an object.</span> :question:
@@ -141,15 +140,15 @@ A constructor is a special member of the class with the same name as the class w
 ### :coffee: <span style="color: aqua">Final vs. Finally vs. Finalize</span>
 * ***FINAL*** is used to denote a variable whose value is constant, meaning that it cannot change in the future. Can also be used in method declaration to assert that the method cannot be overridden by sub-classes. Final classes cannot be inherited, variables value cannot be changed, and methods cannot be overridden.
 
-* The keyword ***FINALLY*** used in the exception handler to clear some post-task after the execution of try or catch block. 
+* The keyword ***FINALLY*** used in the exception handler to clear some post-task after the execution of try or catch block. It defines code that's always run after the try and any catch block, before the method is completed.
 
-* The ***FINALIZE*** keyword used to clean up some tasks before the object is removed from memory. The finalize method is mainly used in garbage collection.
+* The ***FINALIZE*** finalize is the method in Java which is used to perform clean up processing just before object is garbage collected.
 
 
 ### :coffee: <span style="color: aqua">Discuss these access modifiers: Public / Private / Protected / Default</span>
 These are access modifiers which control the accessibility / scope of a field, method, constructor, or class.
 * ***Public*** – can be accessed anywhere, within the package, outside it, in or outside the class.
-* ***Private*** – Access is restricted to only within the class. (i.e. need methods to interact with a private field)
+* ***Private*** – Access is restricted to only within the class. (i.e. need methods to interact with a private field (i.e. getters / setters))
     * Cannot be overridden
 * ***Protected*** – access level is protected within the package and outside it through a child class. If you don’t create a child class, you cannot access it from outside the package.
 * ***Default*** – set by default, access level only within the package
@@ -171,26 +170,27 @@ These are access modifiers which control the accessibility / scope of a field, m
 ### :coffee: <span style="color: aqua">Discuss the difference between _class_ & _instance_ variables / methods</span>
 - Class variables (or _static_ variables) are bound / belong to the class itself, they're not available to the object. 
 This means that regardless of how many instances of that class are created, that single class variable is shared among them.
-Static methods belong to the entire class and aren't visible to an individual instance. They can be accessed with instantiating an instance of the class. 
+Static methods belong to the entire class and aren't visible to an individual instance. They can be accessed without instantiating an instance of the class. 
 - Instance variables (or member variables) are declared within a class and are essential to holding values to each specific instance created.
 Similarly, instance methods represent behavior that each instance / object possesses.
 - The static class variables that are shared among a class can be accessed without creating an instance of the class.
 - Local variables which are declared in methods, constructors, or blocks exist only within the local scope and are discarded after the method exists or are unavailable outside their scope.
 
 ### :coffee: <span style="color: aqua">Discuss Multithreading</span>
-Multithreading is a technique in which a process is divided into threads that can run concurrently. There are two ways to create threads in java: Implement Runnable interface or By extending Thread class
+Multithreading is a technique in which a process is divided into threads and thus multiple activities can proceed concurrently in the same program. Multi-threading extends the idea of multitasking into applications where you can subdivide specific operations within a single application into individual threads. Each of the threads can run in parallel. The OS divides processing time not only among different applications, but also among each thread within an application. If your class is intended to be executed as a thread then you can achieve this by implementing a Runnable interface.
 
 ### :coffee: <span style="color: aqua">What is Synchronization?</span>
-Acts as a safety for a thread. A technique to control access of a method with multiple threads at the same time. If we declare a method synchronized, then only one thread can use this method at a time.
+Synchronization in Java is the capability to control the access of multiple threads to any shared resource at the same time. Acts as a safety for a thread. If we declare a method synchronized, then only one thread can use this method at a time. Synchronization is built around an internal entity known as the lock or monitor. Every object has a lock associated with it. By convention, a thread that needs consistent access to an object's fields has to acquire the object's lock before accessing them, and then release the lock when it's done with them.
 
 ### :coffee: <span style="color: aqua">Discuss Mutable Objects</span>
-Mutable objects support both setter & getter methods. They allow for the states and fields of an object to be changed after the object has been created. Conversely, immutable objects cannot be changed after creation.
+- ```Mutable``` objects support both setter & getter methods. They allow for the states and fields of an object to be changed after the object has been created. (StringBuilder, StringBuffer, Date).
+- ```Immutable``` objects cannot be changed after creation. (Primitives, String, Wrapper classes).
 
 ### :coffee: <span style="color: aqua">StringBuffer vs. StringBuilder</span>
-* StringBuffer is mutable and the object created through it is stored in the heap. It is also thread-safe. It is synchronized and does not let two threads to simultaneously access the same method.
-* StringBuilder allows for dynamic modification of a string. It has its own methods. The difference between StringBuilder and StringBuffer is that StringBuilder is non-thread safe (not synchronized) synchronized where StringBuffer is synchronized.
+* StringBuffer is mutable and  is also thread-safe / synchronized: does not let two threads to simultaneously access the same method.
+* StringBuilder is mutable and allows for dynamic modification of a string. It has its own methods. The difference between StringBuilder and StringBuffer is that StringBuilder is more efficient but non-thread safe (not synchronized) synchronized where StringBuffer is synchronized.
 
-Concatenating a string involves creating a new string with each character that is copied over.
+Concatenating a string involves creating a new string with each character that is copied over. Thus StringBuilder is a more optimal solution.
 
 ### :coffee: <span style="color: aqua">Explain Overriding</span>
 - Method overriding is used to provide the specific implementation of the method that is already provided by its super class.
@@ -200,28 +200,23 @@ Concatenating a string involves creating a new string with each character that i
 - Return type must be same or covariant in method overriding.
 - Cannot override private, static, or final methods. (Only non-static)… (Hiding for static methods)
 
-
 ### :coffee: <span style="color: aqua">What is a Stream? What qualifies as one?</span>
 A stream is a sequence of objects that supports various methods which can be pipelined to produce the desired result. 
 The keyword ***collection*** is a prerequisite to be considered a stream.
 - A stream is not a data structure instead it takes input from the Collections, Arrays or I/O channels.
 
-
 - Streams don’t change the original data structure, they only provide the result as per the pipelined methods.
 
-
-- Each intermediate operation is lazily executed and returns a stream as a result, hence various intermediate operations 
-can be pipelined. Terminal operations mark the end of the stream and return the result.
+- Each intermediate operation is lazily executed and returns a stream as a result, hence various intermediate operations can be pipelined. Terminal operations mark the end of the stream and return the result.
 
 ### :coffee: <span style="color: aqua">How would you order the filtering & sorting of a stream?</span>
-The most appropriate approach is to filter the collection first, then sort it. Filter will reduce the total number of elements to
-sort and thus result in fewer calls when sorting.
+The most appropriate approach is to filter the collection first, then sort it. Filter will reduce the total number of elements to sort and thus result in fewer calls when sorting.
 
 ### :coffee: <span style="color: aqua">What is the Optional Class?</span>
 Optional is a special class used to deal with NullPointerExceptions. It can be used if you suspect a value to be null rather than having to handle numerous null checks. Optional is a container object which may or may not contain a non-null value. You can specify alternate values to return or alternate code to run. This makes the code more readable because the facts which were hidden are now visible.
 
 ### :coffee: <span style="color: aqua">What is the JIT Compiler?</span>
-IT stands for Just-In-Time and it is used for improving the performance during run time. It does the task of compiling parts of byte code having similar functionality at the same time thereby reducing the amount of compilation time for the code to run.
+JIT stands for Just-In-Time and it is used for improving the performance during run time. It does the task of compiling parts of byte code having similar functionality at the same time thereby reducing the amount of compilation time for the code to run.
 The compiler is nothing but a translator of source code to machine-executable code. But what is special about the JIT compiler? Let us see how it works:
 First, the Java source code (.java) conversion to byte code (.class) occurs with the help of the Java compiler.
 Then, the .class files are loaded at run time by JVM and with the help of an interpreter, these are converted to machine understandable code.
@@ -230,7 +225,9 @@ Once the above step is done, the JVM executes the optimized code directly instea
 
 
 ### :coffee: <span style="color: aqua">What is the difference in checking equality with .equals() vs. '=='?</span>
+* == operator compares reference or memory location of objects in the heap, whether they point to the same location or not.
 
+* equals() method should be used for content comparison. equals() main purpose is to compare the state of two objects or the contents of the objects.
 
 ### :coffee: <span style="color: aqua">Can Static Methods be Overridden or Overloaded?</span>
 Yes! There can be two or more static methods in a class with the same name but differing input parameters
@@ -238,11 +235,11 @@ No! Declaration of static methods having the same signature can be done in the s
 Overriding or dynamic polymorphism occurs during the runtime, but the static methods are loaded and looked up at the compile time statically. Hence, these methods cant be overridden
 
 ### :coffee: <span style="color: aqua">What is the point of garbage collection & what area of memory does it address?</span>
-The main objective of this process is to free up the memory space occupied by the unnecessary and unreachable objects during the Java program execution by deleting those unreachable objects. This ensures that the memory resource is used efficiently, but it provides no guarantee that there would be sufficient memory for the program execution. Focuses on the heap
+The main objective of this process is to free up the memory space occupied by the unnecessary and unreachable objects during the Java program execution by deleting those unreachable objects. This ensures that the memory resource is used efficiently, but it provides no guarantee that there would be sufficient memory for the program execution. Focuses on the heap and is facilitated by the JVM.
 
 
 ### :coffee: <span style="color: aqua">Does Java Operate: "Pass by Reference" or "Pass by Value"?</span>
-Call by Value means calling a method with a parameter as value. Through this, the argument value is passed to the parameter. While Call by Reference means calling a method with a parameter as a reference. Through this, the argument reference is passed to the parameter. In call by value, the modification done to the parameter passed does not reflect in the caller's scope while in the call by reference, the modification done to the parameter passed are persistent and changes are reflected in the caller's scope. But Java uses only call by value. It creates a copy of references and pass them as value to the methods. If reference contains objects, then the value of an object can be modified in the method but not the entire object. When an object is passed by value, this means that a copy of the object is passed. Thus, even if changes are made to that object, it does not affect the original value. When an object is passed by reference, this means that the actual object is not passed, rather a reference of the object is passed. Thus, any changes made by the external method, are also reflected in all places.
+Java uses only call by value. It creates a copy of a reference and passes them as value to a method. If reference contains objects, then the value of an object can be modified in the method but not the entire object. When an object is passed by value, this means that a copy of the object is passed. Thus, even if changes are made to that object, it does not affect the original value. When an object is passed by reference, this means that the actual object is not passed, rather a reference of the object is passed. Thus, any changes made by the external method, are also reflected in all places.
 
 ### :coffee: <span style="color: aqua">What happens if there is no static modifier in the main method signature in Java?</span>
 There wouldn't be any compilation error. But then the program is run, since the JVM cant map the main method signature, the code throws “NoSuchMethodError” error at the runtime.
@@ -251,14 +248,14 @@ There wouldn't be any compilation error. But then the program is run, since the 
 The program can't compile as the compiler says that the method has been already defined inside the class.
 
 ### :coffee: <span style="color: aqua">How does an exception propagate in the code?</span>
-When an exception occurs, first it searches to locate the matching catch block. In case, the matching catch block is located, then that block would be executed. Else, the exception propagates through the method call stack and goes into the caller method where the process of matching the catch block is performed. This propagation happens until the matching catch block is found. If the match is not found, then the program gets terminated in the main method.
+When an exception occurs, first it searches to locate the matching catch block. If the matching catch block is located, then that block would be executed. Else, the exception propagates through the method call stack and goes into the caller method where the process of matching the catch block is performed. This propagation happens until the matching catch block is found. If the match is not found, then the program gets terminated in the main method.
 
 ### :coffee: <span style="color: aqua">Is it mandatory for a catch block to be followed after a try block?</span>
-No, it is not necessary for a catch block to be present after a try block. - A try block should be followed either by a catch block or by a finally block. If the exceptions likelihood is more, then they should be declared using the throws clause of the method. 
+No, it is not necessary for a catch block to be present after a try block. But to compile, it must be followed either by a catch block or by a finally block. If the exceptions likelihood is high, then they should be declared using the throws clause of the method. 
 ### :coffee: <span style="color: aqua">Can you call a constructor of a class inside the another constructor?</span>
 Yes, the concept can be termed as constructor chaining and can be achieved using this()
 ### :coffee: <span style="color: aqua">Difference between ArrayList and LinkedList in Java?</span>
-In short, ArrayList is backed by an array in Java, while LinkedList is just a collection of nodes, similar to a linked list data structure. ArrayList also provides a random search if you know the index, while LinkedList only allows a sequential search. On other hand, adding and removing an element from the middle is efficient in LinkedList as compared to ArrayList because it only requires modifying links, and no other element is rearranged.
+In short, ArrayList is backed by an array in Java, while LinkedList is just a collection of nodes, similar to a linked list data structure. ArrayList also provides a random search if you know the index, while LinkedList only allows a sequential search. On the other hand, adding and removing an element from the middle is efficient in LinkedList as compared to ArrayList because it only requires modifying links, and no other element is rearranged.
 ### :coffee: <span style="color: aqua">Difference between HashMap and Hashtable in Java?</span>
 ...
 ### :coffee: <span style="color: aqua">Difference between TreeSet and TreeMap in Java?</span>
@@ -279,14 +276,3 @@ JDK is the tool for compiling, documenting and packaging Java software.	JRE is a
 JDK has JRE and development tools.	JRE is a JVM implementation
 ### :coffee: <span style="color: aqua">What are wrapper classes?</span>
 A wrapper class converts java primitives into objects. So a primitive wrapper class is a wrapper class that encapsulates, hides or wraps data types from the eight primitive data types so that these can be used to create instantiated objects with methods in another class or in other classes. The primitive wrapper classes are found in the Java API.
-### <span style="color: aqua"></span>
-
-### <span style="color: aqua"></span>
-
-### <span style="color: aqua"></span>
-
-### <span style="color: aqua"></span>
-
-### <span style="color: aqua"></span>
-
-### <span style="color: aqua"></span>
