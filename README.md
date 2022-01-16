@@ -294,6 +294,7 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [What is _Transpiling_?](https://github.com/M-Croghan/Interview-Prep/blob/main/JavaScript.md#scroll-what-is-transpiling)
 
 ## <img src="img/spring.png" alt="spring logo" width="40"/> SPRING FRAMEWORK <img src="img/sboot.png" alt="spring boot logo" width="50"/>
+:white_check_mark: ALL QUESTIONS UPDATED ON 1/15/2022 :white_check_mark:  
 :ballot_box_with_check: [What is a framework?](https://github.com/M-Croghan/Interview-Prep/blob/main/Spring.md#leaves-what-is-a-framework)  
 :ballot_box_with_check: [What is the default web server built-in to Spring?](https://github.com/M-Croghan/Interview-Prep/blob/main/Spring.md#leaves-what-is-the-default-web-server-built-in-to-spring)  
 :ballot_box_with_check: [What is Maven?](https://github.com/M-Croghan/Interview-Prep/blob/main/Spring.md#leaves-what-is-maven)  
@@ -321,7 +322,7 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [What is the default port of tomcat in spring boot?](https://github.com/M-Croghan/Interview-Prep/blob/main/Spring.md#leaves-what-is-the-default-port-of-tomcat-in-spring-boot)  
 :ballot_box_with_check: [Can we override or replace the Embedded tomcat server in Spring Boot?](https://github.com/M-Croghan/Interview-Prep/blob/main/Spring.md#leaves-can-we-override-or-replace-the-embedded-tomcat-server-in-spring-boot)  
 :ballot_box_with_check: [Can we disable the default web server in the Spring boot application?](https://github.com/M-Croghan/Interview-Prep/blob/main/Spring.md#leaves-can-we-disable-the-default-web-server-in-the-spring-boot-application)  
-:ballot_box_with_check: [Explain @RestController annotation in Sprint boot?](https://github.com/M-Croghan/Interview-Prep/blob/main/Spring.md#leaves-explain-restcontroller-annotation-in-sprint-boot)  
+:ballot_box_with_check: [Explain @RestController annotation in Spring boot?](https://github.com/M-Croghan/Interview-Prep/blob/main/Spring.md#leaves-explain-restcontroller-annotation-in-spring-boot)  
 :ballot_box_with_check: [What is the difference between @RestController and @Controller in Spring Boot?](https://github.com/M-Croghan/Interview-Prep/blob/main/Spring.md#leaves-what-is-the-difference-between-restcontroller-and-controller-in-spring-boot)  
 :ballot_box_with_check: [What is the difference between RequestMapping and GetMapping?](https://github.com/M-Croghan/Interview-Prep/blob/main/Spring.md#leaves-what-is-the-difference-between-requestmapping-and-getmapping)  
 :ballot_box_with_check: [What is an IOC container?](https://github.com/M-Croghan/Interview-Prep/blob/main/Spring.md#leaves-what-is-an-ioc-container)  
