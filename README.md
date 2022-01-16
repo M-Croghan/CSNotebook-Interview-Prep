@@ -1,11 +1,10 @@
 # INTERVIEW TOPICS, QUESTIONS & DISCUSSIONS
 <img src="img/cslogo.png" alt="CS Logo" />  
   
-
 # INTRODUCTION
 
 This repository serves as a knowledge base exploring technical interview questions related to topics and concepts
-within computer science, as well as Java specific discussions. There exist many great resources on technical interview questions (linked below), but I wanted to be able to compile a list of questions specific to my own experiences that would be relevant to a junior role.
+within computer science, Object-Oriented Programming, Java, SQL, Data Management, HTML, CSS, JavaScript, and much more. There exist numerous resources on technical interview questions ( many linked below) with either out-dated information or that are poorly formatted / edited. I wanted to be able to compile a list of questions specific to my own experiences that would be relevant to junior roles.
 
 # TABLE OF CONTENTS
 1. [Java & OOP](https://github.com/M-Croghan/Interview-Prep#-java--oop-)
@@ -330,6 +329,7 @@ within computer science, as well as Java specific discussions. There exist many 
 
 
 ## <img src="img/git.png" alt="git logo" width="40"/> GIT <img src="img/github_white.png" alt="github logo" width="40"/>
+:white_check_mark: ALL QUESTIONS UPDATED ON 1/15/2022 :white_check_mark:  
 :ballot_box_with_check: [What is GIT?](https://github.com/M-Croghan/Interview-Prep/blob/main/Git.md#chart_with_upwards_trend-what-is-git)  
 :ballot_box_with_check: [What is a repository in GIT?](https://github.com/M-Croghan/Interview-Prep/blob/main/Git.md#chart_with_upwards_trend-what-is-a-repository-in-git)  
 :ballot_box_with_check: [What is the command you can use to write a commit message?](https://github.com/M-Croghan/Interview-Prep/blob/main/Git.md#chart_with_upwards_trend-what-is-the-command-you-can-use-to-write-a-commit-message)  
@@ -378,9 +378,7 @@ within computer science, as well as Java specific discussions. There exist many 
 :ballot_box_with_check: [Name a few Git repository hosting services](https://github.com/M-Croghan/Interview-Prep/blob/main/Git.md#chart_with_upwards_trend-name-a-few-git-repository-hosting-services)  
  
 ## <img src="img/angular.png" alt="angular logo" width="50"/> ANGULAR <img src="img/angular.png" alt="angular logo" width="50"/>
-:ballot_box_with_check: []()  
-:ballot_box_with_check: []()  
-:ballot_box_with_check: []()  
+:ballot_box_with_check: [COMING SOON...]()
 
 ## <img src="img/py.png" alt="python logo" width="40"/> PYTHON <img src="img/py.png" alt="python logo" width="40"/>
 :ballot_box_with_check: [COMING SOON...]()  
