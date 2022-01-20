@@ -5,7 +5,7 @@ AJAX stands for Asynchronous JavaScript and XML. It isn't a programming language
 * A browser built-in XMLHttpRequest object (to request data from a web server)  
 * JavaScript and HTML DOM (to display or use the data)  
 
-AJAX allows web pages to be updated asynchronously by exchanging data with a web server behind the scenes. Meaning that it is possible to update parts of a web page, without reloading the whole page.
+AJAX is a process in which the browser makes requests for data to servers using JavaScript. This is done after the page loads and is usually in response to user input. The advantage is that a web page can respond to user input by making a request for data and then dynamically changing the state of the application based on that new data. This is done without needing to refresh or change the page. (i.e. it allows web pages to be updated asynchronously by exchanging data with a web server behind the scenes. Meaning that it is possible to update parts of a web page, without reloading the whole page.)
 
 ### :scroll: <span style="color: aqua">Tell me about when you may need to use AJAX?</span>
 When I want some change to occur within a page in real time without reloading the entire page itself. Chat Bot interaction or Captcha validation / reloading are excellent examples where users would need to interact with something on a page and not have the page reload entirely.

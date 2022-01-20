@@ -114,8 +114,8 @@ UML is a general-purpose modeling language and is used to represent the componen
 Represent best practices / solutions to general problems  frequently faced by software developers.
 
 ### :computer: <span style="color: aqua">What is an API?</span>
-An application-programming interface (API) is a set of programming instructions and standards for accessing a web-based
-software application or web tool. It is a software-to-software interface, not a user interface. With APIs, applications talk to each other without any user knowledge or intervention. In practice, a software company releases its API to the public so other developers 
+Basically, an API is a service that provides raw data for public use. As third-party software developers, we can access an organization's API and use their data within our own applications.
+An application-programming interface (API) is a set of programming instructions and standards for accessing a web-based software application or web tool. It is a software-to-software interface, not a user interface. With APIs, applications talk to each other without any user knowledge or intervention. In practice, a software company releases its API to the public so other developers 
 can design products that are powered by its service. Notable examples being: Google Maps, integrating social media sharing, and a secure payment system through PayPal.
 
 ### :computer: <span style="color: aqua">What is Unit Testing?</span>

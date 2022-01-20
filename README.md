@@ -6,6 +6,12 @@
 This repository serves as a knowledge base exploring technical interview questions related to topics and concepts
 within computer science, Object-Oriented Programming, Java, SQL, Data Management, HTML, CSS, JavaScript, and much more. There exist numerous resources on technical interview questions ( many linked below) with either out-dated information or that are poorly formatted / edited. I wanted to be able to compile a list of questions specific to my own experiences that would be relevant to junior roles.
 
+### <span style="color: aqua">A NOTE ON QUESTION PLACEMENT</span>
+Some of the topics include more generalized questions that could fit in a number of different categories. The decision to place some questions in a particular category boiled down to the fact that they are involved in some way relating to the topic. For example, promises could be easily discussed in the context of JavaScript, but play an essential role in Angular and so I placed them under that category as it would make the conversation more fluid.
+
+### <span style="color: aqua">THE AIM OF THIS REPOSITORY</span>
+The real aim of this repository is simple: _enable one to engage in meaningful dialogue on a subject_. You could find any number of these questions asked in an interview, but interviews are typically not trivia contests where you just aimlessly rattle off answers to questions. My hope is that these questions can highlight gaps in knowledge that you can then fill in on your own and have a host of related topics / questions to then expand your understanding. Being able to recall information is useful, but my hope is to build upon the work done here so when any one of these questions are asked, one can expand on the subject and truly display a masterful level of understanding. 
+
 # TABLE OF CONTENTS
 1. [Java & OOP](https://github.com/M-Croghan/Interview-Prep#-java--oop-)
 2. [Computer Science Concepts](https://github.com/M-Croghan/Interview-Prep#-computer-science-concepts-)
@@ -378,7 +384,28 @@ within computer science, Object-Oriented Programming, Java, SQL, Data Management
 :ballot_box_with_check: [Name a few Git repository hosting services](https://github.com/M-Croghan/Interview-Prep/blob/main/Git.md#chart_with_upwards_trend-name-a-few-git-repository-hosting-services)  
  
 ## <img src="img/angular.png" alt="angular logo" width="50"/> ANGULAR <img src="img/angular.png" alt="angular logo" width="50"/>
-:ballot_box_with_check: [COMING SOON...]()
+:x: QUESTION REVIEW IN PROGRESS (01/19/2022) :x:  
+:ballot_box_with_check: [What is Angular?]()  
+:ballot_box_with_check: [What is a SPA?]()  
+:ballot_box_with_check: [What are decorators in Angular? ]()  
+:ballot_box_with_check: [What are Templates in Angular?]()  
+:ballot_box_with_check: [What are Annotations in Angular?]()  
+:ballot_box_with_check: [What are Directives in Angular?]()  
+:ballot_box_with_check: [What are Components in Angular?]()  
+:ballot_box_with_check: [What are pipes?]()  
+:ballot_box_with_check: [What is an ngModule?]()  
+:ballot_box_with_check: [What are Services in Angular?]()  
+:ballot_box_with_check: [What are Promises?]()  
+:ballot_box_with_check: [What are Observables?]()  
+:ballot_box_with_check: [What is ngOnInit? How is it defined? ]()  
+:ballot_box_with_check: [How is ngFor used in a tag?]()  
+:ballot_box_with_check: [What is Bootstrap? How is it embedded into Angular? ]()  
+:ballot_box_with_check: [What are the biggest advantages of using Angular?]()  
+:ballot_box_with_check: [What is the package.json file?]()  
+:ballot_box_with_check: [What is a Module in Angular?]()   
+:ballot_box_with_check: [What is the observable pattern?]()  
+:ballot_box_with_check: []()  
+:ballot_box_with_check: []()  
 
 ## <img src="img/py.png" alt="python logo" width="40"/> PYTHON <img src="img/py.png" alt="python logo" width="40"/>
 :ballot_box_with_check: [COMING SOON...]()  
