@@ -6,8 +6,14 @@ GIT is a distributed version control system and source code management (SCM) sys
 ###  :chart_with_upwards_trend: <span style="color: aqua">What is a repository in GIT?</span>
 A repository contains a directory named .git, where git keeps all of its metadata for the repository. The content of the .git directory are private to git.
 
+###  :chart_with_upwards_trend: <span style="color: aqua">What is the command you can use to add file changes to git?</span>
+the command used to commit files is "git commit -a". The –a on the command line instructs git to commit the new content of all tracked files that have been modified. You can use “git add <file>” before git commit –a if new files need to be committed for the first time.
+
 ###  :chart_with_upwards_trend: <span style="color: aqua">What is the command you can use to write a commit message?</span>
-The command that is used to write a commit message is “git commit –a”.  The –a on the command line instructs git to commit the new content of all tracked files that have been modified. You can use “git add<file>” before git commit –a if new files need to be committed for the first time.
+The command that is used to write a commit message is “git commit –m <message> ”. The "-m" on the account tells git to expect a message (in double quotes) that contains the got commit message.
+
+###  :chart_with_upwards_trend: <span style="color: aqua">Is there a way to add changed files and a commit message at the same time? </span>
+Use “git commit –am <message>”.
 
 ###  :chart_with_upwards_trend: <span style="color: aqua">What is the difference between GIT and SVN?</span>
 The difference between GIT and SVN is
